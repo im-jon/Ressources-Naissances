@@ -485,3 +485,9 @@ table.calendrier {
 img {
 	border: 0px;
 }
+
+
+label {
+	display: block;
+}
+

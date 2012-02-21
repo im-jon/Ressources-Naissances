@@ -1,11 +1,11 @@
 <?php
-	$host = "localhost";
-	$user = "root"; 
-	$pass = "admin123";
-	$db_name = "ressources_naissances";
+	$hote = "localhost";
+	$usager = "root"; 
+	$mdp = "admin123";
+	$nomBD = "ressources_naissances";
 
-	$bd = mysql_connect($host, $user, $pass);
-	mysql_select_db($db_name);
+	$bd = mysql_connect($hote, $usager, $mdp);
+	mysql_select_db($nomBD);
 
 	mysql_query("SET NAMES utf8");
 ?>
