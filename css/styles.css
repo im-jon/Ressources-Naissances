@@ -104,6 +104,14 @@ td.legende {
 .plus {
 	font-size:10px;
 }
+
+souligne {
+	text-decoration:underline;	
+}
+
+italique {
+	font-style:italic;
+}
 /******************************* Header ******************************/
 #header {
 	position:relative;
