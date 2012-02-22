@@ -19,6 +19,10 @@
 			$v->setDateNaissance($_REQUEST['datenaissance-' . $k]);
 		}
 
+		$dateprevue = $_REQUEST['dateprevue'];
+		$datenaissance = $_REQUEST['datenaissancebebe'];
+		$prenombebe = $_REQUEST['prenombebe'];
+
 		// Valider les champs
 
 		include('mysql.php');
