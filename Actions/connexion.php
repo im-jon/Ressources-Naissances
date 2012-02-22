@@ -1,0 +1,28 @@
+<?php
+
+$courriel = $_REQUEST['courriel'];
+$motdepasse = $_REQUEST['motdepasse'];
+
+include('mysql.php');
+
+// Hasher le mdp
+
+$requete = "SELECT compte.id FROM compte
+	    INNER JOIN personne
+	    ON compte.id_personne_liee = personne.id
+	    WHERE personne.courriel = '$courriel' AND compte.mot_de_passe = '$motdepasse'";
+
+$resultats = mysql_query($requete) or die(mysql_error());
+// Si succès
+if (mysql_num_rows($resultats) > 0) {
+	$val = mysql_fetch_array($resultats);
+	session_start();
+	session_regenerate_id ();
+	$_SESSION['valid'] = 1;
+	$_SESSION['id_compte'] = $val['id'];
+}
+else {
+	// Mot de passe ou courriel incorrect :(
+}
+
+?>
