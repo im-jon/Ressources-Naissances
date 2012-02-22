@@ -1,6 +1,7 @@
 <?php
 
 class Personne {
+	public $id;
 	public $nom;
 	public $prenom;
 	public $adresse;
@@ -10,6 +11,25 @@ class Personne {
 	public $telephonebureau;
 	public $courriel;
 	public $datenaissance;
+
+	public function ajouter() {
+		$date = date('Y-m-d H:i:s');
+		$requete = "INSERT INTO personne
+			    (nom, prenom, adresse, ville, code_postal, telephone, telephone_bureau, courriel, 				     date_naissance, date_inscription)
+			    VALUES('$this->nom',
+				   '$this->prenom',
+				   '$this->adresse',
+				   '$this->ville',
+				   '$this->codepostal',
+				   '$this->telephone',
+				   '$this->telephonebureau',
+				   '$this->courriel',
+				   '$this->datenaissance',
+				   '$date')";
+
+		mysql_query($requete) or die(mysql_error());
+		$this->id = mysql_insert_id();	
+	}
 
 	public function setNom($nom) {
 		$this->nom = $nom;	
@@ -45,6 +65,10 @@ class Personne {
 
 	public function setDateNaissance($datenaissance) {
 		$this->datenaissance = $datenaissance;	
+	}
+
+	public function getId() {
+		echo $this->id;	
 	}
 
 	public function getNom() {
