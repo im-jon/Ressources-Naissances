@@ -77,7 +77,7 @@ Faites-nous part de vos idées, nous sommes ouverts aux initiatives qui sont rel
 				</p>
 			</div>
 			<div id="photos">
-		
+			<img src="">
 			</div>
 		</div>
 	</body>
