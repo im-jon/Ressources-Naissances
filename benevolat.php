@@ -16,7 +16,7 @@ include("header.php"); ?>
 			<p class="titreTexte">
 			Le benevolat c'est quoi ?&emsp;&emsp;&emsp;(clic ici pour en apprendre plus)
 			</p>
-			<p id="contenuTexte">
+			<p class="contenuTexte">
 			Ressources-Naissances se veut un lieu de rassemblement de personnes qui désirent  travailler ensemble à un but commun : la périnatalité. Pour ce faire, l’organisme offre différentes possibilités de bénévolat et plus particulièrement des actions auprès des familles ayant de jeunes enfants.
 
  
@@ -48,7 +48,7 @@ Faites-nous part de vos idées, nous sommes ouverts aux initiatives qui sont rel
 				<p class="titreTexte">
 				Benevolat : les possibilités&emsp;&emsp;&emsp;(clic ici pour en apprendre plus)
 				</p>
-				<p id="contenuTexte">
+				<p class="contenuTexte">
 				Ici les possibilités de bénévolat
 				</p>
 			</div>
@@ -56,7 +56,7 @@ Faites-nous part de vos idées, nous sommes ouverts aux initiatives qui sont rel
 				<p class="titreTexte">
 				Competences -> Ce que nous recherchons&emsp;&emsp;&emsp;(clic ici pour en apprendre plus)
 				</p>
-				<p id="contenuTexte">
+				<p class="contenuTexte">
 				Réanimation, masseur
 				</p>
 			</div>
@@ -64,7 +64,7 @@ Faites-nous part de vos idées, nous sommes ouverts aux initiatives qui sont rel
 				<p class="titreTexte">
 				Formation -> Ce que nous pouvons vous apporter pour mieux aider&emsp;&emsp;&emsp;(clic ici pour en apprendre plus)
 				</p>
-				<p id="contenuTexte">
+				<p class="contenuTexte">
 				Soin aux nourrissons, aide à l'allaitement, ça s'apprend !
 				</p>
 			</div>
@@ -72,7 +72,7 @@ Faites-nous part de vos idées, nous sommes ouverts aux initiatives qui sont rel
 				<p class="titreTexte">
 				Le benevolat -> ca m'apporte quoi ?&emsp;&emsp;&emsp;(clic ici pour en apprendre plus)
 				</p>
-				<p id="contenuTexte">
+				<p class="contenuTexte">
 				Une expérience unique dans le milieu du nourisson
 				</p>
 			</div>
