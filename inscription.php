@@ -3,8 +3,9 @@
 
 	if(isset($_POST['submit'])) {
 
-		include('mysql.php');
+		include('Actions/mysql.php');
 		include('Classes/Personne.php');
+		include('Classes/Compte.php');
 
 		$personnes = array();
 		$personnes['mere'] = new Personne();
@@ -26,12 +27,25 @@
 		$personnes['mere']->ajouter();	
 		$personnes['pere']->ajouter();
 
-		// Valider les champs
-		$dateprevue = $_REQUEST['dateprevue'];
-		$datenaissance = $_REQUEST['datenaissancebebe'];
-		$prenombebe = $_REQUEST['prenombebe'];
+		$compte = new Compte();
+		$compte->setMere($personnes['mere']->getId());
+		$compte->setPere($personnes['pere']->getId());
 
+		// La personne liée au compte dépend du radio du formulaire
+		if ($_REQUEST['comptelie'] == 'pere') {
+			$compte->setPersonneLiee($personnes['pere']->getId());
+		}
+ 		else {	
+			$compte->setPersonneLiee($personnes['mere']->getId());
+		}
 		
+		$compte->setMotDePasse($_REQUEST['motdepasse']);
+		$compte->setDatePrevueAccouchement($_REQUEST['dateprevue']);
+		$compte->setDateNaissanceBebe($_REQUEST['datenaissancebebe']);
+		$compte->setPrenomBebe($_REQUEST['prenombebe']);
+
+		$compte->ajouter();
+	
 		mysql_close();	
 	
 		// pogne le courriel de la secrétaire dans la BD
