@@ -1,0 +1,518 @@
+ @charset "iso-8859-1";
+/* Css Document */
+/* Ressources-Naissances */
+/******************************************************************************/
+/******************************* Styles généraux ******************************/
+/******************************************************************************/
+html, body {
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-image: url(images/fond.jpg);
+	background-position: center top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+#container {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	width: 780px;
+	border: none;
+	text-align: left;
+	align:center;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*********************** Alignements flottants ***********************/
+.gauche {
+	float: left;
+}
+
+.droite {
+	float: right;
+}
+
+/************************* Formattage texte **************************/
+.texte {
+	clear: both;
+	color: #363636;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+.sousTitre {
+	clear: both;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Verdana;
+	color:#B14338;
+	padding-top: 18px;
+	margin-bottom: 8px;
+	border-bottom-width: 2px;
+	border-bottom-style: dotted;
+	border-bottom-color: #E7E0C2;
+}
+.interTitre {
+	clear: both;
+	color: #D3665B;
+	font-size:12px;
+	font-weight:bold;
+	font-family: Verdana;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.petit {
+	font-weight: normal;
+	font-size:10px;
+	color:#363636;
+}
+.gras {
+	font-weight: bold;
+}
+.descPhoto {
+	font-style: italic;
+	color: #D3665B;
+}
+.legendeTexte {
+	font-family: Verdana;
+	font-weight:normal;
+	font-size:10px;
+}
+.indente {
+	padding-left: 20px;
+}
+.important {
+	color: #FF0000;
+}
+.legende {
+	font-weight: bolder;	
+}
+td.legende {
+	width: 125px;
+	vertical-align: top
+}
+.plus {
+	font-size:10px;
+}
+/******************************* Header ******************************/
+#header {
+	position:relative;
+	width: 780px;
+}
+#enteteContenu {
+	margin-top: 10px;
+	padding: 0px;
+	background-image: url(images/entetegauche.jpg);
+	background-repeat:no-repeat;
+	width: 595px;
+	height: 265px;
+	float:left;
+}
+/******************************* Contenu ******************************/
+#cadreContenu {
+	padding: 0px;
+	padding-bottom: 10px;	
+	width: 595px;
+	background-image: url(images/fondContenu.jpg);
+	float:left;
+	height: auto;
+}
+#contenu {
+	padding-left:30px;
+	padding-right:30px;	
+	height: auto;
+	min-height: 405px;
+	_height: 405px;
+}
+#titrePage {
+	font-family: Verdana;
+	color:#853D3B;
+	font-size: 18px;
+	font-weight: bolder;
+	border-bottom-width: 2px;
+	border-bottom-style: dotted;
+	border-bottom-color: #E7E0C2;
+	margin-bottom: 15px;
+	width: 530px;
+}
+.cheminPage {
+	font-family: Verdana;
+	color:#D3665B;
+	font-size: 11px;
+	font-weight: normal;	
+}
+/******************************* Menu ********************************/
+#cadreMenu {
+	position:absolute;
+	top: 10px;
+	left: 595px;	
+	margin-left: 19px;
+	width: 166px;
+	background-color: #FFFFE5;
+	padding-bottom:20px;
+}
+#enteteMenu {
+	background-image: url(images/entetedroite.jpg);
+	background-repeat:no-repeat;
+	width: 166px;
+	height: 265px;
+}
+#enteteMenuTitre {
+	font-family: Verdana;
+	color:#853D3B;
+	font-size: 18px;
+	font-weight: bolder;
+	margin-bottom: 15px;
+}
+#menu {
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.titreMenu {
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Verdana;
+	color:#D3665B;
+	margin-top: 12px;
+	margin-bottom: 8px;
+	border-bottom-width: 2px;
+	border-bottom-style: dotted;
+	border-bottom-color: #F7EFCF;
+}
+ul.listeMenu {
+	margin: 0px;
+	padding: 0px;
+}
+ul.listeMenu li {
+	list-style-type:none;
+	background-image:url(images/puce_menu.gif);
+	background-repeat:no-repeat;
+	background-position:0px 6px;
+	padding-left:15px;
+	padding-bottom: 3px;
+}
+.crp {
+	clear: both;
+	color: #D3665B;
+	font-size:12px;
+	font-family: Verdana;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/******************************* Footer ******************************/
+
+#footer {
+	padding-bottom: 20px;
+	padding: 0px;
+	background-image: url(images/basContenu.jpg);
+	background-color: #FFFFE5;
+	background-repeat:no-repeat;
+	width: 595px;
+	float:left;
+	text-align:center;
+}
+#menuBas {
+	margin-top:10px;
+	font-size: 10px;
+}
+#texteConception {
+	margin-top:5px;
+	margin-bottom:5px;
+	font-size: 10px;
+}
+/******************************* Liens ******************************/
+a:link{
+	color: #B10003;
+	font-size: inherit;
+	text-decoration: none;
+}
+a:visited{
+	color: #B10003;
+	font-size: inherit;
+	text-decoration: none;
+}
+a:hover{
+	color: #968D7C;
+	font-size: inherit;
+	text-decoration: none;
+}
+.lienRetour {
+	padding-top:4px;
+	font-size: 11px;
+}
+
+/********************************** UL ************************************/
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+ul li {
+	list-style-type:none;
+	background-image:url(images/puce_menu.gif);
+	background-repeat:no-repeat;
+	background-position:0px 5px;
+	padding-left:15px;
+	padding-bottom: 5px;
+}
+/********************************** OL ************************************/
+ol {
+	margin-top: 0px;
+	margin-bottom:0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+/********************************** Liste *********************************/
+ul.liste {
+	margin: 0px;
+	padding: 0px;
+}
+ul.liste li {
+	list-style-type:none;
+	background-image:url(images/puce_menu.gif);
+	background-repeat:no-repeat;
+	background-position:0px 5px;
+	padding-left:15px;
+	padding-bottom: 3px;
+}
+/********************************** Boite *********************************/
+.boite {
+	background-color: #FFFFE5;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	margin-top: 10px;
+	padding: 10px;
+}
+/********************************** Cadre *********************************/
+.cadre {
+	border: 1px solid #F4BFB1;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+}
+.titreCadre {
+	clear: both;
+	color: #853D3B;
+	background-color: #F3BC9A;
+	font-weight: bolder;
+	padding: 4px;
+	height: 16px;
+}
+/***************************** Formulaire *********************************/
+.legendeFormulaire {
+	float:left;
+	width: 120px;
+}
+.legendeLigne {
+	font-weight: bolder;
+}
+.elementFormulaire {
+	padding: 0px;
+	margin: 1px;
+}
+.zoneTexte {
+	margin-top:4px;
+}
+
+/* Sous-Formulaire dans un cadre */
+.sousFormulaire {
+	border: 1px solid #F4BFB1;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	height: auto;
+	overflow: auto;
+}
+.titreSousFormulaire {
+	clear: both;
+	color: #853D3B;
+	background-color: #F3BC9A;
+	font-weight: bolder;
+	padding: 4px;
+}
+/************************** Listes de données *******************************/
+.tableauListe {
+	margin: 0px;
+	padding: 0px;
+	border-collapse: collapse;
+	border-spacing: 0px;	
+}
+.tableauListe tr {
+	vertical-align:top;
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+	width: 500px;
+}
+.tableauListe tr td {
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+}
+.boutique tr td {
+	padding: 3px;
+}
+/* Ligne titre de la liste */
+.tableauListe_titre td {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #F3BC9A;
+	font-weight: bolder;
+}
+/* Sous-titre d'une partie de la liste */
+.sousTitreListe {
+	font-size:12px;
+	font-weight:bold;
+	font-family: Verdana;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+/* États des lignes de la liste */
+.impair {
+	background-color:#F7EFCF;
+}
+.ligneSelectionnee {
+	background-color:#EEEEEE;
+}
+.pasAffiche {
+	font-style: italic;
+	color: #999999;
+}
+.pasAffiche_lien {
+	font-style: italic;
+	color: #D3665B;
+}
+/* Les liens d'action dans le titre du cadre */
+.lienAction {
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: normal;
+}
+div.lienAction {
+	padding-right: 5px;
+	float:left;
+}
+.lienAction_disable a {
+	color: #DDDDDD;
+	font-style: italic;
+	cursor: text;
+}
+.puceHaut {
+	list-style-type:none;
+	background-image:url(admin/images/haut.gif);
+	background-repeat:no-repeat;
+	background-position:0% 50%;
+	height: 8px;
+	width: 8px;
+	margin-left: 3px;
+	float: left;
+	cursor: pointer;
+	cursor: hand;
+}
+.puceBas {
+	list-style-type:none;
+	background-image:url(admin/images/bas.gif);
+	background-repeat:no-repeat;
+	background-position:0% 50%;
+	height: 8px;
+	width: 8px;
+	margin-left: 3px;
+	float: left;
+	cursor: pointer;
+	cursor: hand;	
+}
+.pucePlus {
+	list-style-type:none;
+	background-image:url(admin/images/plus.gif);
+	background-repeat:no-repeat;
+	background-position:0% 50%;
+	height: 8px;
+	width: 8px;
+	margin-left: 3px;
+	float: left;
+	cursor: pointer;
+	cursor: hand;	
+}
+/************************** Calendrier *******************************/
+div.calendrier {
+	align: center;
+	text-align: center;
+
+}
+table.calendrier {
+	width: 500px;
+	margin: 0px;
+	padding: 0px;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	text-align: center;
+	/* pour centrer le calendrier dans le cadre */
+	margin-right:auto;
+	margin-left:auto;
+}
+.joursCalendrier {
+	background: #F7EFCF; 
+	height: 25px;
+	font-weight: bold;
+}
+.joursCalendrier td {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #F3BC9A;	
+}
+.jourGris {
+	color: #DDDDDD;
+}
+
+.photo {
+	border: 0px;
+}
+img {
+	border: 0px;
+}
+
+
+label {
+	display: block;
+}
+
+/************************** Corentin *******************************/
+
+
+
+/************************** Benevolat *******************************/
+
+.titreTexte
+{
+	left : 0px;
+	color : black;
+	text-align : left;
+	width : 650px;
+	background : white;
+}
+
+
+p#contenuTexte
+{
+
+	color : black;
+
+	width : 600px;
+	background : white;
+}
+

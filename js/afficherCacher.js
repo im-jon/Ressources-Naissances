@@ -1,0 +1,13 @@
+$(function() {
+	$('.titreTexte').click(function() {
+		// Va chercher l'élément après (normalement le paragraphe). ATTENTION: pas testé!
+		$(this).next().slideToggle();
+	});
+});
+
+
+
+	// slide va mettre une effet de style
+
+	//alert('meow'); -> Va afficher une case alerte par dessus la page
+
