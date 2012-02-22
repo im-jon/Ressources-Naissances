@@ -1,6 +1,9 @@
 <?php
+	$titre = "Inscription";
+
 	if(isset($_POST['submit'])) {
 
+		include('mysql.php');
 		include('Classes/Personne.php');
 
 		$personnes = array();
@@ -8,6 +11,7 @@
 		$personnes['pere'] = new Personne();
 		
 		foreach ($personnes as $k => $v) {
+			// Valider les champs
 			$v->setNom($_REQUEST['nom-' . $k]);
 			$v->setPrenom($_REQUEST['prenom-' . $k]);
 			$v->setAdresse($_REQUEST['adresse-' . $k]);
@@ -19,17 +23,15 @@
 			$v->setDateNaissance($_REQUEST['datenaissance-' . $k]);
 		}
 
+		$personnes['mere']->ajouter();	
+		$personnes['pere']->ajouter();
+
+		// Valider les champs
 		$dateprevue = $_REQUEST['dateprevue'];
 		$datenaissance = $_REQUEST['datenaissancebebe'];
 		$prenombebe = $_REQUEST['prenombebe'];
 
-		// Valider les champs
-
-		include('mysql.php');
-	
-		//$requete = "INSERT INTO utilisateur VALUES('$nom', '$prenom', '$courriel')";
-		mysql_query($requete) or die(mysql_error());
-
+		
 		mysql_close();	
 	
 		// pogne le courriel de la secrétaire dans la BD
