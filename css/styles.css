@@ -499,3 +499,27 @@ label {
 	display: block;
 }
 
+/************************** Corentin *******************************/
+
+
+
+/************************** Benevolat *******************************/
+
+.titreTexte
+{
+	left : 0px;
+	color : black;
+	text-align : left;
+	width : 650px;
+	background : white;
+}
+
+
+.contenuTexte
+{
+
+	color : black;
+	text-align : left;
+	width : 600px;
+	background : white;
+}
