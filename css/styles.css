@@ -112,6 +112,15 @@ souligne {
 italique {
 	font-style:italic;
 }
+
+reference {
+	font-size:10px;
+	color:gray;
+}
+
+tgauche {
+	text-align:left;
+}
 /******************************* Header ******************************/
 #header {
 	position:relative;
