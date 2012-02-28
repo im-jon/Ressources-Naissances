@@ -14,7 +14,7 @@ include("header.php"); ?>
 
 			<div id="texte">
 			<p class="titreTexte">
-			<STRONG>Le benevolat c'est quoi ?</STRONG>&emsp;&emsp;&emsp;(clic ici pour en apprendre plus)
+			 <a href="#"><STRONG>Le benevolat c'est quoi ?</a></STRONG>&emsp;&emsp;&emsp;
 			</p>
 			<p class="contenuTexte">
 			Ressources-Naissances se veut un lieu de rassemblement de personnes qui désirent  travailler ensemble à un but commun : la périnatalité. Pour ce faire, l’organisme offre différentes possibilités de bénévolat et plus particulièrement des actions auprès des familles ayant de jeunes enfants.
@@ -42,47 +42,47 @@ Différentes options sont offertes : soutien aux activités (cafés-rencontres e
 Faites-nous part de vos idées, nous sommes ouverts aux initiatives qui sont reliées à notre mission.
 			</p>
 			</div>
-			</br>
+			
 
 			<div id="Possib-benev">
 				<p class="titreTexte">
-				<STRONG>Benevolat : les possibilités</STRONG>&emsp;&emsp;&emsp;(clic ici pour en apprendre plus)
+				 <a href="#"><STRONG>Benevolat : les possibilités</a></STRONG>
 				</p>
 				<p class="contenuTexte">
 				Ici les possibilités de bénévolat
 				</p>
 			</div>
-			</br>
+			
 
 			<div id="competences">
 				<p class="titreTexte">
-				<STRONG>Competences -> Ce que nous recherchons</STRONG>&emsp;&emsp;&emsp;(clic ici pour en apprendre plus)
+				 <a href="#"><STRONG>Competences -> Ce que nous recherchons</a></STRONG>
 				</p>
 				<p class="contenuTexte">
 				Réanimation, masseur
 				</p>
 			</div>
-			</br>
+			
 
 			<div id="formation">
 				<p class="titreTexte">
-				<STRONG>Formation -> Ce que nous pouvons vous apporter pour mieux aider</STRONG>&emsp;&emsp;&emsp;(clic ici pour en apprendre plus)
+				 <a href="#"><STRONG>Formation -> Ce que nous pouvons vous apporter pour mieux aider</a></STRONG>
 				</p>
 				<p class="contenuTexte">
 				Soin aux nourrissons, aide à l'allaitement, ça s'apprend !
 				</p>
 			</div>
-			</br>
+			
 
 			<div id="avantages">
 				<p class="titreTexte">
-				<STRONG>Le benevolat -> ca m'apporte quoi ?</STRONG>&emsp;&emsp;&emsp;(clic ici pour en apprendre plus)
+				 <a href="#"><STRONG>Le benevolat -> ca m'apporte quoi ?</a></STRONG>
 				</p>
 				<p class="contenuTexte">
 				Une expérience unique dans le milieu du nourisson
 				</p>
 			</div>
-			</br>
+			
 
 			<div id="photos">
 			<img src="">
