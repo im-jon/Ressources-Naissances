@@ -18,7 +18,7 @@ include("header.php"); ?>
 			</p>
 			<div class="contenuTexte">
 			<p id=préambule>
-			Vous avez besoin d'un peu de répit, d'un peu d'aide à la maison ? Vous manquez de temps et/ou d'énergie ? Une assistante périnatale ("une grand-maman sur mesure") peut vous offrir du soutien à domicile, prendre soin du nouveau-né ou des autres enfants, vous apporter une aide pour l’allaitement, les soins au bébé, effectuer de légères tâches ménagères et préparer de bons petits plats. Un ou deux services par semaine peuvent faire toute la différen
+			Vous avez besoin d'un peu de répit, d'un peu d'aide à la maison ? Vous manquez de temps et/ou d'énergie ? Une assistante périnatale ("une grand-maman sur mesure") peut vous offrir du soutien à domicile, prendre soin du nouveau-né ou des autres enfants, vous apporter une aide pour l’allaitement, les soins au bébé, effectuer de légères tâches ménagères et préparer de bons petits plats. Un ou deux services par semaine peuvent faire toute la différence ! 
 			</p>
 			<p id=préambule>
 				<fieldset><P><STRONG>Une assistante, c'est une femme qui :</STRONG></P>
