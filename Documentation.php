@@ -14,11 +14,9 @@ $(function() {
          <h1>Documentation>Articles</h1>
         </br>
         <?php  
-	   mysql_connect('localhost','root','fullmetal');
-	   mysql_select_db('test');
-	   
+	   include("mysql.php");
 	   //Affiche l'article le plus récent
-	   $requete = "SELECT Texte,Titre,Source FROM Article ORDER BY IdArticle;";
+	   $requete = "SELECT contenu,titre,source FROM article ORDER BY id;";
 	   $resultat = mysql_query($requete);
 	   while($article = mysql_fetch_array($resultat))
 	   {
