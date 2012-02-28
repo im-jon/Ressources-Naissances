@@ -55,7 +55,7 @@ var defaults = {
 		day: 'dddd M/d'
 	},
 	timeFormat: { // for event elements
-		'': 'h(:mm)t' // default
+		'': 'h:mmtt' // default
 	},
 	
 	// locale
