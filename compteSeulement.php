@@ -1,4 +1,5 @@
 <?php
+// Ceci est un exemple de page ou un compte est nécéssaire pour voir le contenu
 	session_start();
 	include('Actions/fonctions.php');
 
