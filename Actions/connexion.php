@@ -7,7 +7,7 @@ include('mysql.php');
 
 // Hasher le mdp
 
-$requete = "SELECT compte.id FROM compte
+$requete = "SELECT compte.id, compte.id_role FROM compte
 	    INNER JOIN personne
 	    ON compte.id_personne_liee = personne.id
 	    WHERE personne.courriel = '$courriel' AND compte.mot_de_passe = '$motdepasse'";
@@ -20,6 +20,7 @@ if (mysql_num_rows($resultats) > 0) {
 	session_regenerate_id ();
 	$_SESSION['valid'] = 1;
 	$_SESSION['id_compte'] = $val['id'];
+	$_SESSION['role'] = $val['id_role'];
 }
 else {
 	// Mot de passe ou courriel incorrect :(
