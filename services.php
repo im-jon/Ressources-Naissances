@@ -66,6 +66,7 @@ include("header.php"); ?>
 				<P>Du lundi au vendredi, aux heures de bureau.&nbsp; Voir la section 'Nous joindre'.</P><fieldset>
 				</div>
 			</div>
+			<?php include("Actions/miniature.php"); ?>
 
 			
 			<div id="photos">
