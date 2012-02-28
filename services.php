@@ -41,7 +41,7 @@ include("header.php"); ?>
 			<fieldset>
 			</div>
 			</div>
-			</br>
+			
 
 			<div id="allaitement">
 				<p class="titreTexte">
@@ -54,36 +54,20 @@ include("header.php"); ?>
 <P>Du lundi au vendredi, aux heures de bureau.&nbsp; Voir la section 'Nous joindre'.</P><fieldset>
 				</div>
 			</div>
-			</br>
-
-			<div id="competences">
+			<div id="consultationTel">
 				<p class="titreTexte">
-				Competences -> Ce que nous recherchons&emsp;&emsp;&emsp;(clic ici pour en apprendre plus)
+				 <a href="#"><STRONG>Consultation téléphonique</a></STRONG>
 				</p>
-				<p class="contenuTexte">
-				Réanimation, masseur
+			<div class="contenuTexte">
+				<p id=préambule>
+				Pour répondre à des demandes spécifiques concernant la grossesse, l'accouchement, l'allaitement, le postnatal, etc.
 				</p>
+				<fieldset><P><U>Gratuitement</U>,&nbsp;une conseillère est disponible par téléphone pour répondre à des demandes spécifiques.</P>
+				<P>Du lundi au vendredi, aux heures de bureau.&nbsp; Voir la section 'Nous joindre'.</P><fieldset>
+				</div>
 			</div>
-			</br>
 
-			<div id="formation">
-				<p class="titreTexte">
-				Formation -> Ce que nous pouvons vous apporter pour mieux aider&emsp;&emsp;&emsp;(clic ici pour en apprendre plus)
-				</p>
-				<p class="contenuTexte">
-				Soin aux nourrissons, aide à l'allaitement, ça s'apprend !
-				</p>
-			</div>
-			</br>
-
-			<div id="avantages">
-				<p class="titreTexte">
-				Le benevolat -> ca m'apporte quoi ?&emsp;&emsp;&emsp;(clic ici pour en apprendre plus)
-				</p>
-				<p class="contenuTexte">
-				Une expérience unique dans le milieu du nourisson
-				</p>
-			</div>
+			
 			<div id="photos">
 			<img src="">
 			</div>
