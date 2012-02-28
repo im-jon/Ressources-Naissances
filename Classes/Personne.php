@@ -14,7 +14,7 @@ class Personne {
 
 	public function ajouter() {
 		$requete = "INSERT INTO personne
-			    (nom, prenom, adresse, ville, code_postal, telephone, telephone_bureau, courriel, 				     date_naissance)
+			    (nom, prenom, adresse, ville, code_postal, telephone, telephone_bureau, courriel, date_naissance)
 			    VALUES('$this->nom',
 				   '$this->prenom',
 				   '$this->adresse',
