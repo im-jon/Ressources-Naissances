@@ -14,7 +14,7 @@ include("header.php"); ?>
 
 			<div id="texte">
 			<p class="titreTexte">
-			<STRONG>Assistance à domicile</STRONG>&emsp;&emsp;&emsp;(clic ici pour en apprendre plus)
+			 <a href="#"><STRONG>Assistance à domicile</a></STRONG>&emsp;&emsp;&emsp;
 			</p>
 			<div class="contenuTexte">
 			<p id=préambule>
@@ -43,9 +43,9 @@ include("header.php"); ?>
 			</div>
 			</br>
 
-			<div id="Possib-benev">
+			<div id="allaitement">
 				<p class="titreTexte">
-				<STRONG>Consultation individuelle en allaitement</STRONG>&emsp;&emsp;&emsp;(clic ici pour en apprendre plus)
+				 <a href="#"><STRONG>Consultation individuelle en allaitement</a></STRONG>
 				</p>
 				<div class="contenuTexte">
 				<fieldset><P><U>Sur rendez-vous seulement</U>,&nbsp;possibilité d'une rencontre individuelle pour vous soutenir dans votre allaitement.</P>
