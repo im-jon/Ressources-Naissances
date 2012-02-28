@@ -13,9 +13,8 @@ class Personne {
 	public $datenaissance;
 
 	public function ajouter() {
-		$date = date('Y-m-d H:i:s');
 		$requete = "INSERT INTO personne
-			    (nom, prenom, adresse, ville, code_postal, telephone, telephone_bureau, courriel, 				     date_naissance, date_inscription)
+			    (nom, prenom, adresse, ville, code_postal, telephone, telephone_bureau, courriel, 				     date_naissance)
 			    VALUES('$this->nom',
 				   '$this->prenom',
 				   '$this->adresse',
@@ -24,8 +23,7 @@ class Personne {
 				   '$this->telephone',
 				   '$this->telephonebureau',
 				   '$this->courriel',
-				   '$this->datenaissance',
-				   '$date')";
+				   '$this->datenaissance')";
 
 		mysql_query($requete) or die(mysql_error());
 		$this->id = mysql_insert_id();	
@@ -68,11 +66,11 @@ class Personne {
 	}
 
 	public function getId() {
-		echo $this->id;	
+		return $this->id;	
 	}
 
 	public function getNom() {
-		echo $this->nom;	
+		return $this->nom;	
 	}
 }
 
