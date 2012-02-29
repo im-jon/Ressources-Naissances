@@ -121,6 +121,10 @@ reference {
 tgauche {
 	text-align:left;
 }
+
+gras {
+	font-weight: bold;
+}
 /******************************* Header ******************************/
 #header {
 	position:relative;

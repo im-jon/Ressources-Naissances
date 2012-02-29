@@ -40,8 +40,8 @@
 					<li>
 						<a href="#">À PROPOS DE NOUS</a>
 						<ul>
-							<li><a href="#">Mission</a></li>
-							<li><a href="#">Historique</a></li>
+							<li><a href="mission.php">Mission</a></li>
+							<li><a href="historique.php">Historique</a></li>
 							<li><a href="#">Conseil d'administration</a></li>
 							<li><a href="#">Notre équipe</a></li>
 							<li><a href="#">Membres</a></li>
