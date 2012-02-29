@@ -12,6 +12,7 @@ $requete = "SELECT a.id, t.nom, a.date_debut, a.date_fin
 
 $resultats = mysql_query($requete) or die(mysql_error());
 
+// Trouver un moyen de directement traduire un tableau en JSON serait plus optimisé !
 echo '[';
 
 $nb = mysql_num_rows($resultats);
