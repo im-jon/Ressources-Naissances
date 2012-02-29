@@ -38,7 +38,7 @@ if(!opendir("$testDir"))
 ?> 
 <?php include("header.php"); ?>
 			<div id="titre">
-			<h2>Accueil ressources-naissances</h2>
+			<h2>Notre conseil d'administration</h2>
 			</div>
 			<?php
 				 /********************************************/
