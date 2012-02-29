@@ -2,7 +2,7 @@
 <?php include("header.php"); ?>
 <script type="text/javascript" src="js/bloc.js"></script>
 			<div id="titre">
-			<h2>Accueil ressources-naissances</h2>
+			<h2>Historique de l'association</h2>
 			</div>
 			<br/><br/><a href="" onclick="bascule('historique1'); return false;">Historique de 1984 à 1997:</a><br/>	
 				<p id='historique1' style='display:none;'>
