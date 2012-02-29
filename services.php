@@ -1,5 +1,5 @@
 <?php 
-$titre = "Bénévolat";
+$titre = "Services";
 include("Actions/mysql.php");
 include("header.php"); 
 $query="select * from service";
@@ -46,10 +46,7 @@ $result=mysql_query($query);
 				 <a href="#"><STRONG>Consultation individuelle en allaitement</a></STRONG>
 				</p>
 				<div class="contenuTexte">
-				<fieldset><P><U>Sur rendez-vous seulement</U>,&nbsp;possibilité d'une rencontre individuelle pour vous soutenir dans votre allaitement.</P>
-<P>Tarif : 20$ pour une heure de consultation.&nbsp; </P>
-
-<P>Du lundi au vendredi, aux heures de bureau.&nbsp; Voir la section 'Nous joindre'.</P></fieldset>
+				<fieldset><P><?php include("test.html"); ?></P></fieldset>
 			<fieldset></fieldset>
 				</div>
 			</div>

@@ -1,0 +1,3 @@
+dans un upload, pour pouvoir sélectionner plusieurs images -> rajouter 'multiple=""'
+
+ex : <input type="text" multiple="" name ="nomFichierAOuvrir" size="20">
