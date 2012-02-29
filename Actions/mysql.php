@@ -1,6 +1,6 @@
 <?php
-	$hote = "localhost";
-	$usager = "root"; 
+	$hote = "205.236.12.70";
+	$usager = "ResNes"; 
 	$mdp = "admin123";
 	$nomBD = "ressources_naissances";
 
