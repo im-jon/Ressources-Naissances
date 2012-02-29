@@ -21,9 +21,11 @@ if (mysql_num_rows($resultats) > 0) {
 	$_SESSION['valid'] = 1;
 	$_SESSION['id_compte'] = $val['id'];
 	$_SESSION['role'] = $val['id_role'];
+
+	echo "Connexion réussie";
 }
 else {
-	// Mot de passe ou courriel incorrect :(
+	echo "Mot de passe ou courriel invalide";
 }
 
 ?>

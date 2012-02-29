@@ -21,7 +21,7 @@ body {
 	position: relative;
 	margin: 0px;
 	padding: 0px;
-	width: 780px;
+	width: 960px;
 	border: none;
 	text-align: left;
 	align:center;
@@ -532,3 +532,34 @@ label {
 	width : 600px;
 	background : white;
 }
+
+/************************** Admin. Calendrier *******************************/
+#types-atelier {
+	float: left;
+	width: 200px;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+	background: #eee;
+	text-align: left;
+}
+	
+#types-atelier h4 {
+	font-size: 16px;
+	margin-top: 0;
+	padding-top: 1em;
+}
+	
+.external-event { /* try to mimick the look of a real event */
+	margin: 10px 0;
+	padding: 2px 4px;
+	background: #3366CC;
+	color: #fff;
+	font-size: .85em;
+	cursor: pointer;
+}
+
+#calendrier-admin {
+	float: right;
+	width: 700px;
+}
+

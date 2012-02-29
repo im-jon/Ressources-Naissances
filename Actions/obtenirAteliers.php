@@ -4,7 +4,7 @@ $dateFin = date('c', $_REQUEST['end']);
 
 include("mysql.php");
 
-$requete = "SELECT a.id, t.nom, a.date_debut, a.date_fin
+$requete = "SELECT a.id, t.nom, a.date_debut, a.date_fin, t.couleur
 	    FROM atelier a
 	    INNER JOIN type_atelier t
 	    ON a.id_type_atelier = t.id
@@ -24,7 +24,8 @@ while ($val = mysql_fetch_array($resultats)) {
 		     "title" => $val['nom'],
 		     "start" => date('c', strtotime($val['date_debut'])),
 		     "end" => date("c", strtotime($val['date_fin'])),
-		     "url" => "consulterAtelier?id=" . $val['id']);
+		     "url" => "consulterAtelier?id=" . $val['id'],
+		     "backgroundColor" => "#" . $val['couleur']);
 	echo json_encode($arr);
 	
 	if ($i < $nb) {

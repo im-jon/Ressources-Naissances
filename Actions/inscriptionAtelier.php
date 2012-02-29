@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 include('fonctions.php');
 
 // On doit être connecté pour pouvoir s'inscrire à un atelier.
@@ -7,7 +7,6 @@ if (!estConnecte()) {
 	die();
 }
 
-//$idCompte = $_REQUEST['id_compte'];
 $idCompte = $_SESSION['id_compte'];
 $presence = $_REQUEST['presence'];
 $idAtelier = $_REQUEST['id_atelier'];
@@ -38,8 +37,8 @@ header('Location: ../consulterAtelier?id=' . $idAtelier);
 
 // Fonction pour inscrire une personne à un cours dans la base de données
 function InscrirePersonne($id, $idAtelier) {
-	$date = date('r');
 	$requete = "INSERT INTO personne_atelier
+		    (id_personne, id_atelier, date_inscription)
 		    VALUES($id, $idAtelier, NOW())";
 
 	mysql_query($requete) or die(mysql_error());

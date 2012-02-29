@@ -1,5 +1,10 @@
 <?php
+session_start();
+
 $id = $_REQUEST['id'];
+
+include('Actions/fonctions.php');
+$connecte = estConnecte();
 
 include("Actions/mysql.php");
 
@@ -20,8 +25,20 @@ $requete = "SELECT p.chemin
 	    ON p.id = pt.id_photo
 	    WHERE pt.id_type_atelier = $idType";
 
-$resultats = mysql_query($requete) or die(mysql_error());
+$resultatsPhotos = mysql_query($requete) or die(mysql_error());
 
+if ($connecte == true) {
+	$idCompte = $_SESSION['id_compte'];
+	$requete = "SELECT COUNT(*) nb
+		    FROM personne_atelier pa
+		    INNER JOIN compte c
+		    ON c.id = $idCompte
+		    WHERE c.id = $idCompte AND pa.id_atelier = $id AND (pa.id_personne = c.id_mere OR pa.id_personne = c.id_pere)";
+
+	$resultats = mysql_query($requete) or die(mysql_error());
+	$valCompte = mysql_fetch_array($resultats);
+	$compte = $valCompte['nb'];
+}
 ?>
 
 <?php include("header.php"); ?>
@@ -41,29 +58,44 @@ $resultats = mysql_query($requete) or die(mysql_error());
 	});
 </script>
 
-<div id="dlg-inscription" title="Create new user">
-	<form>
-	<fieldset>
-		<label for="presence-mere">Inscrire :</label>
-		<input type="radio" id="presence-mere" name="presence" value="0" />Seulement la mère
-		<input type="radio" name="presence" value="1" />Seulement le père
-		<input type="radio" name="presence" value="2" />Le couple
-	</fieldset>
-	<form>
-</div>
+<?php if ($connecte && $compte == 0) { ?>
+	<div id="dlg-inscription" title="S'inscrire à l'atelier">
+		<form action="Actions/inscriptionAtelier.php" method="POST">
+			<fieldset>
+				<input type="hidden" name="id_atelier" value="<?= $id ?>" />
+				<label for="presence-mere">Inscrire :</label>
+				<input type="radio" id="presence-mere" name="presence" value="0" />Seulement la mère
+				<input type="radio" name="presence" value="1" />Seulement le père
+				<input type="radio" name="presence" value="2" />Le couple
+				<input type="submit" />
+			</fieldset>
+		</form>
+	</div>
+<?php } ?>
 
 <div>
-	<h1><?php echo $valAtelier['nom'] ?></h1>
-	<p>Le <?php echo date('l j F o à G:i', strtotime($valAtelier['date_debut'])) ?></p>
+	<h1><?= $valAtelier['nom'] ?></h1>
+	<p>Le <?= date('l j F o à G:i', strtotime($valAtelier['date_debut'])) ?></p>
 	<p>
-		<?php echo $valAtelier['description'] ?>
+		<?= $valAtelier['description'] ?>
 	</p>
 	
-	<button id="btn-inscription">S'inscrire</button>
+	<?php if ($connecte) { 
+		if ($compte == 0) {
+		?>
+			<button id="btn-inscription">S'inscrire</button>
+		<?php }
+		else { ?>
+			Vous êtes inscrit à cet atelier
+		<?php }?>
+	<?php } 
+	else { ?>
+		Vous devez être connecté pour vous inscrire à l'atelier
+	<?php } ?>
 
 	<?php
-		while ($valPhoto = mysql_fetch_array($resultats)) {
-			echo '<img src="img/' . $valPhoto['chemin'] . '" />'; 
+		while ($valPhoto = mysql_fetch_array($resultatsPhotos)) {
+			//echo '<img src="img/' . $valPhoto['chemin'] . '" />'; 
 		}
 	?>
 

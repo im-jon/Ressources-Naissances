@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <?php include("header.php"); ?>
 
 <link rel='stylesheet' type='text/css' href='css/fullcalendar.css' />
@@ -11,6 +7,8 @@
 	$(document).ready(function() {
 	
 		$('#calendar').fullCalendar({
+			firstDay: 1,
+			defaultView: 'agendaWeek',
 			header: {
 				left: 'prev,next today',
 				center: 'title',
