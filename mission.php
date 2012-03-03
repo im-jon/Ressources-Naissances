@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php include("header.php"); ?>
 			<div id="titre">
 			<h2>Les missions de l'association</h2>

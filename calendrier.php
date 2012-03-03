@@ -16,8 +16,12 @@ $resultats = mysql_query($requete) or die(mysql_error());
 <?php include("header.php"); ?>
 
 <link rel='stylesheet' type='text/css' href='css/fullcalendar.css' />
+<link rel='stylesheet' type='text/css' href='css/jquery.qtip.min.css' />
 <script type='text/javascript' src='js/fullcalendar.js'></script>
+<script type='text/javascript' src='js/jquery.qtip.min.js'></script>
 <script type='text/javascript' src='js/pages/calendrier.js'></script>
+
+<h2>Calendrier</h2>
 
 <div id="calendar"></div>
 

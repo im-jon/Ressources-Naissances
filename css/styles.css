@@ -1,517 +1,214 @@
- @charset "iso-8859-1";
-/* Css Document */
-/* Ressources-Naissances */
-/******************************************************************************/
-/******************************* Styles généraux ******************************/
-/******************************************************************************/
-html, body {
-	height: 100%;
-	padding: 0px;
-	margin: 0px;
-}
-
 body {
-	background-image: url(images/fond.jpg);
-	background-position: center top;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	text-align: center;
-}
-#contenu {
-	position: relative;
-	margin: 0px;
-	padding: 0px;
-	width: 960px;
-	border: none;
-	text-align: left;
-	align:center;
-	margin-left: auto;
-	margin-right: auto;
-}
-/*********************** Alignements flottants ***********************/
-.gauche {
-	float: left;
+	background:#fbfdf6;
+	font-family:"Myriad Pro", Myriad, Helvetica, Arial, sans-serif;
+	font-size:90%;
+	color:#968765;
+	margin:20px auto;
+	text-align:center;
+	line-height:1.4em;
+	width:960px;
 }
 
-.droite {
-	float: right;
-}
-
-/************************* Formattage texte **************************/
-.texte {
-	clear: both;
-	color: #363636;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	text-decoration: none;
-	margin-bottom: 10px;
-}
-.sousTitre {
-	clear: both;
-	font-size: 15px;
-	font-weight: bold;
-	font-family: Verdana;
-	color:#B14338;
-	padding-top: 18px;
-	margin-bottom: 8px;
-	border-bottom-width: 2px;
-	border-bottom-style: dotted;
-	border-bottom-color: #E7E0C2;
-}
-.interTitre {
-	clear: both;
-	color: #D3665B;
-	font-size:12px;
-	font-weight:bold;
-	font-family: Verdana;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-.petit {
-	font-weight: normal;
-	font-size:10px;
-	color:#363636;
-}
-.gras {
-	font-weight: bold;
-}
-.descPhoto {
-	font-style: italic;
-	color: #D3665B;
-}
-.legendeTexte {
-	font-family: Verdana;
+h1, h2, h3, h4, h5, h6 {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:1.5em;
+	letter-spacing:-0.06em;
+	text-transform:uppercase;
 	font-weight:normal;
-	font-size:10px;
-}
-.indente {
-	padding-left: 20px;
-}
-.important {
-	color: #FF0000;
-}
-.legende {
-	font-weight: bolder;	
-}
-td.legende {
-	width: 125px;
-	vertical-align: top
-}
-.plus {
-	font-size:10px;
 }
 
-souligne {
-	text-decoration:underline;	
+a:link, a:visited {
+	font-family:georgia, times, serif;
+	font-weight:bold;
+	color:#c17086;
+	text-decoration:none;
+	border-bottom:1px solid #91476c;
+	font-size:.8em;
 }
 
-italique {
-	font-style:italic;
+a:hover {
+	border-bottom:1px dotted #91476c;
 }
 
-reference {
-	font-size:10px;
-	color:gray;
+a img {
+	border:none;
 }
 
-tgauche {
+header, section, article, footer {
+	padding:10px 20px 20px;
+	margin:10px;
+	border:1px solid #e7e2d7;
+	border-radius:8px;
+	-webkit-border-radius:.8em;
+	-moz-border-radius:.8em;
+	background:#fff url(sprites.png) repeat-x 0px -120px;
+}
+
+header {
+	display:block;
+	position:relative;
 	text-align:left;
 }
 
-gras {
-	font-weight: bold;
-}
-/******************************* Header ******************************/
-#header {
-	position:relative;
-	width: 780px;
-}
-#enteteContenu {
-	margin-top: 10px;
-	padding: 0px;
-	background-image: url(images/entetegauche.jpg);
-	background-repeat:no-repeat;
-	width: 595px;
-	height: 265px;
-	float:left;
-}
-/******************************* Contenu ******************************/
-#cadreContenu {
-	padding: 0px;
-	padding-bottom: 10px;	
-	width: 595px;
-	background-image: url(images/fondContenu.jpg);
-	float:left;
-	height: auto;
-}
-#contenu {
-	padding-left:30px;
-	padding-right:30px;	
-	height: auto;
-	min-height: 405px;
-	_height: 405px;
-}
-#titrePage {
-	font-family: Verdana;
-	color:#853D3B;
-	font-size: 18px;
-	font-weight: bolder;
-	border-bottom-width: 2px;
-	border-bottom-style: dotted;
-	border-bottom-color: #E7E0C2;
-	margin-bottom: 15px;
-	width: 530px;
-}
-.cheminPage {
-	font-family: Verdana;
-	color:#D3665B;
-	font-size: 11px;
-	font-weight: normal;	
-}
-/******************************* Menu ********************************/
-#cadreMenu {
+header img {
 	position:absolute;
-	top: 10px;
-	left: 595px;	
-	margin-left: 19px;
-	width: 166px;
-	background-color: #FFFFE5;
-	padding-bottom:20px;
-}
-#enteteMenu {
-	background-image: url(images/entetedroite.jpg);
-	background-repeat:no-repeat;
-	width: 166px;
-	height: 265px;
-}
-#enteteMenuTitre {
-	font-family: Verdana;
-	color:#853D3B;
-	font-size: 18px;
-	font-weight: bolder;
-	margin-bottom: 15px;
-}
-#menu {
-	margin-top: 20px;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-.titreMenu {
-	font-size: 15px;
-	font-weight: bold;
-	font-family: Verdana;
-	color:#D3665B;
-	margin-top: 12px;
-	margin-bottom: 8px;
-	border-bottom-width: 2px;
-	border-bottom-style: dotted;
-	border-bottom-color: #F7EFCF;
-}
-ul.listeMenu {
-	margin: 0px;
-	padding: 0px;
-}
-ul.listeMenu li {
-	list-style-type:none;
-	background-image:url(images/puce_menu.gif);
-	background-repeat:no-repeat;
-	background-position:0px 6px;
-	padding-left:15px;
-	padding-bottom: 3px;
-}
-.crp {
-	clear: both;
-	color: #D3665B;
-	font-size:12px;
-	font-family: Verdana;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	left:20px;
+	top:18px;
 }
 
-/******************************* Footer ******************************/
-
-#footer {
-	padding-bottom: 20px;
-	padding: 0px;
-	background-image: url(images/basContenu.jpg);
-	background-color: #FFFFE5;
-	background-repeat:no-repeat;
-	width: 595px;
-	float:left;
+header h1 {
+	font-size:2.3em;
+	text-transform:none;
+	letter-spacing:0em;
 	text-align:center;
 }
-#menuBas {
-	margin-top:10px;
-	font-size: 10px;
-}
-#texteConception {
-	margin-top:5px;
-	margin-bottom:5px;
-	font-size: 10px;
-}
-/******************************* Liens ******************************/
-a:link{
-	color: #B10003;
-	font-size: inherit;
-	text-decoration: none;
-}
-a:visited{
-	color: #B10003;
-	font-size: inherit;
-	text-decoration: none;
-}
-a:hover{
-	color: #968D7C;
-	font-size: inherit;
-	text-decoration: none;
-}
-.lienRetour {
-	padding-top:4px;
-	font-size: 11px;
+
+header h2 {
+	margin:-10px 0px 20px;
+	font-size:1.3em;
+	text-align:center
 }
 
-/********************************** UL ************************************/
-ul {
-	margin: 0px;
-	padding: 0px;
+nav {
+	text-align:center;
+	display:block;
 }
-ul li {
+
+nav ul {
+	padding:0px;
 	list-style-type:none;
-	background-image:url(images/puce_menu.gif);
-	background-repeat:no-repeat;
-	background-position:0px 5px;
-	padding-left:15px;
-	padding-bottom: 5px;
+	display:inline;
 }
-/********************************** OL ************************************/
-ol {
-	margin-top: 0px;
-	margin-bottom:0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-}
-/********************************** Liste *********************************/
-ul.liste {
-	margin: 0px;
-	padding: 0px;
-}
-ul.liste li {
+
+nav li {
+	margin:0px 10px;
+	padding:0px;
 	list-style-type:none;
-	background-image:url(images/puce_menu.gif);
-	background-repeat:no-repeat;
-	background-position:0px 5px;
-	padding-left:15px;
-	padding-bottom: 3px;
+	display:inline;
 }
-/********************************** Boite *********************************/
-.boite {
-	background-color: #FFFFE5;
-	border-color: #FFFFFF;
-	border-width: 1px;
-	margin-top: 10px;
-	padding: 10px;
+
+nav a:link, nav a:visited {
+	font-size:1.4em;
+	font-weight:normal;
 }
-/********************************** Cadre *********************************/
-.cadre {
-	border: 1px solid #F4BFB1;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 10px;
-	padding-bottom: 20px;
-	margin-bottom: 10px;
-}
-.titreCadre {
-	clear: both;
-	color: #853D3B;
-	background-color: #F3BC9A;
-	font-weight: bolder;
-	padding: 4px;
-	height: 16px;
-}
-/***************************** Formulaire *********************************/
-.legendeFormulaire {
+
+section {
 	float:left;
-	width: 120px;
-}
-.legendeLigne {
-	font-weight: bolder;
-}
-.elementFormulaire {
-	padding: 0px;
-	margin: 1px;
-}
-.zoneTexte {
-	margin-top:4px;
+	width:130px;
+	text-align:left;
 }
 
-/* Sous-Formulaire dans un cadre */
-.sousFormulaire {
-	border: 1px solid #F4BFB1;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
-	height: auto;
-	overflow: auto;
+section h1, section h2, section h3, section h4, section h5, section h6 {
+	background:transparent url(sprites.png) no-repeat 0px -80px;
+	color:#fff;
+	padding:9px 10px 10px 10px;
+	margin:13px -10px;	
+	text-shadow:0 1px 0 #403232;
 }
-.titreSousFormulaire {
-	clear: both;
-	color: #853D3B;
-	background-color: #F3BC9A;
-	font-weight: bolder;
-	padding: 4px;
+
+section ul {
+	padding:0px;
+	list-style:none;
+	border-top:1px solid #e7e2d7;
+	margin:14px 0px;
 }
-/************************** Listes de données *******************************/
-.tableauListe {
-	margin: 0px;
-	padding: 0px;
-	border-collapse: collapse;
-	border-spacing: 0px;	
+
+section li {
+	margin:0px;
+	padding:0px;
+	list-style:none;
 }
-.tableauListe tr {
-	vertical-align:top;
-	margin: 0px;
-	padding: 0px;
-	height: 20px;
-	width: 500px;
-}
-.tableauListe tr td {
-	margin: 0px;
-	padding: 0px;
-	height: 20px;
-}
-.boutique tr td {
-	padding: 3px;
-}
-/* Ligne titre de la liste */
-.tableauListe_titre td {
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #F3BC9A;
-	font-weight: bolder;
-}
-/* Sous-titre d'une partie de la liste */
-.sousTitreListe {
-	font-size:12px;
-	font-weight:bold;
-	font-family: Verdana;
-	padding-top: 4px;
-	padding-bottom: 4px;
-}
-/* États des lignes de la liste */
-.impair {
-	background-color:#F7EFCF;
-}
-.ligneSelectionnee {
-	background-color:#EEEEEE;
-}
-.pasAffiche {
-	font-style: italic;
-	color: #999999;
-}
-.pasAffiche_lien {
-	font-style: italic;
-	color: #D3665B;
-}
-/* Les liens d'action dans le titre du cadre */
-.lienAction {
-	color: #FFFFFF;
-	font-size: 11px;
-	font-weight: normal;
-}
-div.lienAction {
-	padding-right: 5px;
+
+section li a:link, section li a:visited {
 	float:left;
-}
-.lienAction_disable a {
-	color: #DDDDDD;
-	font-style: italic;
-	cursor: text;
-}
-.puceHaut {
-	list-style-type:none;
-	background-image:url(admin/images/haut.gif);
-	background-repeat:no-repeat;
-	background-position:0% 50%;
-	height: 8px;
-	width: 8px;
-	margin-left: 3px;
-	float: left;
-	cursor: pointer;
-	cursor: hand;
-}
-.puceBas {
-	list-style-type:none;
-	background-image:url(admin/images/bas.gif);
-	background-repeat:no-repeat;
-	background-position:0% 50%;
-	height: 8px;
-	width: 8px;
-	margin-left: 3px;
-	float: left;
-	cursor: pointer;
-	cursor: hand;	
-}
-.pucePlus {
-	list-style-type:none;
-	background-image:url(admin/images/plus.gif);
-	background-repeat:no-repeat;
-	background-position:0% 50%;
-	height: 8px;
-	width: 8px;
-	margin-left: 3px;
-	float: left;
-	cursor: pointer;
-	cursor: hand;	
-}
-/************************** Calendrier *******************************/
-div.calendrier {
-	align: center;
-	text-align: center;
-
-}
-table.calendrier {
-	width: 500px;
-	margin: 0px;
-	padding: 0px;
-	border-collapse: collapse;
-	border-spacing: 0px;
-	text-align: center;
-	/* pour centrer le calendrier dans le cadre */
-	margin-right:auto;
-	margin-left:auto;
-}
-.joursCalendrier {
-	background: #F7EFCF; 
-	height: 25px;
-	font-weight: bold;
-}
-.joursCalendrier td {
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #F3BC9A;	
-}
-.jourGris {
-	color: #DDDDDD;
+	width:96%;
+	padding:3px 1%;
+	border-bottom:1px solid #e7e2d7;
 }
 
-.photo {
-	border: 0px;
-}
-img {
-	border: 0px;
+section li a:hover {
+	background:#f2f1ec;
 }
 
+article {
+	float:right;
+	width:706px;
+	text-align:left;
+}
+
+article h1 {
+	background:transparent url(sprites.png) no-repeat 0px 0px;
+	color:#fff;
+	padding:7px 10px 12px 30px;
+	margin-left:-30px;
+	text-shadow:0 1px 0 #403232;
+}
+
+article h2, article h3, article h4, article h5, article h6  {
+	background:transparent url(sprites.png) no-repeat 0px -40px;
+	color:#fff;
+	padding:7px 10px 12px 30px;
+	margin-left:-30px;
+	text-shadow:0 1px 0 #913951;
+}
+
+article p:first-of-type {
+	font-family:Helvetica, Arial, serif;
+	text-transform:uppercase;
+	border-top:1px dotted #968765;
+	border-bottom:1px dotted #968765;
+	padding:10px 0px;
+	color:#c17086;
+}
+
+footer {
+	display:block;
+	clear:both !important;
+	width:898px;
+}
+
+footer a {
+	margin:0px 5px;
+}
 
 label {
-	display: block;
+	display:block;
+	font-weight:bold;
 }
 
+input, textarea {
+	font-family:"Myriad Pro", Myriad, Helvetica, Arial, sans-serif;
+	font-size:90%;
+	color:#968765;
+	border:1px solid #e7e2d7;
+	border-radius:3px;
+	-webkit-border-radius:.3em;
+	-moz-border-radius:.3em;
+	padding:2px 4px;
+	width:168px;
+	background:#fff url(sprites.png) repeat-x 0px -120px;
+}
+
+input:focus, textarea:focus {
+	border:1px solid #c9c1af;
+}
+
+button {
+	font-family:Georgia, times, serif;
+	font-size:1.2em;
+	color:#fff;
+	font-style:italic;
+	border:1px solid #c17086;
+	border-radius:3px;
+	-webkit-border-radius:.3em;
+	-moz-border-radius:.3em;
+	padding:3px 12px;
+	background:#bd1341 url(sprites.png) repeat-x -250px -82px;
+}
+
+button:hover {
+	background-position:-350px -82px
+}
 /************************** Corentin *******************************/
 
 

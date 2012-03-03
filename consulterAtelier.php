@@ -16,6 +16,7 @@ $requete = "SELECT a.id, t.nom, a.date_debut, a.date_fin, t.description, a.id_ty
 
 $resultats = mysql_query($requete) or die(mysql_error());
 $valAtelier = mysql_fetch_array($resultats);
+$dateDebut = strtotime($valAtelier['date_debut']);
 
 $idType = $valAtelier['id_type_atelier'];
 
@@ -58,47 +59,55 @@ if ($connecte == true) {
 	});
 </script>
 
-<?php if ($connecte && $compte == 0) { ?>
-	<div id="dlg-inscription" title="S'inscrire à l'atelier">
-		<form action="Actions/inscriptionAtelier.php" method="POST">
-			<fieldset>
-				<input type="hidden" name="id_atelier" value="<?= $id ?>" />
-				<label for="presence-mere">Inscrire :</label>
-				<input type="radio" id="presence-mere" name="presence" value="0" />Seulement la mère
-				<input type="radio" name="presence" value="1" />Seulement le père
-				<input type="radio" name="presence" value="2" />Le couple
-				<input type="submit" />
-			</fieldset>
-		</form>
-	</div>
-<?php } ?>
+<div id="dlg-inscription" title="S'inscrire à l'atelier">
+	<form action="Actions/inscriptionAtelier.php" method="POST">
+		<fieldset>
+			<input type="hidden" name="id_atelier" value="<?= $id ?>" />
+			<label for="presence-mere">Inscrire :</label>
+			<input type="radio" id="presence-mere" name="presence" value="0" />Seulement la mère
+			<input type="radio" name="presence" value="1" />Seulement le père
+			<input type="radio" name="presence" value="2" />Le couple
+			<input type="submit" />
+		</fieldset>
+	</form>
+</div>
 
 <div>
 	<h1><?= $valAtelier['nom'] ?></h1>
-	<p>Le <?= date('l j F o à G:i', strtotime($valAtelier['date_debut'])) ?></p>
+	<p>Le <?= date('l j F o à G:i', $dateDebut) ?></p>
 	<p>
 		<?= $valAtelier['description'] ?>
 	</p>
 	
-	<?php if ($connecte) { 
-		if ($compte == 0) {
-		?>
-			<button id="btn-inscription">S'inscrire</button>
-		<?php }
-		else { ?>
-			Vous êtes inscrit à cet atelier
-		<?php }?>
-	<?php } 
-	else { ?>
-		Vous devez être connecté pour vous inscrire à l'atelier
-	<?php } ?>
+	<?php
+	$message = "";
+	if ($dateDebut >= time()) {
+		if ($connecte) {
+			if ($compte == 0) {
+				$message = "<button id=\"btn-inscription\">S'inscrire</button>";
+			}
+			else {
+				$message = "Vous êtes inscrit à cet atelier";
+			}
+		}
+		else {
+			$message = "Vous devez être connecté pour vous inscrire à l'atelier";
+		}
+	}
+	else {
+		$message = "Cet atelier a déjà débuté.";
+	}
+
+	echo $message;
+	?>
 
 	<?php
 		while ($valPhoto = mysql_fetch_array($resultatsPhotos)) {
 			//echo '<img src="img/' . $valPhoto['chemin'] . '" />'; 
 		}
 	?>
-
+	
+	<p><a href="calendrier.php">Retourner au calendrier</a></p>
 </div>
 
 <?php include("footer.php"); ?>

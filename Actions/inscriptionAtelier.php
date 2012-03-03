@@ -13,28 +13,40 @@ $idAtelier = $_REQUEST['id_atelier'];
 
 include("mysql.php");
 
-$requete = "SELECT id_mere, id_pere, id_personne_liee
-	    FROM compte
-	    WHERE id = $idCompte";
+$requete = "SELECT date_debut
+	    FROM atelier
+	    WHERE id = $idAtelier";
 
 $resultats = mysql_query($requete) or die(mysql_error());
 $val = mysql_fetch_array($resultats);
+$dateDebut = strtotime($val['date_debut']);
 
-switch($presence) {
-	case 0: // Seulement la mère participera
-		InscrirePersonne($val['id_mere'], $idAtelier);
-		break;
-	case 1: // Seulement le père participera
-		InscrirePersonne($val['id_pere'], $idAtelier);
-		break;
-	case 2: // Le père et la mère participeront
-		InscrirePersonne($val['id_mere'], $idAtelier);
-		InscrirePersonne($val['id_pere'], $idAtelier);
-		break;
+if ($dateDebut < time()) {
+	echo "Atelier dejà débutée.";
 }
+else {
+	$requete = "SELECT id_mere, id_pere, id_personne_liee
+		    FROM compte
+		    WHERE id = $idCompte";
 
-header('Location: ../consulterAtelier?id=' . $idAtelier);
+	$resultats = mysql_query($requete) or die(mysql_error());
+	$val = mysql_fetch_array($resultats);
 
+	switch($presence) {
+		case 0: // Seulement la mère participera
+			InscrirePersonne($val['id_mere'], $idAtelier);
+			break;
+		case 1: // Seulement le père participera
+			InscrirePersonne($val['id_pere'], $idAtelier);
+			break;
+		case 2: // Le père et la mère participeront
+			InscrirePersonne($val['id_mere'], $idAtelier);
+			InscrirePersonne($val['id_pere'], $idAtelier);
+			break;
+	}
+
+	header('Location: ../consulterAtelier?id=' . $idAtelier);
+}
 // Fonction pour inscrire une personne à un cours dans la base de données
 function InscrirePersonne($id, $idAtelier) {
 	$requete = "INSERT INTO personne_atelier
@@ -43,5 +55,4 @@ function InscrirePersonne($id, $idAtelier) {
 
 	mysql_query($requete) or die(mysql_error());
 }
-
 ?>

@@ -19,7 +19,6 @@ $nb = mysql_num_rows($resultats);
 $i = 1;
 
 while ($val = mysql_fetch_array($resultats)) {
-	//$arr = array("id" =­> $val['id'], "title" => $val['nom'], "start" => $val['date']); // Cette ligne ne fonctionne pas, wtf...
 	$arr = array("id" => $val['id'], 
 		     "title" => $val['nom'],
 		     "start" => date('c', strtotime($val['date_debut'])),

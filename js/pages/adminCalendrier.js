@@ -1,3 +1,5 @@
+var eventId;
+
 $(document).ready(function() {
 	$('#types-atelier div.external-event').each(function() {
 	
@@ -21,6 +23,8 @@ $(document).ready(function() {
 		editable: true,
 		droppable: true,
 		firstDay: 1,
+		firstHour: 6,
+		allDaySlot: false,
 		defaultView: 'agendaWeek',
 		header: {
 			left: 'prev,next today',
@@ -30,7 +34,20 @@ $(document).ready(function() {
 	        eventSources: [{
 			url: 'Actions/obtenirAteliers.php',
 			allDayDefault: false
-		}],	
+		}],
+		eventRender: function(event, element) {
+
+	        },
+		eventClick: function(event) {
+			eventId = event.id;
+			$("#dlg-modif").dialog("open");
+
+			$.getJSON('Actions/detailsAtelierJSON.php', {id: event.id}, function(data) {
+				$('#animatrice').val(data.animatrice);
+			});
+
+			return false;
+		},
 		loading: function(bool) {
 			if (bool) $('#loading').show();
 			else $('#loading').hide();
@@ -76,5 +93,25 @@ $(document).ready(function() {
 				}
 			});
 		}	
+	});
+
+	
+	$("#dlg-modif").dialog({
+			autoOpen: false,
+			draggable: false,
+			height: 300,
+			width: 350,
+			modal: true});
+
+	$('#btn-supprimer').button();
+	$('#btn-supprimer').click(function(){
+		$.ajax({
+			url: "Actions/supprimerAtelier.php",
+			data: {id: eventId},
+			success: function() {
+				$("#dlg-modif").dialog('close');
+				$('#calendrier-admin').fullCalendar('removeEvents', eventId);
+			}
+		});
 	});
 });

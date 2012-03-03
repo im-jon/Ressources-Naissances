@@ -726,7 +726,7 @@ function Header(calendar, options) {
 				var prevButton;
 				$.each(this.split(','), function(j, buttonName) {
 					if (buttonName == 'title') {
-						e.append("<span class='fc-header-title'><h2>&nbsp;</h2></span>");
+						e.append("<span class='fc-header-title'><titre-cal>&nbsp;</titre-cal></span>");
 						if (prevButton) {
 							prevButton.addClass(tm + '-corner-right');
 						}
@@ -808,7 +808,7 @@ function Header(calendar, options) {
 	
 	
 	function updateTitle(html) {
-		element.find('h2')
+		element.find('titre-cal')
 			.html(html);
 	}
 	
