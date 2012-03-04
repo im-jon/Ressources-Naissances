@@ -28,6 +28,10 @@ $resultats = mysql_query($requete) or die(mysql_error());
 	</form>
 </div>
 
+<div id='calendrier-admin'></div>
+
+</article>
+
 <div id='types-atelier'>
 <h4>Types d'atelier</h4>
 	<?php while($val = mysql_fetch_array($resultats)) { 
@@ -35,7 +39,3 @@ $resultats = mysql_query($requete) or die(mysql_error());
 	} ?>
 </div>
 
-
-<div id='calendrier-admin'></div>
-
-<?php include("footer.php"); ?>

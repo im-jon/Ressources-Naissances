@@ -3,7 +3,6 @@ $(document).ready(function() {
 	$('#calendar').fullCalendar({
 		minTime: 6,
 		firstDay: 1,
-		
 		defaultView: 'agendaWeek',
 		allDaySlot: false,
 		header: {

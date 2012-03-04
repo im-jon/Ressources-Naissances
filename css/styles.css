@@ -23,7 +23,7 @@ a:link, a:visited {
 	color:#c17086;
 	text-decoration:none;
 	border-bottom:1px solid #91476c;
-	font-size:.8em;
+	font-size:.9em;
 }
 
 a:hover {
@@ -237,11 +237,19 @@ button:hover {
 /************************** Admin. Calendrier *******************************/
 #types-atelier {
 	float: left;
-	width: 200px;
+	left: -1px;
+	width: 160px;
 	padding: 0 10px;
 	border: 1px solid #ccc;
-	background: #eee;
 	text-align: left;
+	padding:10px 10px 20px;
+	margin-top:10px;
+	margin-left: 10px;
+	border:1px solid #e7e2d7;
+	border-radius:8px;
+	-webkit-border-radius:.8em;
+	-moz-border-radius:.8em;
+	background:#fff url(sprites.png) repeat-x 0px -120px;
 }
 	
 #types-atelier h4 {
@@ -250,17 +258,29 @@ button:hover {
 	padding-top: 1em;
 }
 	
-.external-event { /* try to mimick the look of a real event */
+.external-event {
 	margin: 10px 0;
 	padding: 2px 4px;
-	background: #3366CC;
 	color: #fff;
-	font-size: .85em;
+	font-size: .7em;
 	cursor: pointer;
+	border-radius:5px;
+	-webkit-border-radius:.5em;
+	-moz-border-radius:.5em;
 }
 
 #calendrier-admin {
 	float: right;
 	width: 700px;
+}
+
+#ateliers-futurs a {
+	font-size:1em;
+}
+
+#calendar a, #calendrier-admin a {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:0.7em;
+	font-weight: normal;
 }
 

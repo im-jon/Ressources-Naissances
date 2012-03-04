@@ -21,10 +21,6 @@ $resultats = mysql_query($requete) or die(mysql_error());
 <script type='text/javascript' src='js/jquery.qtip.min.js'></script>
 <script type='text/javascript' src='js/pages/calendrier.js'></script>
 
-<h2>Calendrier</h2>
-
-<div id="calendar"></div>
-
 <div id="ateliers-futurs">
 	<h3>Ateliers à venir</h3>
 	<?php 
@@ -37,5 +33,8 @@ $resultats = mysql_query($requete) or die(mysql_error());
 		} 
 	?>
 </div>
+
+<h2>Calendrier</h2>
+<div id="calendar"></div>
 
 <?php include("footer.php"); ?>

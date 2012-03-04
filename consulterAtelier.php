@@ -20,14 +20,6 @@ $dateDebut = strtotime($valAtelier['date_debut']);
 
 $idType = $valAtelier['id_type_atelier'];
 
-$requete = "SELECT p.chemin
-	    FROM photo_type_atelier pt
-	    INNER JOIN photo p
-	    ON p.id = pt.id_photo
-	    WHERE pt.id_type_atelier = $idType";
-
-$resultatsPhotos = mysql_query($requete) or die(mysql_error());
-
 if ($connecte == true) {
 	$idCompte = $_SESSION['id_compte'];
 	$requete = "SELECT COUNT(*) nb
@@ -99,12 +91,6 @@ if ($connecte == true) {
 	}
 
 	echo $message;
-	?>
-
-	<?php
-		while ($valPhoto = mysql_fetch_array($resultatsPhotos)) {
-			//echo '<img src="img/' . $valPhoto['chemin'] . '" />'; 
-		}
 	?>
 	
 	<p><a href="calendrier.php">Retourner au calendrier</a></p>
