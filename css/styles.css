@@ -36,7 +36,7 @@ a img {
 
 header, section, article, footer {
 	padding:10px 20px 20px;
-	margin:10px;
+	margin:0 10px 15px 0;
 	border:1px solid #e7e2d7;
 	border-radius:8px;
 	-webkit-border-radius:.8em;
@@ -93,7 +93,7 @@ nav a:link, nav a:visited {
 }
 
 section {
-	float:left;
+	margin-top: 10px;
 	width:130px;
 	text-align:left;
 }
@@ -120,7 +120,6 @@ section li {
 }
 
 section li a:link, section li a:visited {
-	float:left;
 	width:96%;
 	padding:3px 1%;
 	border-bottom:1px solid #e7e2d7;
@@ -288,4 +287,44 @@ button:hover {
 
 titre-cal {
 	font-size:1.5em;
+}
+
+#diapo
+{
+	float:right ;
+	width:748px;
+	margin-right: 10px;
+
+}
+
+#diapo img
+{
+    -moz-border-radius-topright: 15px;
+    border-top-right-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    border-top-left-radius: 15px;
+}
+
+  .slides_container {
+    width:748px;
+    height:170px;
+
+  }
+  .slides_container div {
+    width:748px;
+    height:170px;
+    display:block;
+  }
+
+#intro
+{
+	margin-top: 0px;
+    -moz-border-radius-topright: 0px;
+    border-top-right-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    border-top-left-radius: 0px;
+    -moz-border-radius-bottomright: 15px;
+    border-bottom-right-radius: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-left-radius: 15px;
 }
