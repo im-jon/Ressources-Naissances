@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
 /************************************************************/
-/* La fonction miniature crée à la volée l'image miniature  */
+/* La fonction miniature crÃ©e Ã  la volÃ©e l'image miniature  */
 /************************************************************/
 
 function miniature( $imgSrc, $nomImage){
@@ -13,7 +13,7 @@ function miniature( $imgSrc, $nomImage){
    $largeurSrc = imagesx($imgSrc);
    $hauteurSrc = imagesy($imgSrc);
    
-   // Création de l'image miniature en essayant de respecter le format portrait ou paysage
+   // CrÃ©ation de l'image miniature en essayant de respecter le format portrait ou paysage
    if($hauteurSrc > $largeurSrc){
       $l = $largeur; $h = $hauteur;
       $lSrc = $largeurSrc; $hSrc = $hauteurSrc;
@@ -27,10 +27,10 @@ if(!opendir("$testDir"))
 {
    mkdir("img/miniConseilAdministration/");
    chmod ("img/miniConseilAdministration/", 0755); 
-   // On ressample l'image initiale pour en créer une copie en miniature
+   // On ressample l'image initiale pour en crÃ©er une copie en miniature
    ImageCopyResampled($mini, $imgSrc, 0, 0, 0, 0, $l, $h, $lSrc, $hSrc);
    
-   // On enregistre l'image dans le répertoire des miniatures
+   // On enregistre l'image dans le rÃ©pertoire des miniatures
    imageJpeg ( $mini,"img/miniConseilAdministration/$nomImage.jpg");
 }
    return $nomImage;
@@ -42,10 +42,10 @@ if(!opendir("$testDir"))
 			</div>
 			<?php
 				 /********************************************/
-				 /* Définition des constantes pour le script */
+				 /* DÃ©finition des constantes pour le script */
 				 /********************************************/
 				 
-				 // Répertoire dans lequel sont situées les différentes photos
+				 // RÃ©pertoire dans lequel sont situÃ©es les diffÃ©rentes photos
 				 $imageDir = "img/conseilAdministration/";
 				 $i=0;
 				 $c=1;
@@ -79,7 +79,7 @@ if(!opendir("$testDir"))
 					  break;
 				    }
 				    
-				    if(isset($imgSrc)){ // Sinon il ne s'agit pas d'un type d'image supporté par notre application
+				    if(isset($imgSrc)){ // Sinon il ne s'agit pas d'un type d'image supportÃ© par notre application
 				       if ($c>1){
 				       	$c = 1;
 					echo "<tr>";
@@ -87,7 +87,7 @@ if(!opendir("$testDir"))
 				       echo "<td>";
 				       $c++;
 				       // Affichage de l'image miniature dans la page (X)Html
-			   	       printf ("<a href=\"%s/%s\" target=\"Photos\"><img src=\"./img/miniConseilAdministration//%s.%s\" alt=\"Miniature générée dynamiquement\" /></a>", $imageDir,$image, miniature( $imgSrc, $nomImage),$extension);
+			   	       printf ("<a href=\"%s/%s\" target=\"Photos\"><img src=\"./img/miniConseilAdministration//%s.%s\" alt=\"Miniature gÃ©nÃ©rÃ©e dynamiquement\" /></a>", $imageDir,$image, miniature( $imgSrc, $nomImage),$extension);
 				       echo "</td>";
 				       echo "<td>";
 						echo "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".$nomImage;
