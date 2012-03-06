@@ -4,7 +4,7 @@
 			</div>
 			<center>
 				<?php
-					include("../fckeditor/fckeditor.php");
+					include("fckeditor/fckeditor.php");
 				?>
 				<form action="editor2.php" method="POST">
 					<?php
