@@ -16,6 +16,8 @@ $resultat = mysql_query($requete);
 	</nouvelle>
 <?php } ?>
 
+<p><a href="archivesNouvelles.php">Consulter l'archive des nouvelles</a></p>
+
 <?php 
 include("footer.php");
 mysql_close();
