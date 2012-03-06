@@ -25,11 +25,28 @@ $x=0;
 	$nom=$val['titrePage'];
 	$description=$val['lienPage'];
 echo "Titre du paragraphe :</br>";
-echo "<input type='text' name=('titre'.$x) value=\"$nom\" size=\"50\"></br></br>";
+echo "<input type='text' name='titre".$x."' value='$nom' size='50'></br></br>";
 
- 	#echo "<div class='contenuTexte'><fieldset>$description</fieldset></div>";
-	#include($description);
-echo "Contenu :</br>";
+
+$i=0;  #Checker avec ou sans cacher les corps
+$j=1;  #Checker contenu corps ou fckEditor
+#Ideal afficher tout contenu corps et bouton modifier sous chaque -> un fckEditor max d'ouvert ou + si affinité
+if($i==1)
+{
+echo "<div class='titreTexte'>";
+echo "Afficher/Cacher contenu :</br>";
+echo "</div>";
+echo "<div class='contenuTexte'>";
+}
+
+if($j==1)
+{
+
+include($description);
+
+}
+else
+{
 $fp = fopen($description, "r"); // Ouverture du fichier
 while(!feof($fp)) // On parcout toutes les lignes
 {
@@ -50,9 +67,20 @@ echo "</TD></TR></table>";
 
 $x++;
 $leFichier=null;
-echo "</br>";
-}
 echo '<input type="submit" value="Enregistrer">';
+
+echo "</br>";
+}  # } du if(j==1)
+
+if($i==1)
+{
+echo "</div>";
+}
+
+echo "</br>";
+echo "</br>";
+} # } du while
+
 ?>
 </form>
 
