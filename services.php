@@ -21,12 +21,13 @@ $result=mysql_query($query);
 	 while($val = mysql_fetch_array($result))
 {
 	
-	$nom=$val['nom'];
-	$description=$val['description'];
+	$nom=$val['titrePage'];
+	$description=$val['lienPage'];
 	echo "<div class='titreTexte' id='titrePage'>
 			 <a href='#'><STRONG>$nom</a></STRONG></div>";
 
- 	echo "<div class='contenuTexte'><fieldset>$description</fieldset></div>";
+ 	#echo "<div class='contenuTexte'><fieldset>$description</fieldset></div>";
+	include($description);
 }
  ?>
 			
