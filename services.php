@@ -27,7 +27,9 @@ $result=mysql_query($query);
 			 <a href='#'><STRONG>$nom</a></STRONG></div>";
 
  	#echo "<div class='contenuTexte'><fieldset>$description</fieldset></div>";
-	include($description);
+	echo "<div class='contenuTexte'>";
+include($description);
+echo "</div>";
 }
  ?>
 			
