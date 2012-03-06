@@ -3,6 +3,7 @@
 <h2>Panneau d'administration</h2>
 <ul>
 	<li><a href="adminCalendrier.php">Modifier l'horaire des ateliers</a></li>
+	<li><a href="ajout_publications.php">Ajout des publications (gazette des poussettes par exemple)</a></li>
 </ul>
 
 <?php include("footer.php"); ?>
