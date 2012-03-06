@@ -52,13 +52,16 @@ if ($connecte == true) {
 </script>
 
 <div id="dlg-inscription" title="S'inscrire à l'atelier">
-	<form action="Actions/inscriptionAtelier.php" method="POST">
+	<form id="frm-inscription" action="Actions/inscriptionAtelier.php" method="POST">
 		<fieldset>
 			<input type="hidden" name="id_atelier" value="<?= $id ?>" />
 			<label for="presence-mere">Inscrire :</label>
 			<input type="radio" id="presence-mere" name="presence" value="0" />Seulement la mère
+			<br/>
 			<input type="radio" name="presence" value="1" />Seulement le père
+			<br/>
 			<input type="radio" name="presence" value="2" />Le couple
+			<br/>
 			<input type="submit" />
 		</fieldset>
 	</form>
