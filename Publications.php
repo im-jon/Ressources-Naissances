@@ -1,4 +1,6 @@
 <?php 
+	//Antoine Laroche
+	//Cette page affiche les publications qui sont dans la bd
 	$titre = "Publications";
 	include("header.php"); 
 	include("Actions//mysql.php");
@@ -27,4 +29,5 @@
 			echo '<div class="titre"><a href="'. $pub2["chemin"]. '">' . $pub2["nom"] . "</a></br>";
 	
 	mysql_close();
-	include("footer.php"); ?>
+	include("footer.php"); 
+?>
