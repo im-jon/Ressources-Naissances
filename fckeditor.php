@@ -1,7 +1,7 @@
 <HTML>
 
 <?php
-include("/var/cbeauvil/html/fckeditor/fckeditor.php");
+include("/var/cbeauvil/html/fckeditor/fckeditor.php");	// endroit où se situe FCKeditor
 ?>
 
 <form action="fckeditor2.php" method="post">
@@ -26,7 +26,9 @@ $oFCKeditor->Create();
 echo "</TD></TR></table>";
 
 echo "Enregistrer le fichier sous :<input type = 'text' name = 'nomFichier' size='20' value = '".$nom."'></br>";
+
 ?>
+
 </form>
 <P><A HREF="fckeditor0.php">Retour sur la page 1</A><P>
 </HTML>

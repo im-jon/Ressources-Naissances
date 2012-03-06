@@ -23,7 +23,9 @@ $(document).ready(function() {
 			});
 	        },
 		eventAfterRender: function(event, element) {
-			if (event.start < $('#calendar').fullCalendar('getDate')) {
+			var dateEvent =Date.parse(event.start);
+        		var maintenant = new Date;
+			if (dateEvent < maintenant) {
 				element.css({ opacity: 0.3 });
 			}
 	        },
