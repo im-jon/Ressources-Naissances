@@ -1,4 +1,6 @@
-</article>
+<?php if(!isset($pasArticle)) { ?>
+	</article>
+<?php } ?>
 
 <section>
 	<h1>Navigation</h1>

@@ -36,4 +36,6 @@
     </nav>
 </header>
 
-<article>
+<?php if(!isset($pasArticle)) { ?>
+	<article>
+<?php } ?>
