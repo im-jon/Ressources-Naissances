@@ -1,4 +1,13 @@
 <?php
+session_start();
+include('Actions/fonctions.php');
+
+if (!estAutorise(2)) {
+	die();
+}
+
+
+
 include("ckeditor/ckeditor.php");
 $nom = $_REQUEST['nomfichierouvrir'];
 $lefichier = '';

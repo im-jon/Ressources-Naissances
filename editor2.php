@@ -1,8 +1,16 @@
 <?php
-	if (!isset($_REQUEST['nomfichier']) || !isset($_REQUEST['CKEditor'])) {
-		header('Location: panneau.php');
-		die();
-	}
+session_start();
+include('Actions/fonctions.php');
+
+if (!estAutorise(2)) {
+	die();
+}
+
+
+if (!isset($_REQUEST['nomfichier']) || !isset($_REQUEST['CKEditor'])) {
+	header('Location: panneau.php');
+	die();
+}
 ?>
 
 <?php include("header.php"); ?>

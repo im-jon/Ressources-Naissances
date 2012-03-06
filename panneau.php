@@ -1,3 +1,13 @@
+<?php 
+session_start();
+include('Actions/fonctions.php');
+
+if (!estAutorise(2)) {
+	die();
+}
+
+?>
+
 <?php include("header.php"); ?>
 
 <h2>Panneau d'administration</h2>
