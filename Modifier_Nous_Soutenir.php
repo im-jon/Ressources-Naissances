@@ -4,7 +4,5 @@
 	$titre = "Modifier_Nous_Soutenir";
 	include("header.php");
 	
-	
-	
 	include("footer.php"); 
 ?>
