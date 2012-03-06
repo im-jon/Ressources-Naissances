@@ -21,8 +21,8 @@ $resultats = mysql_query($requete) or die(mysql_error());
 <script type='text/javascript' src='js/jquery.qtip.min.js'></script>
 <script type='text/javascript' src='js/pages/calendrier.js'></script>
 
+<h2>Ateliers à venir</h2>
 <div id="ateliers-futurs">
-	<h3>Ateliers à venir</h3>
 	<?php 
 		while ($val = mysql_fetch_array($resultats)) {
 			$intervalle = new DateTime(date('c', strtotime($val['date_debut'])));
@@ -36,5 +36,5 @@ $resultats = mysql_query($requete) or die(mysql_error());
 
 <h2>Calendrier</h2>
 <div id="calendar"></div>
-
+<small>* Un atelier transparant indique que celui-ci a déjà débuté.</small>
 <?php include("footer.php"); ?>

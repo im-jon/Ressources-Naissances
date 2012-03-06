@@ -152,7 +152,7 @@ article h2, article h3, article h4, article h5, article h6  {
 	text-shadow:0 1px 0 #913951;
 }
 
-article p:first-of-type {
+article p:first-of-type, nouvelle p:first-of-type {
 	font-family:Helvetica, Arial, serif;
 	text-transform:uppercase;
 	border-top:1px dotted #968765;
@@ -285,4 +285,8 @@ button:hover {
 	font-family:Helvetica, Arial, sans-serif;
 	font-size:0.7em;
 	font-weight: normal;
+}
+
+titre-cal {
+	font-size:1.5em;
 }
