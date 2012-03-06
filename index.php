@@ -29,6 +29,11 @@ Voilà pourquoi RESSOURCES-NAISSANCES offre un éventail de services et d’acti
 Entreprise d'économie sociale dont les membres sont les bénévoles et les familles utilisatrices qui ont droit, selon des modalités démocratiques, d'être consultés, de s'impliquer dans les activités du centre et de participer aux orientations de l'organisme lors de l'assemblée générale. Bienvenue à tous et à toutes.
 </article>
 
+<article id="video">
+	<h2>Vidéo promotionelle</h2>
+	<iframe width="560" height="315" src="http://www.youtube.com/embed/YOxVjbGvUpI" frameborder="0" allowfullscreen></iframe>
+</article>
+
 <?php while ($article = mysql_fetch_array($resultat)) { ?>
 	<article>
 		<h2><?= ShortenText($article["titre"], 60) ?></h2>
@@ -36,6 +41,20 @@ Entreprise d'économie sociale dont les membres sont les bénévoles et les fami
 		<div class="desc"><tgauche><?= $article["contenu"] ?></tgauche></div>
 	</article>
 <?php } ?>
+
+<article id="certificat-cadeau">
+	<h2>Certificat-cadeau</h2>
+	Offrir un certificat-cadeau à de futurs et nouveaux parents...
+	Pourquoi pas ?  Nos certificats-cadeaux sont échangeables au choix : 
+	ateliers, services et/ou articles de la boutique.  Vous pouvez vous 
+	les procurer au montant désiré à la réception de Ressources-Naissances 
+	durant nos heures de bureau.
+</article>
+
+<article id="lien-gazette">
+	<h2>Le journal des membres</h2>
+	<a href="Publications.php">Lien vers la gazette des pousettes</a>
+</article>
 
 <?php 
 include("footer.php");
