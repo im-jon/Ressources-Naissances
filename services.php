@@ -120,5 +120,4 @@ $result=mysql_query($query);
 		
 			</div>
 		</div>
-	</body>
-</html>
+<?php include("footer.php"); ?> 

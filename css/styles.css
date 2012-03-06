@@ -171,12 +171,7 @@ footer a {
 	margin:0px 5px;
 }
 
-label {
-	display:block;
-	font-weight:bold;
-}
-
-input, textarea {
+textarea {
 	font-family:"Myriad Pro", Myriad, Helvetica, Arial, sans-serif;
 	font-size:90%;
 	color:#968765;
@@ -188,8 +183,16 @@ input, textarea {
 	background:#fff url(sprites.png) repeat-x 0px -120px;
 }
 
-input:focus, textarea:focus {
-	border:1px solid #c9c1af;
+form {
+	text-align: left;
+}
+
+input {
+	float: left;
+}
+
+label {
+	display: block;
 }
 
 button {
@@ -282,4 +285,3 @@ button:hover {
 	font-size:0.7em;
 	font-weight: normal;
 }
-
