@@ -1,7 +1,7 @@
 <HTML>
 
 <?php
-include("/var/cbeauvil/html/fckeditor/fckeditor.php");
+include("/var/cbeauvil/html/fckeditor/fckeditor.php");	// endroit où se situe FCKeditor
 ?>
 
 <form action="fckeditor2.php" method="post">
