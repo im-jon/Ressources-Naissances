@@ -8,6 +8,8 @@
 							     <option value="mission.txt">mission</option>
 							     <option value="historique.txt">historique</option>
 							     <option value="nousJoindre.txt">nous joindre</option>
+							     <option value="lienUtile.txt">lien utile</option>
+ 							     <option value="membres.txt">membres</option>
 							  </select></br></br>
 					<input type="submit" value="Editer">
 				</form>
