@@ -11,8 +11,10 @@
 		$personnes['mere'] = new Personne();
 		$personnes['pere'] = new Personne();
 		
+		// Itère pour obtenir les informations de la mère et du père.
+		// Ex: le formulaire envoi nom-mere et nom-pere. Cette boucle permet d'attribuer ces informations aux bonnes classes.
 		foreach ($personnes as $k => $v) {
-			// Valider les champs
+			// Il faudrait valider les champs
 			$v->setNom($_REQUEST['nom-' . $k]);
 			$v->setPrenom($_REQUEST['prenom-' . $k]);
 			$v->setAdresse($_REQUEST['adresse-' . $k]);
