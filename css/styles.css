@@ -185,7 +185,6 @@ input, textarea {
 	-webkit-border-radius:.3em;
 	-moz-border-radius:.3em;
 	padding:2px 4px;
-	width:168px;
 	background:#fff url(sprites.png) repeat-x 0px -120px;
 }
 
