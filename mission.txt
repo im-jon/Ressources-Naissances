@@ -1,21 +1,28 @@
 <table>
-    <tbody>
-        <tr>
-            <td><!--Image mission--> 			<img alt="" src="img/logoPetit.jpg" /></td>
-            <td><br />
-            <u><strong>Mission:</strong></u><br />
-            <br />
-            &nbsp;&nbsp;&nbsp;Ressources-Naissances est un organisme sans but lucratif qui offre des services et des activit&eacute;s accessibles <br />
-            &nbsp;&nbsp;&nbsp;&agrave; tous durant la grossesse et la premi&egrave;re ann&eacute;e de l'enfant tout en favorisant les &eacute;changes entre les familles,<br />
-            &nbsp;&nbsp;&nbsp;l'entraide et l'implication communautaire.<br />
-            <br />
-            &nbsp;&nbsp;&nbsp;Ressources-Naissances adapte et intensifie son offre de services pour les familles vivant des situations difficiles:
-            <ul>
-                <li>gratuit&eacute;</li>
-                <li>accompagnement individuel</li>
-                <li>activit&eacute;s de groupe planifi&eacute;s selon les besoins</li>
-            </ul>
-            </td>
-        </tr>
-    </tbody>
+	<tbody>
+		<tr>
+			<td>
+				<!--Image mission--><img alt="" src="img/logoPetit.jpg" /></td>
+			<td>
+				<br />
+				<u><strong>Mission:</strong></u><br />
+				<br />
+				&nbsp;&nbsp;&nbsp;Ressources-Naissances est un organisme sans but lucratif qui offre des services et des activit&eacute;s accessibles<br />
+				&nbsp;&nbsp;&nbsp;&agrave; tous durant la grossesse et la premi&egrave;re ann&eacute;e de l&#39;enfant tout en favorisant les &eacute;changes entre les familles,<br />
+				&nbsp;&nbsp;&nbsp;l&#39;entraide et l&#39;implication communautaire.<br />
+				<br />
+				&nbsp;&nbsp;&nbsp;Ressources-Naissances adapte et intensifie son offre de services pour les familles vivant des situations difficiles:
+				<ul>
+					<li>
+						gratuit&eacute; !</li>
+					<li>
+						accompagnement individuel</li>
+					<li>
+						activit&eacute;s de groupe planifi&eacute;s selon les besoins</li>
+				</ul>
+			</td>
+		</tr>
+	</tbody>
 </table>
+<p>
+	&nbsp;</p>

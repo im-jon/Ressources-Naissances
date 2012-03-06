@@ -4,6 +4,7 @@
 	$titre = "AjoutPublications";
 	include("header.php");
 ?>
+	<h2>Ajout d'une publication</h2>
 	<form method="post" action="upload_publications.php" enctype="multipart/form-data">
 			<p>La publication à ajouté
 			<input type="file" name="fichier"></input>
