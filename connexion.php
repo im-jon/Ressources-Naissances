@@ -4,13 +4,13 @@ include('Actions/fonctions.php');
 
 if (estConnecte()) {
 	header('Location: index.php');
-	die();
 }
 ?>
 
 <?php include("header.php"); ?>
 
 <form method="POST" action="Actions/connexion.php">
+	<input type="hidden" name="ReturnUrl" value="<?= $_REQUEST['ReturnUrl'] ?>"></input>
 	<label for="courriel">Courriel</label><br/>
 	<input type="text" name="courriel" id="courriel"></input><br/>
 	<label for="motdepasse">Mot de passe</label><br/>

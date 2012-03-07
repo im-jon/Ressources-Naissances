@@ -22,7 +22,11 @@ if (mysql_num_rows($resultats) > 0) {
 	$_SESSION['id_compte'] = $val['id'];
 	$_SESSION['role'] = $val['id_role'];
 
-	echo "Connexion réussie";
+	if (isset($_REQUEST['ReturnUrl'])) {
+		header('Location: ' . $_REQUEST['ReturnUrl']);
+	} else {
+		header('Location: ../index.php');
+	}
 }
 else {
 	echo "Mot de passe ou courriel invalide";

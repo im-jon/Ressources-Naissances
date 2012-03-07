@@ -35,7 +35,7 @@ a img {
 }
 
 header, section, article, footer {
-	padding:10px 20px 20px;
+	padding:10px 20px 10px;
 	margin:0 10px 15px 0;
 	border:1px solid #e7e2d7;
 	border-radius:8px;
@@ -45,6 +45,7 @@ header, section, article, footer {
 }
 
 header {
+	padding-bottom: 35px;
 	display:block;
 	position:relative;
 	text-align:left;
@@ -69,28 +70,7 @@ header h2 {
 	text-align:center
 }
 
-nav {
-	text-align:center;
-	display:block;
-}
 
-nav ul {
-	padding:0px;
-	list-style-type:none;
-	display:inline;
-}
-
-nav li {
-	margin:0px 10px;
-	padding:0px;
-	list-style-type:none;
-	display:inline;
-}
-
-nav a:link, nav a:visited {
-	font-size:1.4em;
-	font-weight:normal;
-}
 
 section {
 	margin-top: 10px;
@@ -317,4 +297,27 @@ titre-cal {
     border-bottom-right-radius: 15px;
     -moz-border-radius-bottomleft: 15px;
     border-bottom-left-radius: 15px;
+}
+
+nav {
+	text-align:center;
+	display:block;
+}
+
+nav ul {
+	padding:0px;
+	list-style-type:none;
+	display:inline;
+}
+
+nav li {
+	margin:0px 10px;
+	padding:0px;
+	list-style-type:none;
+	display:inline;
+}
+
+nav a:link, nav a:visited {
+	font-size:1.4em;
+	font-weight:normal;
 }
