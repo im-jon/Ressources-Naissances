@@ -7,15 +7,15 @@ include("header.php"); ?>
 	<form action="traite_ajout_article.php" method="post" >
 		<labe>Titre:</label>
 		</br>
-		<input type="text" id="titre" />
+		<input type="text" name="titre" />
 		</br>
 		<label>Source (auteur et date):</label>
 		</br>
-		<input type="text" id="source" />
+		<input type="text" name="source" />
 		</br>
 		<label>Texte de l'article:</label>
 		</br>
-		<textarea id="desc" ></textarea>
+		<textarea name="desc" row="4"  col="50"></textarea>
 		</br>
 		<input type="submit" id="btn" />
 	</form>
