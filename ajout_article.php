@@ -6,13 +6,16 @@ include("header.php"); ?>
 
 	<form action="ajout_article.php" method="post" >
 		<labe>Titre:</label>
+		</br>
 		<input type="text" id="titre" />
 		</br>
 		<label>Source (auteur et date):</label>
+		</br>
 		<input type="text" id="source" />
 		</br>
 		<label>Texte de l'article:</label>
-		<input type="textarea" id="desc" />
+		</br>
+		<textarea id="desc" ></textarea>
 		</br>
 		<input type="submit" id="btn" />
 	</form>
