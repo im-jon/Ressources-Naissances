@@ -15,6 +15,7 @@ if (!estAutorise(2)) {
 	<li><a href="adminCalendrier.php">Modifier l'horaire des ateliers</a></li>
 	<li><a href="ajout_publications.php">Ajout des publications (gazette des poussettes par exemple)</a></li>
 	<li><a href="formEditor.php">Modification des pages</a></li>
+	<li><a href="ajout_article.php">Ajouter un article</a></li>
 </ul>
 
 <?php include("footer.php"); ?>
