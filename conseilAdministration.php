@@ -33,6 +33,18 @@ if(!opendir("$testDir"))
    // On enregistre l'image dans le répertoire des miniatures
    imageJpeg ( $mini,"img/miniConseilAdministration/$nomImage.jpg");
 }
+else
+{
+   $testImage = "img/miniConseilAdministration/$nomImage.jpg";
+	if(!file_exists($testImage))
+	{
+	   // On ressample l'image initiale pour en créer une copie en miniature
+	   ImageCopyResampled($mini, $imgSrc, 0, 0, 0, 0, $l, $h, $lSrc, $hSrc);
+	   
+	   // On enregistre l'image dans le répertoire des miniatures
+	   imageJpeg ( $mini,"img/miniConseilAdministration/$nomImage.jpg");
+	}
+}
    return $nomImage;
 }
 ?> 

@@ -1,0 +1,82 @@
+<div>
+	<div class="titre"><a href="#">Céline Béland: Directrice</a></div>
+	<div class="desc">
+		Formée en psychologie et suite à la naissance de sa fille, elle s’est engagée dans le milieu communautaire
+		de Lévis notamment pour la fondation de la Maison de la Famille Rive-Sud. En 1987, elle devenait	
+		coordonnatrice de Mère-Contact ; avec les bénévoles et d’autres salariées, elle a développé les services	 
+		et activités que vous retrouvez aujourd’hui à Ressources-Naissances.<br/><br/> 
+	</div>
+	<div class="titre"><a href="#">Esther Bolduc: Adjointe administrative</a></div>
+	<div class="desc">
+		D’abord formée en service social, elle choisit de se consacrer à ses 3 enfants et investit ses nombreux
+		talents dans la communauté à titre bénévole : service d’entraide, comité d’école, co-fondatrice de
+		l’organisme « Au grenier de mon enfance ». Elle fait aussi des études collégiales en techniques de
+		bureautique.  Elle travaille à Ressources-Naissances depuis septembre 2000.<br/><br/> 
+	</div>
+	<div class="titre"><a href="#">Marie-Josée Nadeau: Coordonnatrice des activités communautaires et bénévoles</a></div>
+	<div class="desc">
+		Sa formation en technique d’assistance sociale, enrichie d’un certificat universitaire dans le même
+		domaine, l’a amenée à travailler en CLSC et au sein d’organismes communautaires variés (santé mentale,
+		service d’entraide, personnes handicapées). Elle a eu un enfant en 1992. Depuis 1996, elle a assumé différentes
+	        fonctions au sein de l’organisme : assistance à domicile, responsable des cafés-rencontres, soutien
+		des bénévoles, concertation dans le milieu, organisation d’activités communautaires. Au fil des ans,
+		elle s’est perfectionnée par diverses formations en intervention communautaire et en périnatalité.<br/><br/>
+	</div>
+	<div class="titre"><a href="#">Diane Cantin: Assistante à domicile</a></div>
+	<div class="desc">
+		Mère de 2 enfants, elle a été éducatrice au foyer. Elle a travaillé surtout dans l’alimentation et
+		la restauration ; elle a gardé des enfants à la maison pendant 10 ans et travaille dans notre
+		organisme à titre d’assistante depuis août 1998. <br/><br/>
+	</div>
+	<div class="titre"><a href="#">Lise Vermette: Assistante à domicile</a></div>
+	<div class="desc">
+		Elle est mère de 2 enfants ; elle a travaillé comme commis de bureau. Pendant 2 ans, elle a été
+		gardienne d’enfants à son domicile. Elle a plusieurs activités bénévoles à son actif : bibliothèque,
+		marché aux puces au profit d’une halte-garderie, comité de pastorale, catéchète, etc.) Elle est
+		assistante depuis avril 1999. <br/><br/>
+	</div>
+	<div class="titre"><a href="#">Louise Ouellet: Assistante à domicile</a></div>
+	<div class="desc">
+		Mère de 2 enfants, elle a combiné son rôle de mère au foyer avec le gardiennage d’enfants. Elle
+		s’est aussi occupée de personnes âgées à titre de dame de compagnie. Elle est aussi couturière.
+		Elle est à l’emploi de l’organisme depuis mai 2005. <br/><br/>
+	</div>
+	<div class="titre"><a href="#">Julie Lavoie: Assistante à domicile</a></div>
+	<div class="desc">
+		Mère de 3 enfants, elle a opéré à la maison pendant 16 ans une garderie pour les petits de 2 mois
+		et plus. Elle a aussi travaillé pendant 1 an à l'accueil pédiatrique de l'Hôtel-Dieu de Lévis.
+		Elle s'est engagée bénévolement à l'école primaire de ses enfants, elle y a travaillé à l'organisation
+		d'activités et a été membre du conseil d'établissement pendant 8 ans.  Elle est à l'emploi de
+		Ressources-Naissances depuis mars 2009. <br/><br/>
+	</div>
+	<div class="titre"><a href="#">Julie Bolduc: Animatrice d'ateliers, coordonnatrice des marraines d'allaitement</a></div>
+	<div class="desc">
+		Mère de 2 enfants, elle possède plusieurs formations: Éducatrice spécialisée, Certificat en orientation
+		scolaire et professionnelle, Conseillère santé (EESNQ), Instructrice en massage bébé (AIMB), Instructrice
+		en yoga prénatal, Microprogramme en nutrition (U. Laval) et elle est  en voie d'obtention d'IBCLC. Après avoir
+		travaillé plus de 17 ans en communication et publicité, elle quitte ce milieu pour animer des ateliers prénatals
+		en allaitement. De formation en formation, elle anime à présent plusieurs ateliers chez Ressources-Naissances. <br/><br/>
+	</div>
+	<div class="titre"><a href="#">Stéphanie Moisan: Animatrice d'ateliers</a></div>
+	<div class="desc">
+		Formée en service social, elle a travaillé dans ce domaine quelques années.  Suite à ses deux maternités,
+		elle s'intéresse à la périnatalité  et prend une formation en enseignement du yoga prénatal.  Elle acquiert							  
+		d'autres formations relatives à l'accouchement physiologique(Dre Bernadette de Gasquet), l'allaitement,
+		la cuisine saine; elle est aussi instructrice en massage-bébé.<br/><br/>
+	</div>
+	<div class="titre"><a href="#">Amélie Francoeur: Intervenante communautaire</a></div>
+	<div class="desc">
+		Après des études collégiales en service social, elle travaille pendant 8 ans comme intervenante dans un	
+		groupe d'entraide en santé mentale.  Suite à la naissance de ses deux enfants, elle décide de poursuivre	
+		sa carrière auprès des familles en période périnatale, un rêve qu'elle chérissait depuis longtemps ! Elle	
+		joint l'équipe de Ressource-Naissances à l'été 2007. <br/><br/>	
+	</div>
+	<div class="titre"><a href="#">Marcelle Boutin: Secrétaire-réceptionniste</a></div>
+	<div class="desc">
+		Elle a travaillé 8 ans comme technologue en génie industriel.  Après la naissance de ses 3 enfants,
+		elle se réoriente vers le secrétariat et rejoint l'équipe de Ressources-Naissances. <br/><br/>
+	</div>
+
+Beaudoin Marie-Claude: Agente relations publiques et communication<br/>
+Lydia Bellerose: Intervenante communautaire
+</div>

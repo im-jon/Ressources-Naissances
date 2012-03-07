@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <?php include("header.php"); ?>
 			<div id="titre">
 			<h2>Devenir Bénévole</h2>
