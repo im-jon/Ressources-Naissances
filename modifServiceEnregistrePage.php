@@ -17,11 +17,11 @@ $x=0;
  while($val = mysql_fetch_array($result))
 {
 $nomFichier=$val['lienPage'];
-echo "$nomFichier</br>";
+
 $title=$_REQUEST[('titre'.$x)];
-echo "$title";
+
 $titrePageAncien=$val['titrePage'];
-echo "$titrePageAncien";
+
 $query2="update service set titrePage='$title' when titrePage='$titrePageAncien' ;";
 if(($result2=mysql_query($query2))==true)
 {
@@ -33,8 +33,9 @@ $letout=stripslashes($_REQUEST['FCKeditor'.$x]); //endroit où se situe FCKedito
 $fp=fopen($nomFichier, "w");
 fputs($fp, $letout);
 fclose($fp);
-
+echo "$title </br></br>";
 echo $letout;
+echo "</br></br>";
 $x++;
 $nomFichier=null;
 }

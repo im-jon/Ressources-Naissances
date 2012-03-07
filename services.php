@@ -24,9 +24,9 @@ $result=mysql_query($query);
 	$nom=$val['titrePage'];
 	$description=$val['lienPage'];
 	echo "<div class='titreTexte' id='titrePage'>
-			 <a href='#'><STRONG>$nom</a></STRONG></div>";
+			 <a href='#'>$nom</a></div>";
 
- 	#echo "<div class='contenuTexte'><fieldset>$description</fieldset></div>";
+
 	echo "<div class='contenuTexte'>";
 include($description);
 echo "</div>";
