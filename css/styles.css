@@ -110,8 +110,6 @@ section li a:hover {
 }
 
 article {
-	float:right;
-	width:706px;
 	text-align:left;
 }
 
@@ -245,6 +243,11 @@ button:hover {
 	width: 700px;
 }
 
+#article-cal-admin {
+width: 700px;
+float: right;
+}
+
 #ateliers-futurs a {
 	font-size:1em;
 }
@@ -261,10 +264,7 @@ titre-cal {
 
 #diapo
 {
-	float:right ;
-	width:748px;
 	margin-right: 10px;
-
 }
 
 #diapo img
@@ -276,13 +276,13 @@ titre-cal {
 }
 
   .slides_container {
-    width:748px;
-    height:170px;
+    width:950px;
+    height:250px;
 
   }
   .slides_container div {
-    width:748px;
-    height:170px;
+    width:950px;
+    height:250px;
     display:block;
   }
 

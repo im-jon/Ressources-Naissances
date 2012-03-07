@@ -22,7 +22,7 @@ fclose($fp);
 
 $CKEditor = new CKEditor();
 $CKEditor->basePath = 'ckeditor/';
-$CKEditor->config['height'] = '100%';
+$CKEditor->config['height'] = '600px';
 
 ?>
 

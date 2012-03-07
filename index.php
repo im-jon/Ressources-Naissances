@@ -15,8 +15,8 @@ $resultat = mysql_query($requete);
 <div id="diapo">
 	<div id="slides">
 		<div class="slides_container">
-			<img src="img/slider/1.png" alt="image 1" width="748" height="250" />
-			<img src="img/slider/2.png" alt="image 2" width="748" height="250" />
+			<img src="img/slider/1.png" alt="image 1" width="950" height="250" />
+			<img src="img/slider/2.png" alt="image 2" width="950" height="250" />
 		</div>
 	</div>
 </div>
