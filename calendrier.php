@@ -6,7 +6,7 @@ $requete = "SELECT a.id, a.date_debut, a.date_fin, t.nom
 	    FROM atelier a
 	    INNER JOIN type_atelier t
 	    ON a.id_type_atelier = t.id
-	    WHERE a.date_debut BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 7 DAY)
+	    WHERE a.date_debut BETWEEN NOW() AND DATE_ADD(NOW(), INTERVAL 7 DAY)
 	    ORDER BY a.date_debut";
 
 $resultats = mysql_query($requete) or die(mysql_error());
