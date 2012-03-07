@@ -26,7 +26,7 @@
 		}
 	}
 	//chemin pour l'enregistrement du fichier
-	$dir="/var/antho/html/Ressources-Naissances/img/conseilAdministration/";
+	$dir="/Ressources-Naissances/img/conseilAdministration/";
 	$nom = $_REQUEST['nomPersonne'];
 	echo $nomImage;
 	//si le fichier existe
@@ -37,7 +37,7 @@
 	//copie du fichier du dossier temporaire au bon endroit
 	if(@copy($_FILES["fichier"]["tmp_name"],$dir.$nomImage))
 	{
-		echo "Transmission réussis!!!!<br/>dans le dossier /var/antho/html/Ressources-Naissances/img/conseilAdministration/ <br/><br/>";
+		echo "Transmission réussis!!!!<br/>dans le dossier /Ressources-Naissances/img/conseilAdministration/ <br/><br/>";
 		echo "Code d'erreur=".$_FILES["fichier"]["error"];
 		code();
 	}
