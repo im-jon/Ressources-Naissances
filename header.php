@@ -29,8 +29,8 @@
     <nav>
         <ul>
             <li><a href="index.php">Accueil</a></li>
-            <li><a href="#">S'inscrire</a></li>
-            <li><a href="#">Se connecter</a></li>
+            <li><a href="inscription.php">S'inscrire</a></li>
+            <li><a href="connexion.php">Se connecter</a></li>
             <li><a href="#">GINETTE RENO</a></li>
         </ul>
     </nav>

@@ -182,17 +182,7 @@ textarea {
 	background:#fff url(sprites.png) repeat-x 0px -120px;
 }
 
-form {
-	text-align: left;
-}
 
-input {
-	float: left;
-}
-
-label {
-	display: block;
-}
 
 button {
 	font-family:Georgia, times, serif;
