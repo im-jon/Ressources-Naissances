@@ -23,6 +23,7 @@ if (!estAutorise(2)) {
 			<option value="NousSoutenir.txt">Nous Soutenir</option>
 			<option value="lienUtile.txt">lien utile</option>
 			<option value="membres.txt">membres</option>
+			<option value="benevole.txt">benevole</option>
 		 </select>
 		<input type="submit" value="Editer">
 	</form>
