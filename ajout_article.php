@@ -4,7 +4,7 @@
 $titre = "Ajout_Article";
 include("header.php"); ?>
 
-	<form action="ajout_article.php" method="post" >
+	<form action="traite_ajout_article.php" method="post" >
 		<labe>Titre:</label>
 		</br>
 		<input type="text" id="titre" />
