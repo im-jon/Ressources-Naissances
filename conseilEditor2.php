@@ -28,7 +28,6 @@
 	//chemin pour l'enregistrement du fichier
 	$dir="/var/antho/html/Ressources-Naissances/img/conseilAdministration/";
 	$nom = $_REQUEST['nomPersonne'];
-	$nomImage = $nom.".jpg";
 	echo $nomImage;
 	//si le fichier existe
 	if(isset($_FILES["fichier"]))
