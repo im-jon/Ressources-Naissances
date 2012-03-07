@@ -1,6 +1,6 @@
 <?php 
 	//Antoine Laroche
-	//Page admin qui permet de faire de la mise en page de la page Nous_Soutenir avec FCK editor
+	//Page admin qui permet de faire de la mise en page de la page Nous_Soutenir avec CK editor
 	$titre = "Modifier_Nous_Soutenir";
 	include("header.php");
 	
