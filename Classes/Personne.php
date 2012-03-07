@@ -69,8 +69,24 @@ class Personne {
 		return $this->id;	
 	}
 
+	public function getPrenom() {
+		return $this->prenom;	
+	}
+
 	public function getNom() {
 		return $this->nom;	
+	}
+
+	public function getTelephone() {
+		return $this->telephone;	
+	}
+
+	public function getTelephoneBureau() {
+		return $this->telephonebureau;	
+	}
+
+	public function getCourriel() {
+		return $this->courriel;	
 	}
 }
 

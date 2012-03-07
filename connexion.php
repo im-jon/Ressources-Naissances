@@ -11,10 +11,10 @@ if (estConnecte()) {
 <?php include("header.php"); ?>
 
 <form method="POST" action="Actions/connexion.php">
-	<label for="courriel">Courriel</label>
-	<input type="text" name="courriel" id="courriel"></input>
-	<label for="motdepasse">Mot de passe</label>
-	<input type="password" name="motdepasse" id="motdepasse"></input>
+	<label for="courriel">Courriel</label><br/>
+	<input type="text" name="courriel" id="courriel"></input><br/>
+	<label for="motdepasse">Mot de passe</label><br/>
+	<input type="password" name="motdepasse" id="motdepasse"></input><br/>
 	<input type="submit"></input>
 </form>
 
