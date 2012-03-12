@@ -11,7 +11,7 @@
 	</script>
 
 	<div id="titre">
-		<h2>Liens utiles</h2>
+		<h1>Liens utiles</h1>
 	</div>
 
 <?php 

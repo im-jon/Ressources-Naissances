@@ -40,7 +40,7 @@
 
 <header>
     <hgroup>
-        <h1>Ressources-Naissances</h1>
+        <h1><a href="index.php">Ressources-Naissances</a></h1>
         <h2><?= $sousTitre ?></h2>
     </hgroup>
     <nav>

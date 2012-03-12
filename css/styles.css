@@ -64,6 +64,15 @@ header h1 {
 	text-align:center;
 }
 
+hgroup a:link, hgroup a:visited {
+	font-family:Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	color: #968765;
+	text-decoration:none;
+	border-bottom: none;
+	font-size:.9em;
+}
+
 header h2 {
 	margin:-10px 0px 20px;
 	font-size:1.3em;
