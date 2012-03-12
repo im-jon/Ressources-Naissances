@@ -6,9 +6,3 @@ $(function() {		// function s'active à la fin du chargement de la page
 	});
 });
 
-
-
-	// slide va mettre une effet de style
-
-	//alert('meow'); -> Va afficher une case alerte par dessus la page
-

@@ -37,7 +37,7 @@ Entreprise d'économie sociale dont les membres sont les bénévoles et les fami
 <?php while ($article = mysql_fetch_array($resultat)) { ?>
 	<article>
 		<h2><?= ShortenText($article["titre"], 60) ?></h2>
-		<p>publié le <?= $article["date_creation"] ?><p>
+		<debut-article>publié le <?= $article["date_creation"] ?></debut-article>
 		<div class="desc"><tgauche><?= $article["contenu"] ?></tgauche></div>
 	</article>
 <?php } ?>

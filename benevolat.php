@@ -2,21 +2,15 @@
 $titre = "Bénévolat";
 include("header.php"); ?>
 		 
-		 <link rel="stylesheet" type="text/css" href="css/styles.css">
-		 <link rel="stylesheet" type="text/css" media="screen" href="jquery.ui.potato.menu.css" />
+<script type="text/javascript" src="js/afficherCacher.js"></script>
 
-			
-					 <script type="text/javascript" src="jquery.nivo.slider.js"></script>
-		 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script type="text/javascript" src="jquery.ui.potato.menu.js"></script>
-		<script type="text/javascript" src="js/afficherCacher.js"></script>
+<h2>Bénévolat</h2>
 
-
-			<div id="texte">
-			<p class="titreTexte">
-			 <a href="#"><STRONG>Le benevolat c'est quoi ?</a></STRONG>&emsp;&emsp;&emsp;
-			</p>
-			<p class="contenuTexte">
+<div id="texte">
+	<p class="titreTexte">
+		<a href="#"><STRONG>Le benevolat c'est quoi ?</a></STRONG>&emsp;&emsp;&emsp;
+	</p>
+	<p class="contenuTexte">
 			Ressources-Naissances se veut un lieu de rassemblement de personnes qui désirent  travailler ensemble à un but commun : la périnatalité. Pour ce faire, l’organisme offre différentes possibilités de bénévolat et plus particulièrement des actions auprès des familles ayant de jeunes enfants.
 
  
@@ -40,53 +34,52 @@ Différentes options sont offertes : soutien aux activités (cafés-rencontres e
  
 
 Faites-nous part de vos idées, nous sommes ouverts aux initiatives qui sont reliées à notre mission.
-			</p>
-			</div>
+	</p>
+</div>
 			
 
-			<div id="Possib-benev">
-				<p class="titreTexte">
-				 <a href="#"><STRONG>Benevolat : les possibilités</a></STRONG>
-				</p>
-				<p class="contenuTexte">
-				Ici les possibilités de bénévolat
-				</p>
-			</div>
+<div id="Possib-benev">
+	<p class="titreTexte">
+	 <a href="#"><STRONG>Benevolat : les possibilités</a></STRONG>
+	</p>
+	<p class="contenuTexte">
+	Ici les possibilités de bénévolat
+	</p>
+</div>
 			
 
-			<div id="competences">
-				<p class="titreTexte">
-				 <a href="#"><STRONG>Competences -> Ce que nous recherchons</a></STRONG>
-				</p>
-				<p class="contenuTexte">
-				Réanimation, masseur
-				</p>
-			</div>
-			
+<div id="competences">
+	<p class="titreTexte">
+	 <a href="#"><STRONG>Competences -> Ce que nous recherchons</a></STRONG>
+	</p>
+	<p class="contenuTexte">
+	Réanimation, masseur
+	</p>
+</div>
 
-			<div id="formation">
-				<p class="titreTexte">
-				 <a href="#"><STRONG>Formation -> Ce que nous pouvons vous apporter pour mieux aider</a></STRONG>
-				</p>
-				<p class="contenuTexte">
-				Soin aux nourrissons, aide à l'allaitement, ça s'apprend !
-				</p>
-			</div>
-			
 
-			<div id="avantages">
-				<p class="titreTexte">
-				 <a href="#"><STRONG>Le benevolat -> ca m'apporte quoi ?</a></STRONG>
-				</p>
-				<p class="contenuTexte">
-				Une expérience unique dans le milieu du nourisson
-				</p>
-			</div>
-			
+<div id="formation">
+	<p class="titreTexte">
+	 <a href="#"><STRONG>Formation -> Ce que nous pouvons vous apporter pour mieux aider</a></STRONG>
+	</p>
+	<p class="contenuTexte">
+	Soin aux nourrissons, aide à l'allaitement, ça s'apprend !
+	</p>
+</div>
 
-			<div id="photos">
-			<img src="">
-			</div>
-		</div>
-	</body>
-</html>
+
+<div id="avantages">
+	<p class="titreTexte">
+	 <a href="#"><STRONG>Le benevolat -> ca m'apporte quoi ?</a></STRONG>
+	</p>
+	<p class="contenuTexte">
+	Une expérience unique dans le milieu du nourisson
+	</p>
+</div>
+
+
+<div id="photos">
+<img src="">
+</div>
+
+<?php include('footer.php'); ?>

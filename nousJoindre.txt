@@ -1,12 +1,10 @@
-<fieldset>
-				<legend>Adresse principale - ateliers et bureaux</legend>				
+				<h2>Adresse principale - ateliers et bureaux</h2>
 				<table>
 					<tr>
 						<td>
 							<b>Adresse :</b>
 						</td>
 						<td>
-							<br/><br/><br/>
 							&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;225, rue Montfort<br/>
 							&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CP. 43026<br/>
 							&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;St-Romuald (Québec)<br/>
@@ -55,22 +53,16 @@
 						</td>
 					</tr>
 				</table>
-				<br/><u><b>Plan google map:</b></u>
-				<center>
-				<p>
+				<u><b>Plan google map:</b></u></br>
 					<iframe src="http://www.ma-carte-geographique.com/my-google-maps.php?SID=1330545196-Fg0B1" width="470" height="270" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
-				</p>
-				</center>
-				</fieldset><br/><br/>
-				<fieldset>
-				<legend>Autre local (pour ateliers spécifiés seulement)</legend>
+
+				<h2>Autre local (pour ateliers spécifiés seulement)</h2>
 					<table>
 					<tr>
 						<td>
 							<b>Adresse :</b>
 						</td>
 						<td>
-							<br/><br/><br/>
 							2319, chemin du Fleuve<br/>
 							Local 203<br/>
 							St-Romuald (Québec)<br/>
@@ -78,10 +70,5 @@
 						</td>
 					</tr>
 					</table>
-					<br/><u><b>Plan google map:</b></u>
-					<center>
-						<p>
+					<u><b>Plan google map:</u></b></br>
 							<iframe src="http://www.ma-carte-geographique.com/my-google-maps.php?SID=1330546997-QwWUs" width="470" height="270" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
-						</p>
-					</center>
-				</fieldset>

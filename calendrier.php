@@ -21,20 +21,25 @@ $resultats = mysql_query($requete) or die(mysql_error());
 <script type='text/javascript' src='js/jquery.qtip.min.js'></script>
 <script type='text/javascript' src='js/pages/calendrier.js'></script>
 
-<h2>Ateliers à venir</h2>
+<h1>Ateliers à venir</h1>
 <div id="ateliers-futurs">
 	<?php 
-		while ($val = mysql_fetch_array($resultats)) {
-			$intervalle = new DateTime(date('c', strtotime($val['date_debut'])));
-			$intervalle = $intervalle->diff(new DateTime(date('c', strtotime($val['date_fin']))));
-			echo '<a href="consulterAtelier.php?id=' . $val['id'] . '">';
-			echo $val['date_debut'] . " " . $val['nom'] . " " . $intervalle->format('(%h heures et %I minutes)')  . "<br/>";
-			echo '</a>';
-		} 
+		if (mysql_num_rows($resultats) > 0) {
+			while ($val = mysql_fetch_array($resultats)) {
+				$intervalle = new DateTime(date('c', strtotime($val['date_debut'])));
+				$intervalle = $intervalle->diff(new DateTime(date('c', strtotime($val['date_fin']))));
+				echo '<a href="consulterAtelier.php?id=' . $val['id'] . '">';
+				echo $val['date_debut'] . " " . $val['nom'] . " " . $intervalle->format('(%h heures et %I minutes)')  . "<br/>";
+				echo '</a>';
+			}
+		}
+		else {
+			echo "Il n'y à aucun atelier à venir.";		
+		}
 	?>
 </div>
 
-<h2>Calendrier</h2>
-<div id="calendar"></div>
+<h1>Calendrier</h1>
+<div id="calendar"><div id='loading' style='display:none'><img src="img/ajax-loader.gif" /></div></div>
 <small>* Un atelier transparant indique que celui-ci a déjà débuté.</small>
 <?php include("footer.php"); ?>

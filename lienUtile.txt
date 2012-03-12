@@ -607,7 +607,7 @@
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-834-5080
 		</tgauche>
 	</div>
-	<div class="titre" id="Urgence Détresse"><a href="#Urgence Détresse">Urgence Détresse</a></div>
+	<div class="titre" id="Info-Santé"><a href="#Urgence Détresse">Info-Santé</a></div>
 	<div class="desc">
 		<tgauche>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Info-Santé<br/>
