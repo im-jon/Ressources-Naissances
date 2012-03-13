@@ -86,7 +86,8 @@ if ($connecte == true) {
 			}
 		}
 		else {
-			$message = "Vous devez être connecté pour vous inscrire à l'atelier";
+			$returnUrl = $_SERVER['REQUEST_URI'];
+			$message = "Vous devez être <a href=\"inscription.php\">inscrit</a> et <a href=\"connexion.php?ReturnUrl=$returnUrl\">connecté</a> pour vous inscrire à l'atelier.";
 		}
 	}
 	else {
