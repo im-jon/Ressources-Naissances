@@ -121,6 +121,8 @@ section li a:hover {
 
 article {
 	text-align:left;
+		display:block;
+	position:relative;
 }
 
 article h1 {
