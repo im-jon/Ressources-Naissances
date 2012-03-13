@@ -7,7 +7,7 @@
 		header('Location: index.php');
 	}
 
-	if(isset($_POST['submit'])) {
+	if (isset($_POST['submit'])) {
 
 		include('Actions/mysql.php');
 		include('Classes/Personne.php');
@@ -91,8 +91,12 @@
 
 <?php include("header.php"); ?>
 
+<script type='text/javascript' src='js/pages/inscription.js'></script>
+
+<h1>Inscription</h1>
+
 <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-	<fieldset>
+	<fieldset id="form-mere">
 		<legend>Mère</legend>
 
 		<label for="nom-mere">Nom *</label><br/>
@@ -123,7 +127,7 @@
 		<input type="text" name="datenaissance-mere" id="datenaissance-mere"></input>
 	</fieldset>
 
-	<fieldset>
+	<fieldset id="form-pere">
 		<legend>Père</legend>
 
 		<label for="nom-pere">Nom *</label><br/>
@@ -154,7 +158,7 @@
 		<input type="text" name="datenaissance-pere" id="datenaissance-pere"></input>
 	</fieldset>
 
-	<fieldset>
+	<fieldset id="form-bebe">
 		<legend>Bébé</legend>
 		<label for="dateprevue">Date prévue de l'accouchement</label><br/>
 		<input type="text" name="dateprevue" id="dateprevue"></input><br/>
@@ -177,7 +181,7 @@
 		<input type="password" name="motdepasse" id="motdepasse"></input><br/>
 	</fieldset>
 
-	<input type="submit" name="submit"></input>
+	<input type="submit" name="submit" value="Envoyer"></input>
 </form>
 
 <?php include("footer.php"); ?>

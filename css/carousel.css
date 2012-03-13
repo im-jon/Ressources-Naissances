@@ -2,8 +2,7 @@
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
    border-radius: 10px;
-    background: #F0F6F9;
-    border: 1px solid #346F97;
+    border: 1px solid #7A6F56;
 }
 
 .jcarousel-skin-tango .jcarousel-direction-rtl {
@@ -18,7 +17,7 @@
 .jcarousel-skin-tango .jcarousel-container-vertical {
     width: 75px;
     height: 245px;
-    padding: 40px 20px;
+    padding: 40px 10px;
 }
 
 .jcarousel-skin-tango .jcarousel-clip {
@@ -36,7 +35,7 @@
 }
 
 .jcarousel-skin-tango .jcarousel-item {
-    width: 117px;
+    width: 137px;
     height: auto;
 }
 

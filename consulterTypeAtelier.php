@@ -43,12 +43,16 @@
 		    LIMIT 10";
 
 	$resultatsAteliersVenir = mysql_query($requete) or die(mysql_error());
-
-	if (mysql_num_rows($resultatsAteliersVenir) > 0) {
-		while ($val = mysql_fetch_array($resultatsAteliersVenir)) { ?>
-			<a href="consulterAtelier.php?id=<?= $val['id'] ?>"><?= $val['date_debut'] ?></a>
-		<?php }
-	}
+	
+	if (mysql_num_rows($resultatsAteliersVenir) > 0) { ?>
+		<ul>
+		<?php while ($val = mysql_fetch_array($resultatsAteliersVenir)) { ?>
+			<li>
+				<a href="consulterAtelier.php?id=<?= $val['id'] ?>"><?= $val['date_debut'] ?></a>
+			</li>
+		<?php } ?>
+		</ul>
+	<?php }
 	else { ?>
 		Cet atelier n'est pas planifié d'ici un mois.
 	<?php } 

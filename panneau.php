@@ -10,8 +10,9 @@ if (!estAutorise(2)) {
 
 <?php include("header.php"); ?>
 
-<h2>Panneau d'administration</h2>
+<h1>Panneau d'administration</h1>
 <ul>
+	<li class="titreTexte"><a href="ajouterNouvelle.php">Ajouter une nouvelle</a></li>
 	<li class="titreTexte"><a href="adminCalendrier.php">Modifier l'horaire des ateliers</a></li>
 	<li class="titreTexte"><a href="ajouterTypeAtelier.php">Ajouter un type d'atelier</a></li>
 	<li class="titreTexte"><a href="ajout_publications.php">Ajout des publications (gazette des poussettes par exemple)</a></li>

@@ -42,6 +42,7 @@
 
 <header>
     <hgroup>
+		<div id="logo-entete"><img src="img/logo.png" /></div>
         <h1><a href="index.php">Ressources-Naissances</a></h1>
         <h2><?= $sousTitre ?></h2>
     </hgroup>
@@ -104,7 +105,7 @@
 			<a href="#">Documentation</a>
 			<ul>
 				<li><a href="Article.php">Articles</a></li>
-				<li><a href="#">Publications</a></li>
+				<li><a href="Publications.php">Publications</a></li>
 			</ul>
 		</li>
 		<li><a href="nousJoindre.php">Nous joindre</a></li>

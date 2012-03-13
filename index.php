@@ -33,22 +33,24 @@ $resultat = mysql_query($requete);
 </div>
 
 <article id="intro">
-Tout apprentissage se fait plus facilement grâce à des interactions avec d’autres personnes; l’acquisition des habiletés parentales ne fait pas exception.  Tous les parents ont besoin de recevoir de l’information, d’être accompagnés pour renforcer leur potentiel, d’apprendre les uns des autres et ainsi, favoriser l’équilibre familial.
+	<div id="texte-intro">
+	Tout apprentissage se fait plus facilement grâce à des interactions avec d’autres personnes; l’acquisition des habiletés parentales ne fait pas exception.  Tous les parents ont besoin de recevoir de l’information, d’être accompagnés pour renforcer leur potentiel, d’apprendre les uns des autres et ainsi, favoriser l’équilibre familial.
 
-Voilà pourquoi RESSOURCES-NAISSANCES offre un éventail de services et d’activités pour les futurs parents afin de répondre aux nombreux besoins durant la période prénatale et pour les familles durant la première année du nouveau-né.  Les parents peuvent s’inscrire à des ateliers, participer à des cafés-rencontres et obtenir de l’assistance à domicile, tout ceci  pour mieux vivre l’arrivée d’un enfant.
- 
-Entreprise d'économie sociale dont les membres sont les bénévoles et les familles utilisatrices qui ont droit, selon des modalités démocratiques, d'être consultés, de s'impliquer dans les activités du centre et de participer aux orientations de l'organisme lors de l'assemblée générale. Bienvenue à tous et à toutes.
-</article>
+	Voilà pourquoi RESSOURCES-NAISSANCES offre un éventail de services et d’activités pour les futurs parents afin de répondre aux nombreux besoins durant la période prénatale et pour les familles durant la première année du nouveau-né.  Les parents peuvent s’inscrire à des ateliers, participer à des cafés-rencontres et obtenir de l’assistance à domicile, tout ceci  pour mieux vivre l’arrivée d’un enfant.
+	 
+	Entreprise d'économie sociale dont les membres sont les bénévoles et les familles utilisatrices qui ont droit, selon des modalités démocratiques, d'être consultés, de s'impliquer dans les activités du centre et de participer aux orientations de l'organisme lors de l'assemblée générale. Bienvenue à tous et à toutes.
+	</div>
 
-<article id="video">
-	<h2>Vidéo promotionelle</h2>
-	<iframe width="560" height="315" src="http://www.youtube.com/embed/YOxVjbGvUpI" frameborder="0" allowfullscreen></iframe>
+	<div id="video-intro">
+		<iframe width="360" height="315" src="http://www.youtube.com/embed/YOxVjbGvUpI" frameborder="0" allowfullscreen></iframe>
+	</div>
+
 </article>
 
 <?php while ($article = mysql_fetch_array($resultat)) { ?>
 	<article>
-		<h2><?= ShortenText($article["titre"], 60) ?></h2>
-		<debut-article>publié le <?= $article["date_creation"] ?></debut-article>
+		<h1><?= ShortenText($article["titre"], 60) ?></h1>
+		<debut-article>Publié le <?= $article["date_creation"] ?></debut-article>
 		<div class="desc"><tgauche><?= $article["contenu"] ?></tgauche></div>
 	</article>
 <?php } ?>

@@ -13,17 +13,16 @@ h1, h2, h3, h4, h5, h6 {
 	font-family:Helvetica, Arial, sans-serif;
 	font-size:1.5em;
 	letter-spacing:-0.06em;
-	text-transform:uppercase;
 	font-weight:normal;
 }
 
 a:link, a:visited {
-	font-family:georgia, times, serif;
+	font-family:Helvetica, Arial, sans-serif;
 	font-weight:bold;
 	color:#c17086;
 	text-decoration:none;
 	border-bottom:1px solid #91476c;
-	font-size:.9em;
+	font-size:1em;
 }
 
 a:hover {
@@ -53,14 +52,13 @@ header {
 
 #logo-entete {
 	position:absolute;
-	left:20px;
-	top:18px;
+	left:135px;
+	top:10px;
 }
 
 header h1 {
 	font-family: 'Emilys Candy', cursive;
 	font-size:2.3em;
-	text-transform:none;
 	letter-spacing:0em;
 	text-align:center;
 }
@@ -76,11 +74,10 @@ hgroup a:link, hgroup a:visited {
 
 header h2 {
 	margin:-10px 0px 20px;
-	font-size:1.3em;
-	text-align:center
+	font-size:1.4em;
+	text-align:center;
+	text-transform: none;
 }
-
-
 
 section {
 	margin-top: 10px;
@@ -120,9 +117,9 @@ section li a:hover {
 }
 
 article {
-	text-align:left;
-		display:block;
-	position:relative;
+	text-align: left;
+	display: block;
+	position: relative;
 }
 
 article h1 {
@@ -157,6 +154,10 @@ debut-article {
 footer {
 	display:block;
 	clear:both !important;
+}
+
+clear {
+		clear:both !important;
 }
 
 footer a {
@@ -337,7 +338,7 @@ titre-cal {
 .sf-menu li:hover ul,
 .sf-menu li.sfHover ul {
 	left:			0;
-	top:			25px; /* match top ul list item height */
+	top:			24px; /* match top ul list item height */
 	z-index:		99;
 }
 ul.sf-menu li:hover li ul,
@@ -430,7 +431,7 @@ li.sfHover > a > .sf-sub-indicator {
 
 
 nav a:link, nav a:visited {
-	font-size:1.0em;
+	font-size:0.9em;
 	font-weight:normal;
 }
 
@@ -468,4 +469,28 @@ nav a:link, nav a:visited {
 	background-color: red;
 }
 
+#texte-intro {
+	float: right;
+	width: 58%;
+}
+
+#video-intro {
+}
+
+#form-mere {
+	width: 45%;
+	float: left;
+}
+
+#form-pere {
+	width: auto;
+}
+
+#form-bebe {
+	clear: both;
+}
+
+.erreur {
+	color: red;
+}
 
