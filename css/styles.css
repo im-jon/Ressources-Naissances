@@ -264,6 +264,12 @@ titre-cal {
 #diapo
 {
 	margin-right: 10px;
+	border:1px solid #e7e2d7;
+	border-bottom: none;
+	    -moz-border-radius-topright: 15px;
+    border-top-right-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    border-top-left-radius: 15px;
 }
 
 #diapo img

@@ -21,7 +21,7 @@ $resultat = mysql_query($requete);
 
 					while (($entry = readdir($handle)) !== false) {
 						if ($entry != "." && $entry != "..") { ?>
-							<img src="img/diaporama/<?= $entry ?>" alt="image 1" width="950" height="250" />
+							<img src="img/diaporama/<?= $entry ?>" alt="image 1" width="948" height="250" />
 				    	<?php 	}
 					}
 
