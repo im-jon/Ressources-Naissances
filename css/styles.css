@@ -51,7 +51,7 @@ header {
 	text-align:left;
 }
 
-header img {
+#logo-entete {
 	position:absolute;
 	left:20px;
 	top:18px;
@@ -440,4 +440,18 @@ nav a:link, nav a:visited {
 	-moz-border-radius: 5px;
 	width: 32px;
 	height: 32px;
+}
+
+#iconeMaison
+{
+    float: right;
+}
+
+#iconeMaison a
+{
+    border: none;
+}
+
+#iconeMaison img
+{
 }

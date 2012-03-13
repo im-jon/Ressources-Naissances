@@ -47,6 +47,7 @@
     </hgroup>
     <nav>
         <ul id="menu" class="sf-menu">
+		<li><div id="iconeMaison"><a href="index.php"><img src="img/house.png" /></a></div></li>
 		<li>
 			<a href="#">Compte</a>
 			<ul>
