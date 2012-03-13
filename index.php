@@ -15,8 +15,19 @@ $resultat = mysql_query($requete);
 <div id="diapo">
 	<div id="slides">
 		<div class="slides_container">
-			<img src="img/slider/1.png" alt="image 1" width="950" height="250" />
-			<img src="img/slider/2.png" alt="image 2" width="950" height="250" />
+			<?php
+				// Va chercher toutes les photos dans le dossier de diaporama.
+				if ($handle = opendir('img/diaporama/')) {
+
+					while (($entry = readdir($handle)) !== false) {
+						if ($entry != "." && $entry != "..") { ?>
+							<img src="img/diaporama/<?= $entry ?>" alt="image 1" width="950" height="250" />
+				    	<?php 	}
+					}
+
+					closedir($handle);
+				}
+			?>
 		</div>
 	</div>
 </div>
