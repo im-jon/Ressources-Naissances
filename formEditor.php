@@ -14,7 +14,7 @@ if (!estAutorise(2)) {
 <h2>Editez vos pages</h2>
 </div>
 <center>
-	<form action="editor.php" method="post">
+	<form action="editor.php" method="GET">
 		Ouvrir le fichier:
 		<select name="nomfichierouvrir">
 			<option value="mission.txt">mission</option>

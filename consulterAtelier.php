@@ -8,7 +8,7 @@ $connecte = estConnecte();
 
 include("Actions/mysql.php");
 
-$requete = "SELECT a.id, t.nom, a.date_debut, a.date_fin, t.description, a.id_type_atelier
+$requete = "SELECT a.id, t.nom, a.date_debut, a.date_fin, t.description, a.id_type_atelier, a.nom_animatrice, t.prix
 	    FROM atelier a
 	    INNER JOIN type_atelier t
 	    ON a.id_type_atelier = t.id
@@ -17,6 +17,9 @@ $requete = "SELECT a.id, t.nom, a.date_debut, a.date_fin, t.description, a.id_ty
 $resultats = mysql_query($requete) or die(mysql_error());
 $valAtelier = mysql_fetch_array($resultats);
 $dateDebut = strtotime($valAtelier['date_debut']);
+
+$intervalle = new DateTime(date('c', $dateDebut));
+$intervalle = $intervalle->diff(new DateTime(date('c', strtotime($valAtelier['date_fin']))));
 
 $idType = $valAtelier['id_type_atelier'];
 
@@ -69,7 +72,17 @@ if ($connecte == true) {
 
 <div>
 	<h1><?= $valAtelier['nom'] ?></h1>
-	<p>Le <?= date('l j F o à G:i', $dateDebut) ?></p>
+
+	<debut-article>
+		Le <?= date('l j F o à G:i', $dateDebut) ?>
+	</debut-article>
+
+	<ul>
+		<li>Durée : <?= $intervalle->format('%h heures et %I minutes') ?></li>
+		<li>Prix : <?= (($valAtelier['prix'] == 0) ? "gratuit" : $valAtelier['prix'] . ".00$") ?></li>
+		<li>Animatrice : <?= $valAtelier['nom_animatrice'] ?></li>
+	</ul>
+
 	<p>
 		<?= $valAtelier['description'] ?>
 	</p>

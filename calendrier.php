@@ -23,20 +23,22 @@ $resultats = mysql_query($requete) or die(mysql_error());
 
 <h1>Ateliers à venir</h1>
 <div id="ateliers-futurs">
+	<ul>
 	<?php 
 		if (mysql_num_rows($resultats) > 0) {
-			while ($val = mysql_fetch_array($resultats)) {
-				$intervalle = new DateTime(date('c', strtotime($val['date_debut'])));
-				$intervalle = $intervalle->diff(new DateTime(date('c', strtotime($val['date_fin']))));
-				echo '<a href="consulterAtelier.php?id=' . $val['id'] . '">';
-				echo $val['date_debut'] . " " . $val['nom'] . " " . $intervalle->format('(%h heures et %I minutes)')  . "<br/>";
-				echo '</a>';
-			}
+			while ($val = mysql_fetch_array($resultats)) { ?>
+				<li>
+					<a href="consulterAtelier.php?id=<?= $val['id'] ?>" >
+						<?= $val['nom'] ?> le <?= date('j F à H:i (l)', strtotime($val['date_debut'])) ?>
+					</a>
+				</li>
+			<?php }
 		}
 		else {
 			echo "Il n'y à aucun atelier à venir.";		
 		}
 	?>
+	</ul>
 </div>
 
 <h1>Calendrier</h1>

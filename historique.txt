@@ -1,33 +1,23 @@
-<div class="titreTexte" id="historique1"><a href="#">Historique de 1984 à 1997</a></div>
+<div class="titreTexte">
+	&nbsp;</div>
+<div class="titreTexte">
+	&nbsp;</div>
+<div class="titreTexte" id="historique1">
+	<a href="#">Historique de 1984 &agrave; 1997</a></div>
 <div class="contenuTexte">
-	<br/> L'organisme, appelé à ses débuts Mère-Contact, est né du désir de fonder sur la Rive-Sud de Québec un
-	organisme bénévole destiné à offrir un soutien aux mères durant la période postnatale. Une incorporation
-	est obtenue en 1985 et un service de marrainage bénévole pour les nouvelles mères se crée.<br/><br/> 
-
-	Préoccupées de la qualité de vie des nouveau-nés et de leur famille, les mères bénévoles furent des femmes
-	engagées dans l'action et la réflexion. Le bénévolat ne permettant pas à lui seul d'atteindre certains objectifs, 
-	divers projets furent présentés à des bailleurs de fonds ce qui a permis de créer des emplois.<br/><br/> 
-
-	En 1997, un développement dans le cadre de l'économie sociale est soutenu par le Comité régional d'économie 
-	sociale et Mère-Contact tente une première expérience de facturation à la clientèle pour les services à domicile.
-	C'est que des parents se disent prêts à débourser pour obtenir un soutien alors que l'organisme n'arrive pas à
-	répondre à l'ensemble des besoins uniquement par les programmes de subvention et que les services publics se
-	concentrent surtout sur le suivi médical et certains services psychosociaux pour les familles présentant des
-	problèmes spécifiques.<br/> <br/>
-</div>
-<div class="titreTexte" id="historique2"><a href="#">Historique de 1997 à 2010</a></div>
+	<br />
+	L&#39;organisme, appel&eacute; &agrave; ses d&eacute;buts M&egrave;re-Contact, est n&eacute; du d&eacute;sir de fonder sur la Rive-Sud de Qu&eacute;bec un organisme b&eacute;n&eacute;vole destin&eacute; &agrave; offrir un soutien aux m&egrave;res durant la p&eacute;riode postnatale. Une incorporation est obtenue en 1985 et un service de marrainage b&eacute;n&eacute;vole pour les nouvelles m&egrave;res se cr&eacute;e.<br />
+	<br />
+	Pr&eacute;occup&eacute;es de la qualit&eacute; de vie des nouveau-n&eacute;s et de leur famille, les m&egrave;res b&eacute;n&eacute;voles furent des femmes engag&eacute;es dans l&#39;action et la r&eacute;flexion. Le b&eacute;n&eacute;volat ne permettant pas &agrave; lui seul d&#39;atteindre certains objectifs, divers projets furent pr&eacute;sent&eacute;s &agrave; des bailleurs de fonds ce qui a permis de cr&eacute;er des emplois.<br />
+	<br />
+	En 1997, un d&eacute;veloppement dans le cadre de l&#39;&eacute;conomie sociale est soutenu par le Comit&eacute; r&eacute;gional d&#39;&eacute;conomie sociale et M&egrave;re-Contact tente une premi&egrave;re exp&eacute;rience de facturation &agrave; la client&egrave;le pour les services &agrave; domicile. C&#39;est que des parents se disent pr&ecirc;ts &agrave; d&eacute;bourser pour obtenir un soutien alors que l&#39;organisme n&#39;arrive pas &agrave; r&eacute;pondre &agrave; l&#39;ensemble des besoins uniquement par les programmes de subvention et que les services publics se concentrent surtout sur le suivi m&eacute;dical et certains services psychosociaux pour les familles pr&eacute;sentant des probl&egrave;mes sp&eacute;cifiques.<br />
+	&nbsp;</div>
+<div class="titreTexte" id="historique2">
+	<a href="#">Historique de 1997 &agrave; 2010</a></div>
 <div class="contenuTexte">
-	<br/> Suite à l'annonce des projets du Chantier de l'économie sociale, Mère-Contact élabore un plan d'affaires 
-	pour une entreprise d'économie sociale en périnatalité. Une étude de marché commandée par le ministère de
-	la Santé et des Services sociaux confirme la viabilité de certains services en périnatalité financés conjointement
-	par le ministère, la facturation à la clientèle et la contribution d'autres sources (locales, privées, fondations, etc.).<br/> <br/> 
-
-	Le lancement officiel a lieu le 22 mars 1999; l'offre de services offerte à la population est plus variée et
-	complète; Mère-Contact utilise alors le nouveau nom de Ressources-Naissances pour désigner l'entreprise. 
-	L'approche, qui a été longtemps tournée davantage vers les mères et la période postnatale, se propose alors
-	d'interpeller aussi les pères et d'offrir des activités prénatales.<br/> <br/> 
-
-	Depuis 1999, l'achalandage n'a cessé d'augmenter. Durant la grossesse et la première année de l'enfant, les
-	familles apprécient les rencontres communautaires d'échanges, les services de soutien et les ateliers d'apprentissage.
-	C'est un véritable milieu de vie que notre clientèle qualifie d'essentiel pour faciliter le début de la vie familiale.
-</div>
+	<br />
+	Suite &agrave; l&#39;annonce des projets du Chantier de l&#39;&eacute;conomie sociale, M&egrave;re-Contact &eacute;labore un plan d&#39;affaires pour une entreprise d&#39;&eacute;conomie sociale en p&eacute;rinatalit&eacute;. Une &eacute;tude de march&eacute; command&eacute;e par le minist&egrave;re de la Sant&eacute; et des Services sociaux confirme la viabilit&eacute; de certains services en p&eacute;rinatalit&eacute; financ&eacute;s conjointement par le minist&egrave;re, la facturation &agrave; la client&egrave;le et la contribution d&#39;autres sources (locales, priv&eacute;es, fondations, etc.).<br />
+	<br />
+	Le lancement officiel a lieu le 22 mars 1999; l&#39;offre de services offerte &agrave; la population est plus vari&eacute;e et compl&egrave;te; M&egrave;re-Contact utilise alors le nouveau nom de Ressources-Naissances pour d&eacute;signer l&#39;entreprise. L&#39;approche, qui a &eacute;t&eacute; longtemps tourn&eacute;e davantage vers les m&egrave;res et la p&eacute;riode postnatale, se propose alors d&#39;interpeller aussi les p&egrave;res et d&#39;offrir des activit&eacute;s pr&eacute;natales.<br />
+	<br />
+	Depuis 1999, l&#39;achalandage n&#39;a cess&eacute; d&#39;augmenter. Durant la grossesse et la premi&egrave;re ann&eacute;e de l&#39;enfant, les familles appr&eacute;cient les rencontres communautaires d&#39;&eacute;changes, les services de soutien et les ateliers d&#39;apprentissage. C&#39;est un v&eacute;ritable milieu de vie que notre client&egrave;le qualifie d&#39;essentiel pour faciliter le d&eacute;but de la vie familiale.</div>
