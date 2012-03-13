@@ -29,6 +29,8 @@
 			echo isset($titre) ? $titre : 'Ressources-Naissances';
 		?>
 	</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Emilys+Candy' rel='stylesheet' type='text/css'>
 	<link media="screen" REL="stylesheet" TYPE="text/css" href="css/styles.css">
 	<link media="screen" REL="stylesheet" TYPE="text/css" href="css/smoothness/jquery-ui-1.8.18.custom.css">
 

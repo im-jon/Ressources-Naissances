@@ -3,11 +3,14 @@
 <?php } ?>
 
 <footer>
-	<p>Design par <a href="http://www.webdezign.co.uk" title="web design london">Webdezign</a></p>
+	<p>Design par <a href="http://www.webdezign.co.uk" title="web design london">Webdezign</a> <br/>
+	 modifié par Jonathan Pouliot, Antoine Laroche, Corentin Beauvilain et Anthony Maurin</p>
 </footer>
 </body>
 </html>
 
 <?php
-	mysql_close();
+	if (isset($bd)) {
+		@mysql_close($bd);
+	}
 ?>

@@ -58,7 +58,6 @@ Entreprise d'économie sociale dont les membres sont les bénévoles et les fami
 
 <?php 
 include("footer.php");
-mysql_close();
 
 function ShortenText($text, $chars) { 
 	$length = strlen($text); 

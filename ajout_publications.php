@@ -9,7 +9,8 @@
 		die();
 	}
 
-	$titre = "AjoutPublications";
+	$titre = "Ajout d'une publication"
+;
 	include("header.php");
 ?>
 	<h2>Ajout d'une publication</h2>
