@@ -208,12 +208,13 @@ button:hover {
 	float: left;
 	left: -1px;
 	width: 160px;
+	height: 552px;
 	padding: 0 10px;
 	border: 1px solid #ccc;
 	text-align: left;
 	padding:10px 10px 20px;
-	margin-top:10px;
 	margin-left: 10px;
+	margin-bottom: 10px;
 	border:1px solid #e7e2d7;
 	border-radius:8px;
 	-webkit-border-radius:.8em;
@@ -462,3 +463,9 @@ nav a:link, nav a:visited {
 #iconeMaison img
 {
 }
+
+#btn-supprimer {
+	background-color: red;
+}
+
+

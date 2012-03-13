@@ -22,10 +22,7 @@ fclose($fp);
 
 $CKEditor = new CKEditor();
 $CKEditor->basePath = 'ckeditor/';
-$CKEditor->config['language'] = 'fr';
 $CKEditor->config['height'] = '600px';
-$CKEditor->config['filebrowserImageBrowseUrl'] = 'kcfinder/browse.php?type=images';
-$CKEditor->config['filebrowserImageUploadUrl'] = 'kcfinder/upload.php?type=images';
 
 ?>
 

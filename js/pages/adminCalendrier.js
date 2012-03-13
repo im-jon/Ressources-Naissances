@@ -14,7 +14,12 @@ $(document).ready(function() {
 		$(this).draggable({
 			zIndex: 999,
 			revert: true,
-			revertDuration: 0
+			appendTo: 'body',
+			helper: "clone",
+			revertDuration: 0,
+			start : function(event, ui) {
+				$(ui).css({opacity: 0.5});
+			}
 		});
 		
 	});
@@ -114,4 +119,11 @@ $(document).ready(function() {
 			}
 		});
 	});
+	
+	// Initialise le "carousel" des types d'atelier
+    $('#carousel-types').jcarousel({
+        vertical: true,
+        scroll: 3,
+		visible: 7
+    });
 });
