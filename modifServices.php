@@ -29,14 +29,14 @@ while($val = mysql_fetch_array($result))
 
 
 
-
-
-
-
 if($_REQUEST['numBut']==$x)
 {
-echo "<form action='modifServiceEnregistrePage' method='post'>";
-echo "Titre du paragraphe :</br>";
+echo "<form action='modifServiceEnregistrePage.php?idRecup=$x' method='post'>";
+echo"<fieldset id=modifService>";
+echo "<div class='titreTexte'>";
+echo "<a href='#'>Titre du paragraphe :</a>";
+echo "</div>";
+echo "</br></br>";
 echo "<input type='text' name='titre".$x."' value='$nom' size='50'></br></br>";
 
 
@@ -60,9 +60,11 @@ echo "</TD></TR></table>";
 $leFichier=null;
 echo "</br>";
 echo '<input type="submit" value="Enregistrer">';
+echo"</fieldset>";
 echo "</br>";
-echo "</br>";
-}
+} # } du if
+
+
 else
 {
 echo "<form action='modifServices?numBut=".$x."' method='post'>";
@@ -75,14 +77,19 @@ include($description);
 echo "";
 echo "</div>";
 echo "</br>";
-echo '<input type="submit" value="Modifier">'; echo 'Attention, si une édition est déjà ouverte et non sauvegardée, les données seront supprimées';
-echo "</br></br>";
-}
+echo '<input type="submit" value="Modifier">'; echo '&nbsp;&nbsp;Attention, si une édition est déjà ouverte et non sauvegardée, les données seront supprimées';
+#echo "</br></br>";
+}  # } du else
+
+
+
 $x++;
 ?>
 </form>
 <?php
-}
+} # } du while
+
+echo "</br><A HREF='modifServices.php'>Retour affichage initial</A>";
 ?>
 
 <?php include('footer.php') ?>

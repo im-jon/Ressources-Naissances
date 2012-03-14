@@ -22,6 +22,7 @@ include("header.php");
 
 	echo "<div class='contenuTexte'>";
 include($description);
+echo "</br></br>";
 echo "</div>";
 }
  ?>
@@ -33,23 +34,5 @@ echo "</div>";
 			</div>
 			
 
-			<div id="allaitement">
-				<p class="titreTexte">
-				 <a href="#"><STRONG>Consultation individuelle en allaitement</a></STRONG>
-				</p>
-				<div class="contenuTexte">
-				<P><?php include("test.html"); ?></P>
-				</div>
-			</div>
-			<div id="consultationTel">
-				<p class="titreTexte">
-				 <a href="#"><STRONG>Consultation téléphonique</a></STRONG>
-				</p>
-			<div class="contenuTexte">
-				<p id=préambule>
-				Pour répondre à des demandes spécifiques concernant la grossesse, l'accouchement, l'allaitement, le postnatal, etc.
-				</p>
-				<P><U>Gratuitement</U>,&nbsp;une conseillère est disponible par téléphone pour répondre à des demandes spécifiques.</P>
-				<P>Du lundi au vendredi, aux heures de bureau.&nbsp; Voir la section 'Nous joindre'.</P>
 			
 <?php include("footer.php"); ?> 

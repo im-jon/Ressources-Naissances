@@ -23,70 +23,71 @@ $i=1;  #Checker avec ou sans cacher les corps
 $j=0;  #Checker contenu corps ou fckEditor
 #Ideal afficher tout contenu corps et bouton modifier sous chaque -> un fckEditor max d'ouvert ou + si affinité
  while($val = mysql_fetch_array($result))
-{
+	{
 	
-	$nom=$val['titrePage'];
-	$description=$val['lienPage'];
-if($j==0)
-{
-echo "Titre du paragraphe :</br>";
-echo "<input type='text' name='titre".$x."' value='$nom' size='50'></br></br>";
-}
+		$nom=$val['titrePage'];
+		$description=$val['lienPage'];
 
-else
-{
-echo "$nom</br>";
-}
+	if($j==0)
+	{
+		echo "Titre du paragraphe :</br>";
+		echo "<input type='text' name='titre".$x."' value='$nom' size='50'></br></br>";
+	}
 
-if($i==1)
-{
-echo "<div class='titreTexte'>";
-echo "Afficher/Cacher contenu :</br>";
-echo "</div>";
-echo "<div class='contenuTexte'>";
-}
+	else
+	{
+		echo "$nom</br>";
+	}
 
-if($j==1)
-{
-include($description);
-}
-else
-{
-$fp = fopen($description, "r"); // Ouverture du fichier
-while(!feof($fp)) // On parcout toutes les lignes
-{
-$leFichier.=fgets($fp,4096); // Lecture du contenu de la ligne
-}
-fclose($fp);
+	if($i==1)
+	{
+		echo "<div class='titreTexte'>";
+		echo "Afficher/Cacher contenu :</br>";
+		echo "</div>";
+		echo "<div class='contenuTexte'>";
+	}
 
-$oFCKeditor = new FCKeditor('FCKeditor'.$x); // nouvelle instance de FCKeditor
-$oFCKeditor->Width = '100%';
-$oFCKeditor->Height = '400';
-$oFCKeditor->BasePath = '/fckeditor/';
-$oFCKeditor->Value = $leFichier;
-echo "<table border=1 width='85%' Height='400'><TR><TD>";
-$oFCKeditor->Create();
-echo "</TD></TR></table>";
+	if($j==1)
+	{
+		include($description);
+	}
+	else
+	{
+		$fp = fopen($description, "r"); // Ouverture du fichier
+		while(!feof($fp)) // On parcout toutes les lignes
+		{
+			$leFichier.=fgets($fp,4096); // Lecture du contenu de la ligne
+		}
+		fclose($fp);
 
-$x++;
-$leFichier=null;
-echo '<input type="submit" value="Enregistrer">';
+		$oFCKeditor = new FCKeditor('FCKeditor'.$x); // nouvelle instance de FCKeditor
+		$oFCKeditor->Width = '100%';
+		$oFCKeditor->Height = '400';
+		$oFCKeditor->BasePath = '/fckeditor/';
+		$oFCKeditor->Value = $leFichier;
+		echo "<table border=1 width='85%' Height='400'><TR><TD>";
+		$oFCKeditor->Create();
+		echo "</TD></TR></table>";
 
-echo "</br>";
-}  # } du if(j==1)
+		$x++;
+		$leFichier=null;
+		echo '<input type="submit" value="Enregistrer">';
 
-if($i==1)
-{
-echo "</div>";
-}
-if($j==1)
-{
-echo '<br/>';
-echo '<input type="submit" value="Modifier">';
-}
+		echo "</br>";
+	}  # } du else
 
-echo "</br>";
-echo "</br>";
+	if($i==1)
+	{
+	echo "</div>";
+	}
+	if($j==1)
+	{
+	echo '<br/>';
+	echo '<input type="submit" value="Modifier">';
+	}
+
+	echo "</br>";
+	echo "</br>";
 } # } du while
 
 ?>

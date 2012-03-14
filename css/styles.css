@@ -195,7 +195,9 @@ button:hover {
 	background-position:-350px -82px
 }
 /************************** Corentin *******************************/
-
+fieldset {
+border-color:#22F237;
+}
 
 
 /************************** Benevolat *******************************/

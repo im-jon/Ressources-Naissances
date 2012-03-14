@@ -2,8 +2,10 @@
 $titre = "Services";
 include("Actions/mysql.php");
 include("header.php"); 
-$query="select * from service";
+$id=$_REQUEST['idRecup'];
+$query="select * from service where id=$id";
 $result=mysql_query($query);
+
 ?>
 
 <HTML>
@@ -13,34 +15,39 @@ $result=mysql_query($query);
 <BODY>
 <CENTER>
 <?php
-$x=0;
+
  while($val = mysql_fetch_array($result))
 {
-$nomFichier=$val['lienPage'];
+	$nomFichier=$val['lienPage'];
 
-$title=$_REQUEST[('titre'.$x)];
+	$title=$_REQUEST[('titre'.$id)];
 
-$titrePageAncien=$val['titrePage'];
+	$titrePageAncien=$val['titrePage'];
 
-$query2="update service set titrePage='$title' when titrePage='$titrePageAncien' ;";
-if(($result2=mysql_query($query2))==true)
-{
-echo "coucou";
+	
+		$query2="update service set titrePage='$title' where id=$id ";
+
+		$result2=mysql_query($query2);
+	
+
+
+
+	$letout=stripslashes($_REQUEST['FCKeditor'.$id]); //endroit où se situe FCKeditor
+
+	$fp=fopen($nomFichier, "w");
+	fputs($fp, $letout);
+	fclose($fp);
+	echo "</center>Article modifié : </br></br>";
+	echo "$title </br></br>";
+	echo $letout;
+	echo "<center>";
+	
+	$x++;
+	$nomFichier=null;
 }
 
-$letout=stripslashes($_REQUEST['FCKeditor'.$x]); //endroit où se situe FCKeditor
-
-$fp=fopen($nomFichier, "w");
-fputs($fp, $letout);
-fclose($fp);
-echo "$title </br></br>";
-echo $letout;
-echo "</br></br>";
-$x++;
-$nomFichier=null;
-}
+echo "<P><A HREF='modifServices.php?numBut=$id#'>Retour sur la page précédente</A><P>";
 ?>
-<P><A HREF="fckeditor0.php">Retour sur la page 1</A><P>
 </CENTER>
 </BODY>
 </HTML>
