@@ -1,9 +1,9 @@
 <?php 
-$titre = "modifServices";
+$titre = "modifBenevolat";
 include("Actions/mysql.php");
 include("header.php");
 include("/var/cbeauvil/html/fckeditor/fckeditor.php");	// endroit où se situe FCKeditor
- $query="select * from service";
+ $query="select * from benevole";
 $result=mysql_query($query);
 ?>
 		 
@@ -18,12 +18,12 @@ $result=mysql_query($query);
 
 
 <?php  
-echo "<H1>Modification Services</H1>";
+echo "<H1>Modification Benevolat</H1>";
 $x=1;
 while($val = mysql_fetch_array($result))
 {
 	
-	$nom=$val['titrePage'];
+	$nom=$val['nom'];
 	$description=$val['lienPage'];
 
 
@@ -31,7 +31,7 @@ while($val = mysql_fetch_array($result))
 
 if($_REQUEST['numBut']==$x)
 {
-echo "<form action='modifServiceEnregistrePage.php?idRecup=$x' method='post'>";
+echo "<form action='modifBenevolatEnregistrePage.php?idRecup=$x' method='post'>";
 echo"<fieldset id=modifService>";
 echo "<div class='titreTexte'>";
 echo "<a href='#'>Titre du paragraphe :</a>";
@@ -67,7 +67,7 @@ echo "</br>";
 
 else
 {
-echo "<form action='modifServices?numBut=".$x."' method='post'>";
+echo "<form action='modifBenevolat?numBut=".$x."' method='post'>";
 
 echo "<div class='titreTexte'>";
 echo "<a href='#'>$nom</a></br>";
@@ -89,7 +89,7 @@ $x++;
 <?php
 } # } du while
 
-echo "</br><A HREF='modifServices.php'>Retour affichage initial</A>";
+echo "</br><A HREF='modifBenevolat.php'>Retour affichage initial</A>";
 ?>
 
 <?php include('footer.php') ?>

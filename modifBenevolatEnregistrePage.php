@@ -1,9 +1,9 @@
 <?php 
-$titre = "Services";
+$titre = "Benevolat";
 include("Actions/mysql.php");
 include("header.php"); 
 $id=$_REQUEST['idRecup'];
-$query="select * from service where id=$id";
+$query="select * from benevole where id=$id";
 $result=mysql_query($query);
 
 ?>
@@ -25,7 +25,7 @@ $result=mysql_query($query);
 	$titrePageAncien=$val['titrePage'];
 
 	
-		$query2="update service set titrePage='$title' where id=$id ";
+		$query2="update benevole set nom='$title' where id=$id ";
 
 		$result2=mysql_query($query2);
 	
@@ -46,7 +46,7 @@ $result=mysql_query($query);
 	$nomFichier=null;
 }
 
-echo "<P><A HREF='modifServices.php?numBut=$id#'>Retour sur la page précédente</A><P>";
+echo "<P><A HREF='modifBenevolat.php?numBut=$id#'>Retour sur la page précédente</A><P>";
 ?>
 </CENTER>
 </BODY>

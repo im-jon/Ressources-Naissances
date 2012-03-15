@@ -1,9 +1,9 @@
 <?php 
-$titre = "modifServices";
+$titre = "nouveauBenevolat";
 include("Actions/mysql.php");
 include("header.php");
 include("/var/cbeauvil/html/fckeditor/fckeditor.php");	// endroit où se situe FCKeditor
- $query="select * from service";
+$query="select count(id) from benevole";
 $result=mysql_query($query);
 ?>
 		 
@@ -18,37 +18,31 @@ $result=mysql_query($query);
 
 
 <?php  
-echo "<H1>Modification Services</H1>";
-$x=1;
-while($val = mysql_fetch_array($result))
-{
+
+echo "$result</br>";
 	
-	$nom=$val['titrePage'];
-	$description=$val['lienPage'];
+	$num=$result++;
+	$description="benevolat".$num.".html";
+
+echo $description;
 
 
-
-
-if($_REQUEST['numBut']==$x)
-{
-echo "<form action='modifServiceEnregistrePage.php?idRecup=$x' method='post'>";
+echo "<H1>Nouveau \"Benevolat\"</H1>";
+echo "<form action='enregistreNouveauBenevolat.php?description=".$description."' method='post'>";
 echo"<fieldset id=modifService>";
 echo "<div class='titreTexte'>";
 echo "<a href='#'>Titre du paragraphe :</a>";
 echo "</div>";
 echo "</br></br>";
-echo "<input type='text' name='titre".$x."' value='$nom' size='50'></br></br>";
+echo "<input type='text' name='titre' value='' size='50'></br></br>";
 
 
-$fp = fopen($description, "r"); // Ouverture du fichier
+$fp = fopen($description, "w"); // Ouverture du fichier
 
-while(!feof($fp)) // On parcout toutes les lignes
-{
-$leFichier.=fgets($fp,4096); // Lecture du contenu de la ligne
-}
+
 fclose($fp);
 
-$oFCKeditor = new FCKeditor('FCKeditor'.$x); // nouvelle instance de FCKeditor
+$oFCKeditor = new FCKeditor('FCKeditor'); // nouvelle instance de FCKeditor
 $oFCKeditor->Width = '100%';
 $oFCKeditor->Height = '400';
 $oFCKeditor->BasePath = '/fckeditor/';
@@ -62,24 +56,10 @@ echo "</br>";
 echo '<input type="submit" value="Enregistrer">';
 echo"</fieldset>";
 echo "</br>";
-} # } du if
 
 
-else
-{
-echo "<form action='modifServices?numBut=".$x."' method='post'>";
 
-echo "<div class='titreTexte'>";
-echo "<a href='#'>$nom</a></br>";
-echo "</div>";
-echo "<div class='contenuTexte'>";
-include($description);
-echo "";
-echo "</div>";
-echo "</br>";
-echo '<input type="submit" value="Modifier">'; echo '&nbsp;&nbsp;Attention, si une édition est déjà ouverte et non sauvegardée, les données seront supprimées';
-#echo "</br></br>";
-}  # } du else
+
 
 
 
@@ -87,9 +67,8 @@ $x++;
 ?>
 </form>
 <?php
-} # } du while
 
-echo "</br><A HREF='modifServices.php'>Retour affichage initial</A>";
+
 ?>
 
 <?php include('footer.php') ?>
