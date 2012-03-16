@@ -10,10 +10,10 @@ $connecte = estConnecte();
 include("Actions/mysql.php");
 
 $requete = "SELECT a.id, t.nom, a.date_debut, a.date_fin, t.description, a.id_type_atelier, a.nom_animatrice, t.prix
-	    FROM atelier a
-	    INNER JOIN type_atelier t
-	    ON a.id_type_atelier = t.id
-	    WHERE a.id = $id";
+	    	FROM atelier a
+		    INNER JOIN type_atelier t
+		    ON a.id_type_atelier = t.id
+		    WHERE a.id = $id";
 
 $resultats = mysql_query($requete) or die(mysql_error());
 $valAtelier = mysql_fetch_array($resultats);
@@ -28,10 +28,10 @@ $idType = $valAtelier['id_type_atelier'];
 if ($connecte == true) {
 	$idCompte = $_SESSION['id_compte'];
 	$requete = "SELECT COUNT(*) nb
-		    FROM personne_atelier pa
-		    INNER JOIN compte c
-		    ON c.id = $idCompte
-		    WHERE c.id = $idCompte AND pa.id_atelier = $id AND (pa.id_personne = c.id_mere OR pa.id_personne = c.id_pere)";
+			    FROM personne_atelier pa
+			    INNER JOIN compte c
+			    ON c.id = $idCompte
+			    WHERE c.id = $idCompte AND pa.id_atelier = $id AND (pa.id_personne = c.id_mere OR pa.id_personne = c.id_pere)";
 
 	$resultats = mysql_query($requete) or die(mysql_error());
 	$valCompte = mysql_fetch_array($resultats);
@@ -82,7 +82,10 @@ if ($connecte == true) {
 	<ul>
 		<li>Durée : <?= $intervalle->format('%h heures et %I minutes') ?></li>
 		<li>Prix : <?= (($valAtelier['prix'] == 0) ? "gratuit" : $valAtelier['prix'] . ".00$") ?></li>
-		<li>Animatrice : <?= $valAtelier['nom_animatrice'] ?></li>
+
+		<?php if (isset($valAtelier['animatrice'])) { ?>
+			<li>Animatrice : <?= $valAtelier['animatrice'] ?></li>
+		<?php } ?>
 	</ul>
 
 	<p>
