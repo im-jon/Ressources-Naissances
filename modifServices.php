@@ -40,7 +40,7 @@ echo "<input type='text' name='titre".$x."' value='$nom' size='50'></br></br>";
 
 
 $fp = fopen($description, "r"); // Ouverture du fichier
-
+$leFichier=null;
 while(!feof($fp)) // On parcout toutes les lignes
 {
 $leFichier.=fgets($fp,4096); // Lecture du contenu de la ligne
