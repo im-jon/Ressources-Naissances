@@ -4,7 +4,7 @@
 
 <footer>
 	<p>Design par <a href="http://www.webdezign.co.uk" title="web design london">Webdezign</a> <br/>
-	 modifié par Jonathan Pouliot, Antoine Laroche, Corentin Beauvilain et Anthony Maurin</p>
+	 modifié par Jonathan Pouliot, Antoine Laroche, Corentin Beauvillain et Anthony Maurin</p>
 </footer>
 </body>
 </html>
