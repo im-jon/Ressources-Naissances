@@ -1,4 +1,4 @@
-<?php
+<?php	
 	include('Actions/mysql.php');
 	$requeteTete = "SELECT sous_titre FROM parametres_systeme ORDER BY id LIMIT 1";
 
