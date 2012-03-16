@@ -14,7 +14,7 @@ include("header.php");
 	while($val = mysql_fetch_array($result)) {
 		$nom = $val['titre'];
 		$description = $val['lienPage'];
-	echo "<h2>$nom</h2>";
+	echo "<h1>$nom</h1>";
 
 
 	
