@@ -15,7 +15,7 @@
 ?>
 	<h2>Ajout d'une publication</h2>
 	<form method="post" action="upload_publications.php" enctype="multipart/form-data">
-			La publication à ajouté
+			La publication a ajouter
 			<input type="file" name="fichier"></input></br>
 			<input type="hidden" name="MAX_FILE_SIZE" value="100000000"></input></br>
 			Cocher si la publication est une gazette des poussettes
