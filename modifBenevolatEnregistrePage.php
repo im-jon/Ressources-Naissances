@@ -32,7 +32,7 @@ $result=mysql_query($query);
 
 
 
-	$letout=stripslashes($_REQUEST['FCKeditor'.$id]); //endroit où se situe FCKeditor
+	$letout=stripslashes($_REQUEST['ckeditor'.$id]); //endroit où se situe FCKeditor
 
 	$fp=fopen($nomFichier, "w");
 	fputs($fp, $letout);
