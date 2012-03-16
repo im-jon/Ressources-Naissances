@@ -17,7 +17,7 @@ include("header.php"); ?>
 		</br>
 		<textarea name="desc" row="4"  col="50"></textarea>
 		</br>
-		<input type="submit" id="btn" />
+		<input type="submit" id="btn" value="Ajouter un article"/>
 	</form>
 
 <?php include("footer.php"); ?>
