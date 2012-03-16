@@ -34,11 +34,7 @@ $resultat = mysql_query($requete);
 
 <article id="intro">
 	<div id="texte-intro">
-	Tout apprentissage se fait plus facilement grâce à des interactions avec d’autres personnes; l’acquisition des habiletés parentales ne fait pas exception.  Tous les parents ont besoin de recevoir de l’information, d’être accompagnés pour renforcer leur potentiel, d’apprendre les uns des autres et ainsi, favoriser l’équilibre familial.
-
-	Voilà pourquoi RESSOURCES-NAISSANCES offre un éventail de services et d’activités pour les futurs parents afin de répondre aux nombreux besoins durant la période prénatale et pour les familles durant la première année du nouveau-né.  Les parents peuvent s’inscrire à des ateliers, participer à des cafés-rencontres et obtenir de l’assistance à domicile, tout ceci  pour mieux vivre l’arrivée d’un enfant.
-	 
-	Entreprise d'économie sociale dont les membres sont les bénévoles et les familles utilisatrices qui ont droit, selon des modalités démocratiques, d'être consultés, de s'impliquer dans les activités du centre et de participer aux orientations de l'organisme lors de l'assemblée générale. Bienvenue à tous et à toutes.
+		<?php include("presentation.txt"); ?>
 	</div>
 
 	<div id="video-intro">
@@ -57,11 +53,7 @@ $resultat = mysql_query($requete);
 
 <article id="certificat-cadeau">
 	<h2>Certificat-cadeau</h2>
-	Offrir un certificat-cadeau à de futurs et nouveaux parents...
-	Pourquoi pas ?  Nos certificats-cadeaux sont échangeables au choix : 
-	ateliers, services et/ou articles de la boutique.  Vous pouvez vous 
-	les procurer au montant désiré à la réception de Ressources-Naissances 
-	durant nos heures de bureau.
+	<?php include("certificat-cadeau.txt");?>
 </article>
 
 <article id="lien-gazette">

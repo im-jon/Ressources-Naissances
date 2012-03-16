@@ -20,6 +20,7 @@ if(@copy($_FILES["fichier"]["tmp_name"], $dossier.$_FILES["fichier"]["name"]))
 	else{
 		echo "Envois non-réussi!";
 		echo "erreur".$_FILES["fichier"]["error"];
-	} 
+	}
+	 
 
  include("footer.php"); ?>
