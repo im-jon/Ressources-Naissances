@@ -1,5 +1,5 @@
 <?php 
-$titre = "nouveauBenevolat";
+$titre = "nouveauService";
 include("Actions/mysql.php");
 include("header.php");
 
@@ -18,7 +18,7 @@ include("header.php");
 
 
 
-<H1>Nouveau "Benevolat"</H1>
+<H1>Nouveau Service</H1>
 <form action="enregistreNouveauService.php" method="post">
 <?php echo "<fieldset id=modifService>";
 echo "<div class='titreTexte'>";
@@ -32,7 +32,7 @@ include("ckeditor/ckeditor.php");
 
 $CKEditor = new CKEditor();
 $CKEditor->basePath = 'ckeditor/';
-$CKEditor->config['height'] = '600px';
+$CKEditor->config['height'] = '400px';
 
 echo "<table border=1 width='85%' Height='400'><TR><TD>";
 $CKEditor->editor("description");

@@ -10,7 +10,7 @@ $requete = "SELECT a.id, a.date_debut, a.date_fin, t.nom
 	    ORDER BY a.date_debut";
 
 $resultats = mysql_query($requete) or die(mysql_error());
-
+setlocale(LC_ALL, 'fr_FR.UTF8', 'fr.UTF8', 'fr_FR.UTF-8', 'fr.UTF-8');
 ?>
 
 <?php include("header.php"); ?>
@@ -29,7 +29,7 @@ $resultats = mysql_query($requete) or die(mysql_error());
 			while ($val = mysql_fetch_array($resultats)) { ?>
 				<li>
 					<a href="consulterAtelier.php?id=<?= $val['id'] ?>" >
-						<?= $val['nom'] ?> le <?= date('j F à H:i (l)', strtotime($val['date_debut'])) ?>
+						<?= $val['nom'] ?> le <?= strftime('%e %B à %H:%I (%A)', strtotime($val['date_debut'])) ?>
 					</a>
 				</li>
 			<?php }

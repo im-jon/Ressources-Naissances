@@ -1,8 +1,8 @@
 <?php 
-$titre = "Benevolat";
+$titre = "Service";
 include("Actions/mysql.php");
 include("header.php"); 
-$query="SELECT id FROM benevole ORDER BY id DESC LIMIT 1 ";
+$query="SELECT id FROM service ORDER BY id DESC LIMIT 1 ";
 $result=mysql_query($query);
 ?>
 
@@ -19,14 +19,14 @@ $result=mysql_query($query);
 	$test=$val['id'];
 }	
 	$num = $test + 1;
-	$description="benevolat".$num.".html";
+	$description="service".$num.".html";
 	
 
 	$nom=$_REQUEST['titre'];
 
 
 	
-	$query="insert into benevole(nom, lienPage) values('$nom', '$description')";
+	$query="insert into service(titrePage, lienPage) values('$nom', '$description')";
 	$result=mysql_query($query);
 	
 
