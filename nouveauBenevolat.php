@@ -33,7 +33,6 @@ include("ckeditor/ckeditor.php");
 $CKEditor = new CKEditor();
 $CKEditor->basePath = 'ckeditor/';
 $CKEditor->config['height'] = '400px';
-$oFCKeditor->BasePath = '/ckeditor/';
 echo "<table border=1 width='85%' Height='400'><TR><TD>";
 $CKEditor->editor("description");
 echo "</TD></TR></table>";
