@@ -37,7 +37,7 @@ echo "<div class='titreTexte'>";
 echo "<a href='#'>Titre du paragraphe :</a>";
 echo "</div>";
 echo "</br></br>";
-echo "<input type='text' name='titre".$x."' value='$nom' size='50'></br></br>";
+echo "<input type=\"text\" name=\"titre".$x."\" value=\"$nom\" size=\"50\"></br></br>";
 
 
 $fp = fopen($description, "r"); // Ouverture du fichier

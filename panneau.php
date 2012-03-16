@@ -18,6 +18,7 @@ if (!estAutorise(2)) {
 	<li class="titreTexte"><a href="ajout_publications.php">Ajout des publications (gazette des poussettes par exemple)</a></li>
 	<li class="titreTexte"><a href="formEditor.php">Modification des pages</a></li>
 	<li class="titreTexte"><a href="ajout_article.php">Ajouter un article</a></li>
+	<li class="titreTexte"><a href="#">Services</a></li>
 </ul>
 
 <?php include("footer.php"); ?>

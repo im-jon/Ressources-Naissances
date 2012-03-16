@@ -2,7 +2,8 @@
 $titre = "Benevolat";
 include("Actions/mysql.php");
 include("header.php"); 
-$id=$_REQUEST['idRecup'];
+$query="SELECT id FROM benevole ORDER BY id DESC LIMIT 1 ";
+$result=mysql_query($query);
 ?>
 
 <HTML>
@@ -13,12 +14,17 @@ $id=$_REQUEST['idRecup'];
 <CENTER>
 <?php
 
- 
+ while($val = mysql_fetch_array($result))
+{
+	$test=$val['id'];
+}	
+	$num = $test + 1;
+	$description="benevolat".$num.".html";
 	
 
 	$nom=$_REQUEST['titre'];
 
-	echo $description=$_REQUEST['description'];
+
 	
 	echo $query="insert into benevole(nom, lienPage) values('$nom', '$description')";
 	$result=mysql_query($query);
@@ -26,7 +32,7 @@ $id=$_REQUEST['idRecup'];
 
 
 
-	$letout=stripslashes($_REQUEST['FCKeditor']); //endroit où se situe FCKeditor
+	$letout=stripslashes($_REQUEST['ckeditor']); //endroit où se situe FCKeditor
 
 	$fp=fopen($description, "w");
 	fputs($fp, $letout);

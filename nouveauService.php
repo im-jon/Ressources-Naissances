@@ -19,7 +19,7 @@ include("header.php");
 
 
 <H1>Nouveau "Benevolat"</H1>
-<form action="enregistreNouveauBenevolat.php" method="post">
+<form action="enregistreNouveauService.php" method="post">
 <?php echo "<fieldset id=modifService>";
 echo "<div class='titreTexte'>";
 echo "<a href='#'>Titre du paragraphe :</a>";
@@ -32,8 +32,8 @@ include("ckeditor/ckeditor.php");
 
 $CKEditor = new CKEditor();
 $CKEditor->basePath = 'ckeditor/';
-$CKEditor->config['height'] = '400px';
-$oFCKeditor->BasePath = '/ckeditor/';
+$CKEditor->config['height'] = '600px';
+
 echo "<table border=1 width='85%' Height='400'><TR><TD>";
 $CKEditor->editor("description");
 echo "</TD></TR></table>";
