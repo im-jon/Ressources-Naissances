@@ -95,17 +95,17 @@
 } ?>
 
 <form method="GET" action="<?= $_SERVER['PHP_SELF']; ?>">
-	<label for="nom">* Nom :</label><br/>
-	<input type="text" id="nom" name="nom" value="<?= isset($_REQUEST['nom']) ? $_REQUEST['nom'] : '' ?>" /><br/>
+	<label for="nom">Nom * :</label><br/>
+	<input type="text" id="nom" name="nom" size="60" value="<?= isset($_REQUEST['nom']) ? $_REQUEST['nom'] : '' ?>" /><br/>
 
 	<label for="prix">Prix (laissez 0 si gratuit) :</label><br/>
-	<input type="text" id="prix" name="prix" value="<?= isset($_REQUEST['prix']) ? $_REQUEST['prix'] : '0' ?>"/>.00$<br/>
+	<input type="text" id="prix" name="prix" size="3" value="<?= isset($_REQUEST['prix']) ? $_REQUEST['prix'] : '0' ?>"/>.00$<br/>
 
-	<label for="qte-rencontres">* Nombre de rencontres :</label><br/>
-	<input type="text" id="qte-rencontres" name="qte-rencontres" value="<?= isset($_REQUEST['qte-rencontres']) ? $_REQUEST['qte-rencontres'] : '' ?>"/><br/>
+	<label for="qte-rencontres">Nombre de rencontres * :</label><br/>
+	<input type="text" id="qte-rencontres" name="qte-rencontres" size="3" value="<?= isset($_REQUEST['qte-rencontres']) ? $_REQUEST['qte-rencontres'] : '' ?>"/><br/>
 
 	<label for="max-personnes">Nombre de personne maximum (laissez vide si illimité) :</label><br/>
-	<input type="text" id="max-personnes" name="max-personnes" value="<?= isset($_REQUEST['max-personnes']) ? $_REQUEST['max-personnes'] : '' ?>" /><br/>
+	<input type="text" id="max-personnes" name="max-personnes" size="3" value="<?= isset($_REQUEST['max-personnes']) ? $_REQUEST['max-personnes'] : '' ?>" /><br/>
 
 	<label for="description">Description :</label><br/>
 	<?php $CKEditor->editor("description", isset($_REQUEST['description']) ? $_REQUEST['description'] : ''); ?>

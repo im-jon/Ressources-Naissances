@@ -12,33 +12,38 @@ if (isset($_POST['submit'])) {
 
 	include('Actions/mysql.php');
 
-	// Hasher le mdp
-
-	$requete = "SELECT compte.id, compte.id_role FROM compte
+	$requete = "SELECT compte.id, compte.id_role, compte.mot_de_passe, compte.salt FROM compte
 			INNER JOIN personne
 			ON compte.id_personne_liee = personne.id
-			WHERE personne.courriel = '$courriel' AND compte.mot_de_passe = '$motdepasse'";
+			WHERE personne.courriel = '$courriel'";
 
 	$resultats = mysql_query($requete) or die(mysql_error());
+
 	// Si succès
 	if (mysql_num_rows($resultats) > 0) {
 		$val = mysql_fetch_array($resultats);
-		session_start();
-		session_regenerate_id ();
-		$_SESSION['valid'] = 1;
-		$_SESSION['id_compte'] = $val['id'];
-		$_SESSION['role'] = $val['id_role'];
-	
-		// Si le compte est administrateur...
-		if ($val['id_role'] >= 2) {
-			// On donne accès à KCFinder, l'outil pour uploader/explorer des fichiers.
-			$_SESSION['KCFINDER']['disabled'] = false;
-		}
 
-		if (isset($_REQUEST['ReturnUrl'])) {
-			header('Location: ' . $_REQUEST['ReturnUrl']);
-		} else {
-			header('Location: index.php');
+		if ($val['mot_de_passe'] == crypt($motdepasse, $val['salt'])) {
+			session_start();
+			session_regenerate_id ();
+			$_SESSION['valid'] = 1;
+			$_SESSION['id_compte'] = $val['id'];
+			$_SESSION['role'] = $val['id_role'];
+	
+			// Si le compte est administrateur...
+			if ($val['id_role'] >= 2) {
+				// On donne accès à KCFinder, l'outil pour uploader/explorer des fichiers.
+				$_SESSION['KCFINDER']['disabled'] = false;
+			}
+
+			if (isset($_REQUEST['ReturnUrl'])) {
+				header('Location: ' . $_REQUEST['ReturnUrl']);
+			} else {
+				header('Location: index.php');
+			}
+		}
+		else {
+			$erreur = "Mot de passe ou courriel invalide";
 		}
 	}
 	else {

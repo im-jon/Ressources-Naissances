@@ -51,7 +51,11 @@
 			$titrePersonneLiee = "mère";
 		}
 		
-		$compte->setMotDePasse($_REQUEST['motdepasse']);
+		$salt = substr(str_shuffle("./ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"), -32);
+		$compte->setSalt($salt);
+		
+		$compte->setMotDePasse(crypt($_REQUEST['motdepasse'], $salt));
+
 		$compte->setDatePrevueAccouchement($_REQUEST['dateprevue']);
 		$compte->setDateNaissanceBebe($_REQUEST['datenaissancebebe']);
 		$compte->setPrenomBebe($_REQUEST['prenombebe']);

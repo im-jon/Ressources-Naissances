@@ -7,6 +7,7 @@ class Compte {
 	public $id_personne_liee;
 	public $date_inscription;
 	public $mot_de_passe;
+	public $salt;
 	public $date_prevue_accouchement;
 	public $date_naissance_bebe;
 	public $prenom_bebe;
@@ -34,6 +35,7 @@ class Compte {
 			     id_personne_liee,
 			     date_inscription,
 			     mot_de_passe,
+			     salt,
 			     date_prevue_accouchement,
 			     date_naissance_bebe,
 			     prenom_bebe)
@@ -42,6 +44,7 @@ class Compte {
 				   '$this->id_personne_liee',
 				   '$date',
 				   '$this->mot_de_passe',
+				   '$this->salt',
 				   '$this->date_prevue_accouchement',
 				   '$this->date_naissance_bebe',
 				   '$this->prenom_bebe')";
@@ -64,6 +67,10 @@ class Compte {
 
 	public function setMotDePasse($valeur) {
 		$this->mot_de_passe = $valeur;
+	}
+
+	public function setSalt($valeur) {
+		$this->salt = $valeur;
 	}
 
 	public function setDatePrevueAccouchement($valeur) {
