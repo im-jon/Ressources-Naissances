@@ -49,6 +49,7 @@ $(document).ready(function() {
 
 			$.getJSON('Actions/detailsAtelierJSON.php', {id: event.id}, function(data) {
 				$('#animatrice').val(data.animatrice);
+				$('#id').val(data.id);
 			});
 
 			return false;
@@ -72,7 +73,7 @@ $(document).ready(function() {
 			// Envoie l'atelier au serveur
 			$.ajax({
 				url: "Actions/ajouterAtelier.php",
-				data: "id_type=" + originalEventObject.id + "&date_debut=" + date + "&date_fin=" + datefin + "&animatrice=Paul",
+				data: "id_type=" + originalEventObject.id + "&date_debut=" + date + "&date_fin=" + datefin,
 				success: function(data){
 					// Assigne l'id de l'atelier venant d'être ajouté
 					copiedEventObject.id = data;
@@ -99,7 +100,6 @@ $(document).ready(function() {
 			});
 		}	
 	});
-
 	
 	$("#dlg-modif").dialog({
 			autoOpen: false,
@@ -120,10 +120,21 @@ $(document).ready(function() {
 		});
 	});
 	
+	$('#btn-envoyer').button();
+	$('#btn-envoyer').click(function(){
+		$.ajax({
+			url: "Actions/modifierAtelier.php",
+			data: {id: eventId, animatrice: $('#animatrice').val()},
+			success: function() {
+				$("#dlg-modif").dialog('close');
+			}
+		});
+	});
+
 	// Initialise le "carousel" des types d'atelier
     $('#carousel-types').jcarousel({
         vertical: true,
         scroll: 3,
-		visible: 7
+	visible: 7
     });
 });

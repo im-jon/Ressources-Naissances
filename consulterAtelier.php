@@ -1,5 +1,6 @@
 <?php
 session_start();
+setlocale(LC_ALL, 'fr_FR.UTF8', 'fr.UTF8', 'fr_FR.UTF-8', 'fr.UTF-8');
 
 $id = $_REQUEST['id'];
 
@@ -20,6 +21,7 @@ $dateDebut = strtotime($valAtelier['date_debut']);
 
 $intervalle = new DateTime(date('c', $dateDebut));
 $intervalle = $intervalle->diff(new DateTime(date('c', strtotime($valAtelier['date_fin']))));
+
 
 $idType = $valAtelier['id_type_atelier'];
 
@@ -74,7 +76,7 @@ if ($connecte == true) {
 	<h1><?= $valAtelier['nom'] ?></h1>
 
 	<debut-article>
-		Le <?= date('l j F o à G:i', $dateDebut) ?>
+		Le <?= strftime('%A %e %B à %H:%I', $dateDebut) ?>
 	</debut-article>
 
 	<ul>

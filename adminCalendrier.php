@@ -42,12 +42,11 @@ $resultats = mysql_query($requete) or die(mysql_error());
 
 <article id="article-cal-admin">
 	<div id="dlg-modif" title="Modifier l'atelier">
-		<button id="btn-supprimer">Supprimer l'atelier</button>
-		<form>
-			<label for="animatrice">Animatrice</label>
-			<input type="text" name="animatrice" id="animatrice"></input>
-			<input type="submit"></unput>
-		</form>
+		<button id="btn-supprimer">Supprimer l'atelier</button><br/>
+			<input type="hidden" name="id" id="id"></input><br/>
+			<label for="animatrice">Animatrice</label><br/>
+			<input type="text" name="animatrice" id="animatrice"></input><br/>
+			<button id="btn-envoyer">Modifier</button>
 	</div>
 
 	<div id='calendrier-admin'></div>

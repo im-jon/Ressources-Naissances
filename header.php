@@ -1,4 +1,4 @@
-<?php
+<?php	
 	include('Actions/mysql.php');
 	$requeteTete = "SELECT sous_titre FROM parametres_systeme ORDER BY id LIMIT 1";
 
@@ -90,6 +90,9 @@
 				<li><a href="#">Consultation téléphone</a></li>
 				<li><a href="#">Marrainage en allaitement</a></li>
 			</ul>
+		</li>
+		<li>
+			<a href="assistancePer.php">Assistance à domicile</a>
 		</li>
 		<li>
 			<a href="#">Partenariat</a>
