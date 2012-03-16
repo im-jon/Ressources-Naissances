@@ -18,6 +18,11 @@ if (!estAutorise(2)) {
 	<li class="lienPanneau"><a href="ajout_publications.php">Ajout des publications (gazette des poussettes par exemple)</a></li>
 	<li class="lienPanneau"><a href="formEditor.php">Modification des pages</a></li>
 	<li class="lienPanneau"><a href="ajout_article.php">Ajouter un article</a></li>
+	<li class="lienPanneau"><a href="nouveauService.php">Nouveau service</a></li>
+	<li class="lienPanneau"><a href="modifServices.php">Modifier services</a></li>
+	<li class="lienPanneau"><a href="nouveauBenevolat.php">Nouveau Benevolat</a></li>
+	<li class="lienPanneau"><a href="modifBenevolat.php">Modifier Benevolat</a></li>
+	
 </ul>
 
 <?php include("footer.php"); ?>
