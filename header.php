@@ -92,6 +92,9 @@
 			</ul>
 		</li>
 		<li>
+			<a href="assistancePer.php">Assistance à domicile</a>
+		</li>
+		<li>
 			<a href="#">Partenariat</a>
 			<ul>
 				<li><a href="#">Partenaires financiers</a></li>

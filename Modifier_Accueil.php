@@ -21,21 +21,22 @@ $(function() {
 });
 </script>
 
+<h1>Modifier la page d'accueil</h1>
+
 <div class="titre"><a href="#">Ajouter une image pour le diaporama</a></div>
 
 <div class="desc">
-	<h2>Ajout d'une publication</h2>
+	<h2>Ajout d'une image</h2>
+	Taille recommandé pour l'image 950 par 250
 	<form method="post" action="upload_diapo.php" enctype="multipart/form-data">
-			La publication a ajouter
+			L'image a ajouter
 			<input type="file" name="fichier"></input></br>
-			<input type="hidden" name="MAX_FILE_SIZE" value="100000000"></input></br>
-			Cocher si la publication est une gazette des poussettes
-			<input type="checkbox" name="gazette" /></br>
-			<input type="submit" name="Submit" value="Envoyez votre publications"></input>
+			<input type="hidden" name="MAX_FILE_SIZE" value="10000000000"></input></br>
+			<input type="submit" name="Submit" value="Envoyez votre image"></input>
 	</form>
 </div>
 
-<div class="titre"><a href="#">Changer le vidéo promotionel</a></div>
+<div class="titre"><a href="#">Changer la vidéo promotionel</a></div>
 
 <div class="desc">
 	
