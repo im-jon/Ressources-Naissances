@@ -28,7 +28,7 @@ while($val = mysql_fetch_array($result))
 
 
 
-if($_REQUEST['numBut']==$x)
+if(isset($_REQUEST['numBut']) && $_REQUEST['numBut']==$x)
 {
 echo "<form action='modifServiceEnregistrePage.php?idRecup=$x' method='post'>";
 echo"<fieldset id=modifService>";
