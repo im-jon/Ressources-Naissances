@@ -76,7 +76,7 @@
 		</li>
 		<li><a href="calendrier.php">Calendrier</a></li>
 		<li>
-			<a href="#">Ateliers/Activités</a>
+			<a href="#">Ateliers</a>
 			<ul>
 				<?php while ($val = mysql_fetch_array($resultatsAteliers)) { ?>
 					<li><a href="consulterTypeAtelier.php?id=<?=$val['id']?>"><?= $val['nom'] ?></a></li>
