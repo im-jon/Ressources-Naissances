@@ -3,7 +3,7 @@ $idAtelier = $_REQUEST['id'];
 
 include("mysql.php");
 
-$requete = "SELECT t.nom, a.nom_animatrice, t.prix
+$requete = "SELECT t.nom, a.id, a.nom_animatrice, t.prix
 	    FROM atelier a
 	    INNER JOIN type_atelier t
 	    ON a.id_type_atelier = t.id
@@ -14,6 +14,7 @@ $val = mysql_fetch_array($resultats);
 
 $arr = array("nom" => $val['nom'],
 	     "animatrice" => $val['nom_animatrice'],
+	     "id" => $val['id'],
 	     "prix" => $val['prix']);
 
 echo json_encode($arr);

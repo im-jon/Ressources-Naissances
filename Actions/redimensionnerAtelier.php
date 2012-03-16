@@ -19,8 +19,6 @@ $requete = "UPDATE atelier
 	    SET date_fin = DATE_ADD(date_fin, INTERVAL $intervalle MINUTE)
 	    WHERE id = $idAtelier";
 
-echo $requete;
-	    
-
 mysql_query($requete) or die(mysql_error());
+
 ?>
