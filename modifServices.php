@@ -2,7 +2,6 @@
 $titre = "modifServices";
 include("Actions/mysql.php");
 include("header.php");
-include("/var/cbeauvil/html/fckeditor/fckeditor.php");	// endroit où se situe FCKeditor
  $query="select * from service";
 $result=mysql_query($query);
 ?>
@@ -48,13 +47,15 @@ $leFichier.=fgets($fp,4096); // Lecture du contenu de la ligne
 }
 fclose($fp);
 
-$oFCKeditor = new FCKeditor('FCKeditor'.$x); // nouvelle instance de FCKeditor
-$oFCKeditor->Width = '100%';
-$oFCKeditor->Height = '400';
-$oFCKeditor->BasePath = '/fckeditor/';
-$oFCKeditor->Value = $leFichier;
+include("ckeditor/ckeditor.php");
+
+$CKEditor = new CKEditor();
+$CKEditor->basePath = 'ckeditor/';
+$CKEditor->config['height'] = '400px';
+
+
 echo "<table border=1 width='85%' Height='400'><TR><TD>";
-$oFCKeditor->Create();
+$CKEditor->editor('ckeditor' . $x, $leFichier);
 echo "</TD></TR></table>";
 
 $leFichier=null;
