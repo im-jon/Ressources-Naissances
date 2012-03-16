@@ -1,6 +1,6 @@
 <?php
 //Antoine Laroche
-//Page qui contient le formulaire pour ajouter un formulaire 
+//Page qui contient le formulaire pour ajouter un article 
 $titre = "Ajout_Article";
 include("header.php"); ?>
 
