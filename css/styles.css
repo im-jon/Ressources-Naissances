@@ -497,3 +497,8 @@ nav a:link, nav a:visited {
 	color: red;
 }
 
+.lienPanneau {
+	font-size: 1.0em;
+	margin-bottom: 10px;
+}
+
