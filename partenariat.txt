@@ -1,0 +1,24 @@
+<h1>
+	ORGANISMES PARTENAIRES</h1>
+<article>
+		<a href="http://maisonfamille.net/">Maison de la famille Chutes-Chaudi&egrave;re</a><br />
+		<a href=" http://www.chaudronnee.org/">La chaudronn&eacute;e des cuisines collectives </a></p>
+</article>
+<h1>
+	PARTICIPATION &Agrave; DES REGROUPEMENTS</h1>
+<article>
+	<p>
+		<a href="http://www.acefrsq.com/">ACEF</a><br />
+		<a href="http://www.aspq.org/">ASPQ</a><br />
+		<a href="http://www.cdclevis.ca/">CDC L&eacute;vis</a><br />
+		<a href="http://www.fafmrq.org/">FAFMRQ</a><br />
+		<a href="http://www.fqocf.org/">FQOCF</a><br />
+		RAPEL<br />
+		<a href="http://www.sdelevis.com/reseau-economie-sociale.html">RE&Eacute;S</a><br />
+		ROCFCA<br />
+		<a href="http://economiesocialequebec.ca/?module=directory&amp;uid=3423&amp;division=4">TR&Eacute;SCA</a><br />
+		<a href="http://www.trocca.com">TROCCA</a><br />
+		<a href="http://www.accompagnantes.qc.ca/">Centre de soutien au deuil p&eacute;rinatal</a><br />
+		<a href="http://www.cclevis.com/">Chambre de commerce de L&eacute;vis</a><br />
+		<a href="http://www.femmesca.com/">R&eacute;seau des groupes de femmes Chaudi&egrave;re-Appalaches</a></p>
+</article>

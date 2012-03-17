@@ -26,6 +26,7 @@ if (!estAutorise(2)) {
 			<option value="benevole.txt">benevole</option>
 			<option value="article.txt">article</option>
 			<option value="notreEquipe.txt">notre equipe</option>
+			<option value="partenariat.txt">partenariat</option>
 		 </select>
 		<input type="submit" value="Editer">
 	</form>

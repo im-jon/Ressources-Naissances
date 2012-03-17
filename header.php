@@ -95,12 +95,7 @@
 			<a href="assistancePer.php">Assistance à domicile</a>
 		</li>
 		<li>
-			<a href="#">Partenariat</a>
-			<ul>
-				<li><a href="#">Partenaires financiers</a></li>
-				<li><a href="#">Organismes partenaires</a></li>
-				<li><a href="#">Participation à des regroupements</a></li>
-			</ul>
+			<a href="partenariat.php">Partenariat</a>
 		</li>
 		<li><a href="Nous_Soutenir.php">Nous soutenir</a></li>
 		<li><a href="benevolat.php">Bénévolat</a></li>
