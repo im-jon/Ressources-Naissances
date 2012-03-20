@@ -27,6 +27,7 @@ if (!estAutorise(2)) {
 	<li class="lienPanneau"><a href="modifAssistPer.php">Modifier assistance périnatale</a></li>
 	<li class="lienPanneau"><a href="modifTemoignages.php">Modifier témoignages Services</a></li>
 	<li class="lienPanneau"><a href="Modifier_Accueil.php">Modifier la page d'accueil</a></li>
+	<li class="lienPanneau"><a href="conseilEditor.php">Ajout d'une personne au conseil d'administration</a></li>
 
 </ul>
 

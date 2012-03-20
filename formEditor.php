@@ -11,7 +11,7 @@ if (!estAutorise(2)) {
 <?php include("header.php"); ?>
 
 <div id="titre">
-<h2>Editez vos pages</h2>
+<h1>Editez vos pages</h1>
 </div>
 <center>
 	<form action="editor.php" method="GET">

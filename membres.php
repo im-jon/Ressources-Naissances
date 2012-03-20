@@ -1,7 +1,7 @@
 	<!DOCTYPE html>
 <?php include("header.php"); ?>
 			<div id="titre">
-			<h2>Devenir Membre</h2>
+			<h1>Devenir Membre</h1>
 			</div>
 			<?php include("membres.txt"); ?>
 			<center>
