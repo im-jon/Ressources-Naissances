@@ -1,6 +1,6 @@
 <?php
 	include("Actions/mysql.php");
-	$requete = "SELECT nom, prenom, id_photo FROM conseil_administration";
+	$requete = "SELECT nom, prenom, ca.id_photo, p.id_photo FROM conseil_administration ca INNER JOIN photo p ON p.id_photo = ca.id_photo";
 	$resultats = mysql_query($requete) or die(mysql_error());
 ?>
 

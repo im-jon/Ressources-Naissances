@@ -374,21 +374,21 @@ ul.sf-menu li li li.sfHover ul {
 
 
 }
-.sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
-
+.sf-menu li li a, .sf-menu li li a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+	color: #FFF;
 }
 .sf-menu li {
 	padding: 5px 4px 5px 3px;
 }
 .sf-menu li li {
-	background:		#AABDE6;
+	background:		#995668;
 }
 .sf-menu li li li {
 	background:		#9AAEDB;
 }
 .sf-menu li:hover, .sf-menu li.sfHover,
 .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
-	background:		#CFDEFF;
+	background:		#E388A1;
 	outline:		0;
 }
 
@@ -502,4 +502,19 @@ nav a:link, nav a:visited {
 	font-size: 1.0em;
 	margin-bottom: 10px;
 }
+
+.titre span {
+	font-family:Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	color:#c17086;
+	text-decoration:none;
+	border-bottom:1px solid #91476c;
+	font-size:1em;
+	overflow: hidden;
+}
+
+.titre span:hover {
+	cursor: pointer;
+}
+
 
