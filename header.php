@@ -83,14 +83,7 @@
 				<?php } ?>
 			</ul>
 		</li>
-		<li>
-			<a href="services.php">Services</a>
-			<ul>
-				<li><a href="#">Consultation individuelle en allaitement</a></li>
-				<li><a href="#">Consultation téléphone</a></li>
-				<li><a href="#">Marrainage en allaitement</a></li>
-			</ul>
-		</li>
+		<li><a href="services.php">Services</a></li>
 		<li>
 			<a href="assistancePer.php">Assistance à domicile</a>
 		</li>
