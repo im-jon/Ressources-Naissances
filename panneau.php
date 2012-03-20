@@ -25,7 +25,7 @@ if (!estAutorise(2)) {
 	<li class="lienPanneau"><a href="modifBenevolat.php">Modifier Benevolat</a></li>
 	<li class="lienPanneau"><a href="supprServiceBenevolat.php">Supprimer Service ou Benevolat</a></li>
 	<li class="lienPanneau"><a href="modifAssistPer.php">Modifier assistance périnatale</a></li>
-
+	<li class="lienPanneau"><a href="modifTemoignages.php">Modifier témoignages Services</a></li>
 	<li class="lienPanneau"><a href="Modifier_Accueil.php">Modifier la page d'accueil</a></li>
 
 </ul>

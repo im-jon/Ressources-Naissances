@@ -26,14 +26,8 @@ echo "</div>";
 }
 
 echo "</br><A HREF='services.php'>Retour affichage initial</A>";
- ?>
-			
-			<h2>Témoignages</h2>
-			<P>"L'énergie et la bonne humeur de l'assistante périnatale me donnent de l'énergie pour le reste de la semaine." </P>
-			<P>"... Cette aide ne m'a pas seulement aidée dans mon rôle de mère, elle m'a aussi aidée à maintenir une bonne santé physique et mentale."</P>
-			</div>
-			</div>
-			
+ 
+include "temoignages.html";			
 
-			
+?>			
 <?php include("footer.php"); ?> 
