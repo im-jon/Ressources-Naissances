@@ -1,53 +1,17 @@
 <?php 
-$titre = "SupprService";
+$titre = "Suppression";
 include("Actions/mysql.php");
 include("header.php");
- $query="select * from service";
-$result=mysql_query($query);
 ?>
-		 
-		 <link rel="stylesheet" type="text/css" href="css/styles.css">
-		 <link rel="stylesheet" type="text/css" media="screen" href="jquery.ui.potato.menu.css" />
 
-			
-					 <script type="text/javascript" src="jquery.nivo.slider.js"></script>
-		 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script type="text/javascript" src="jquery.ui.potato.menu.js"></script>
-		<script type="text/javascript" src="js/afficherCacher.js"></script>
+<H1>Supprimer Service ou Benevolat</H1>
+Pour supprimer un service ou benevolat, il suffit d'effacer la partie titre et la partie contenu du service ou benevolat concerné.</br>
+ Ceci peu être fait dans la partie administrateur, "Modifier Service" ou "Modifier Benevolat".</br>
 
+</br><A HREF='modifServices.php'>Modifier Service</A>
 
-<?php  
-echo "<H1>Supression Services</H1>";
-$x=1;
-while($val = mysql_fetch_array($result))
-{
-	
-	$nom=$val['titrePage'];
+</br><A HREF='modifBenevolat.php'>Modifier Benevolat</A>
 
-
-
-
-
-
-echo "<form action='supprServiceTraitement.php?idRecup=$x' method='post'>";
-
-echo "<div class='titre'>";
-echo "<a href='#'>$nom</a></br>";
-echo "</div>";
-echo "</br>";
-echo '<input type="submit" value="Supprimer">';
-#echo "</br></br>";
-
-
-
-
-$x++;
-?>
-</form>
-<?php
-} # } du while
-
-?>
 
 <?php include('footer.php') ?>
 

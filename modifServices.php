@@ -16,6 +16,13 @@ $result=mysql_query($query);
 		<script type="text/javascript" src="js/afficherCacher.js"></script>
 
 
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+
+
 <?php  
 echo "<H1>Modification Services</H1>";
 $x=1;
@@ -24,8 +31,6 @@ while($val = mysql_fetch_array($result))
 	
 	$nom=$val['titrePage'];
 	$description=$val['lienPage'];
-
-
 
 
 if(isset($_REQUEST['numBut']) && $_REQUEST['numBut']==$x)
@@ -93,5 +98,7 @@ $x++;
 echo "</br><A HREF='modifServices.php'>Retour affichage initial</A>";
 ?>
 
+</BODY>
+</HTML>
 <?php include('footer.php') ?>
 

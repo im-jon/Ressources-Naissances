@@ -22,7 +22,6 @@ include("header.php");
 
 	echo "<div class='contenuTexte'>";
 include($description);
-echo "</br>";
 echo "</div>";
 }
  ?>

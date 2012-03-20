@@ -10,7 +10,7 @@ $result=mysql_query($query);
 
 <HTML>
 <HEAD>
-<TITLE>Fichier de test FCKeditor2</TITLE>
+<TITLE></TITLE>
 </HEAD>
 <BODY>
 <CENTER>
@@ -51,3 +51,5 @@ echo "<P><A HREF='modifServices.php?numBut=$id#'>Retour sur la page précédente
 </CENTER>
 </BODY>
 </HTML>
+
+<?php include('footer.php') ?>
