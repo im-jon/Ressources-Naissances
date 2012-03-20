@@ -2,7 +2,12 @@
 //Antoine Laroche
 //Page qui contient le formulaire pour ajouter un article 
 $titre = "Ajout_Article";
-include("header.php"); ?>
+include("header.php");
+$erreur = $_REQUEST["erreur"];
+if($erreur == 1)
+        echo "<div class=\"erreur\">Tous les champs sont obligatoires</div>";
+
+?>
 
 	<form action="traite_ajout_article.php" method="post" >
 		<labe>Titre:</label>
@@ -19,5 +24,5 @@ include("header.php"); ?>
 		</br>
 		<input type="submit" id="btn" value="Ajouter un article"/>
 	</form>
-
+	
 <?php include("footer.php"); ?>
