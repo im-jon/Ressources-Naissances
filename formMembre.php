@@ -1,7 +1,7 @@
 	<!DOCTYPE html>
 <?php include("header.php"); ?>	
 			<div id="titre">
-				<h2>Formulaire pour devenir membre</h2>
+				<h1>Formulaire pour devenir membre</h1>
 			</div>	
 			<center>			
 				<form method="post" action="inscriptionMembre.php"><br/><br/>
