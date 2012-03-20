@@ -18,8 +18,8 @@ $result=mysql_query($query);
 {
 	$test=$val['id'];
 }	
-	echo $num = $test + 1;
-	echo $description="service".$num.".html";
+	 $num = $test + 1;
+	 $description="service".$num.".html";
 	
 
 	$nom=$_REQUEST['titre'];

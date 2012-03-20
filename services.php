@@ -16,14 +16,16 @@ include("header.php");
 		$nom = $val['titrePage'];
 		$description = $val['lienPage'];
 	
-	echo "<div class='titreTexte' id='titrePage'>
-			 <a href='#'>$nom</a></div>";
+	echo "<div class='titreTexte' id='titrePage'><div class='titre'>
+			 <span>$nom</span></div></div>";
 
 
 	echo "<div class='contenuTexte'>";
 include($description);
 echo "</div>";
 }
+
+echo "</br><A HREF='services.php'>Retour affichage initial</A>";
  ?>
 			
 			<h2>Témoignages</h2>
