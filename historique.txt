@@ -1,6 +1,6 @@
-<div class="titreTexte" id="historique1">
-	<a href="#">Historique de 1984 &agrave; 1997</a></div>
-<div class="contenuTexte">
+<div class="titre" id="historique1">
+	<span>Historique de 1984 &agrave; 1997</span></div>
+<div class="desc">
 	<br />
 	L&#39;organisme, appel&eacute; &agrave; ses d&eacute;buts M&egrave;re-Contact, est n&eacute; du d&eacute;sir de fonder sur la Rive-Sud de Qu&eacute;bec un organisme b&eacute;n&eacute;vole destin&eacute; &agrave; offrir un soutien aux m&egrave;res durant la p&eacute;riode postnatale. Une incorporation est obtenue en 1985 et un service de marrainage b&eacute;n&eacute;vole pour les nouvelles m&egrave;res se cr&eacute;e.<br />
 	<br />
@@ -8,9 +8,9 @@
 	<br />
 	En 1997, un d&eacute;veloppement dans le cadre de l&#39;&eacute;conomie sociale est soutenu par le Comit&eacute; r&eacute;gional d&#39;&eacute;conomie sociale et M&egrave;re-Contact tente une premi&egrave;re exp&eacute;rience de facturation &agrave; la client&egrave;le pour les services &agrave; domicile. C&#39;est que des parents se disent pr&ecirc;ts &agrave; d&eacute;bourser pour obtenir un soutien alors que l&#39;organisme n&#39;arrive pas &agrave; r&eacute;pondre &agrave; l&#39;ensemble des besoins uniquement par les programmes de subvention et que les services publics se concentrent surtout sur le suivi m&eacute;dical et certains services psychosociaux pour les familles pr&eacute;sentant des probl&egrave;mes sp&eacute;cifiques.<br />
 	&nbsp;</div>
-<div class="titreTexte" id="historique2">
-	<a href="#">Historique de 1997 &agrave; 2010</a></div>
-<div class="contenuTexte">
+<div class="titre" id="historique2">
+	<span>Historique de 1997 &agrave; 2010</span></div>
+<div class="desc">
 	<br />
 	Suite &agrave; l&#39;annonce des projets du Chantier de l&#39;&eacute;conomie sociale, M&egrave;re-Contact &eacute;labore un plan d&#39;affaires pour une entreprise d&#39;&eacute;conomie sociale en p&eacute;rinatalit&eacute;. Une &eacute;tude de march&eacute; command&eacute;e par le minist&egrave;re de la Sant&eacute; et des Services sociaux confirme la viabilit&eacute; de certains services en p&eacute;rinatalit&eacute; financ&eacute;s conjointement par le minist&egrave;re, la facturation &agrave; la client&egrave;le et la contribution d&#39;autres sources (locales, priv&eacute;es, fondations, etc.).<br />
 	<br />

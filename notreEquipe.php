@@ -10,7 +10,7 @@
 				});
 			</script>
 			<div id="titre">
-			<h2>Notre equipe</h2>
+			<h1>Notre equipe</h1>
 			</div>
 			<?php include("notreEquipe.txt"); ?>
 <?php include("footer.php"); ?>

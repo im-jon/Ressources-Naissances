@@ -8,7 +8,7 @@
 
 <?php include("header.php"); ?>
 
-<h2>Conseil d'administration</h2>
+<h1>Conseil d'administration</h1>
 
 <table>
 	<tr>
