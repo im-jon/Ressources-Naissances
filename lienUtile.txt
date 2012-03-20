@@ -488,7 +488,7 @@
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http:// www.benevoleenaction.com
 		</tgauche>
 	</div>
-	<div class="titre" id="Centre d'action bénévole Bellechasse-Lévis-Lotbinière"><a href="#Centre d'action bénévole Bellechasse-Lévis-Lotbinière">Centre d'action bénévole Bellechasse-Lévis-Lotbinière</a></div>
+	<div class="titre"><span>Centre d'action bénévole Bellechasse-Lévis-Lotbinière</span></div>
 	<div class="desc">
 		<tgauche>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10, rue Giguère<br/>
@@ -502,7 +502,7 @@
 	</div>
 </div>
 <div id="servicePublics"><h2>Services publics</h2>
-	<div class="titre" id="Centre de planification familiale"><a href="#Centre de planification familiale">Centre de planification familiale</a></div>
+	<div class="titre"><span>Centre de planification familiale</span></div>
 	<div class="desc">
 		<tgauche>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Centre hospitalier Hôtel-Dieu de Lévis<br/>
@@ -512,7 +512,7 @@
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-835-7121 # 1228
 		</tgauche>
 	</div>
-	<div class="titre" id="CSSS du Grand Littoral-CLSC secteur Chutes-de-la-Chaudière"><a href="#CSSS du Grand Littoral-CLSC secteur Chutes-de-la-Chaudière">CSSS du Grand Littoral-CLSC secteur Chutes-de-la-Chaudière</a></div>
+	<div class="titre"><span>CSSS du Grand Littoral-CLSC secteur Chutes-de-la-Chaudière</span></div>
 	<div class="desc">
 		<tgauche>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9330, boul. du Centre-hospitalier<br/>
@@ -521,7 +521,7 @@
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-380-8991
 		</tgauche>
 	</div>
-	<div class="titre" id="Hôtel Dieu de Lévis"><a href="#Hôtel Dieu de Lévis">Hôtel Dieu de Lévis</a></div>
+	<div class="titre"><span>Hôtel Dieu de Lévis</span></div>
 	<div class="desc">
 		<tgauche>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unité Mère-Enfant<br/>
@@ -533,7 +533,7 @@
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.hdl.qc.ca
 		</tgauche>
 	</div>
-	<div class="titre" id="CSSS du Grand Littoral-CLSC secteur Desjardins"><a href="#CSSS du Grand Littoral-CLSC secteur Desjardins">CSSS du Grand Littoral-CLSC secteur Desjardins</a></div>
+	<div class="titre"><span>CSSS du Grand Littoral-CLSC secteur Desjardins</span></div>
 	<div class="desc">
 		<tgauche>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15, rue de l'Arsenal<br/>
@@ -542,7 +542,7 @@
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-835-3400
 		</tgauche>
 	</div>
-	<div class="titre" id="Maison de naissance Mimosa"><a href="#Maison de naissance Mimosa">Maison de naissance Mimosa</a></div>
+	<div class="titre"><span>Maison de naissance Mimosa</span></div>
 	<div class="desc">
 		<tgauche>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La Maison de naissance Mimosa est la seule Maison de naissance de la grande région de <br/>
@@ -555,7 +555,7 @@
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.mimosa.qc.ca/
 		</tgauche>
 	</div>
-	<div class="titre" id="Régime québécois d'assurance parentale"><a href="#Régime québécois d'assurance parentale">Régime québécois d'assurance parentale</a></div>
+	<div class="titre"><span>Régime québécois d'assurance parentale</span></div>
 	<div class="desc">
 		<tgauche>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le régime québécois d'assurance parentale (RQAP) accorde un remplacement de revenu aux <br/>
@@ -567,13 +567,13 @@
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.rqap.gouv.qc.ca
 		</tgauche>
 	</div>
-	<div class="titre" id="Santé Canada"><a href="#Santé Canada">Santé Canada</a></div>
+	<div class="titre"><span>Santé Canada</span></div>
 	<div class="desc">
 		<tgauche>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.santecanada.gc.ca/
 		</tgauche>
 	</div>
-	<div class="titre" id="Service d'information et de référence 211"><a href="#Service d'information et de référence 211">Service d'information et de référence 211</a></div>
+	<div class="titre"><span>Service d'information et de référence 211</span></div>
 	<div class="desc">
 		<tgauche>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le Service 211 est un service d'information et de référence qui dirige les personnes vers les <br/>
@@ -587,7 +587,7 @@
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.211quebecregions.ca
 		</tgauche>
 	</div>
-	<div class="titre" id="SAAQ/ Vérification siège d'auto bébé et enfant"><a href="#SAAQ/ Vérification siège d'auto bébé et enfant">SAAQ/ Vérification siège d'auto bébé et enfant</a></div>
+	<div class="titre"><span>SAAQ/ Vérification siège d'auto bébé et enfant</span></div>
 	<div class="desc">
 		<tgauche>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pour voir les capsules sur l'installation d'un siège d'auto pour bébés et enfants, nous vous <br/>
@@ -599,7 +599,7 @@
 	</div>
 </div>
 <div id="urgence"><h2>Urgence</h2>
-	<div class="titre" id="Urgence Détresse"><a href="#Urgence Détresse">Urgence Détresse</a></div>
+	<div class="titre"><span>Urgence Détresse</span></div>
 	<div class="desc">
 		<tgauche>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Urgence Détresse est un service d'intervention en cas de crise, pour les situations d'urgences <br/>
@@ -607,7 +607,7 @@
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-834-5080
 		</tgauche>
 	</div>
-	<div class="titre" id="Info-Santé"><a href="#Urgence Détresse">Info-Santé</a></div>
+	<div class="titre" id="Info-Santé"><span>Info-Santé</span></div>
 	<div class="desc">
 		<tgauche>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Info-Santé<br/>
@@ -616,3 +616,4 @@
 		</tgauche>
 	</div>
 </div>
+
