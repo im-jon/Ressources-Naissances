@@ -1,4 +1,5 @@
 $(function () {
+    //$("#menu").lavaLamp({startItem: 1, target:'li', container:'li', returnHome:true, includeMargins: true , fx: "easeOutElastic", speed: 700 });
 
     $('#menu li').hover(
         function () {
