@@ -12,20 +12,25 @@ $result = mysql_query($query)
 	while($val = mysql_fetch_array($result)) {
 		$nom = $val['nom'];
 		$description = $val['lienPage'];
+	if($nom)
+	{	
+		echo "<div class='titreTexte' id='titrePage'>
+		<div class='titre'><span>$nom</span></div>";
+		echo "</div>";
 	
-	echo "<div class='titreTexte' id='titrePage'>
-			 <a href='#'>$nom</a></div>";
-
-
-	echo "<div class='contenuTexte'>";
-include($description);
-echo "</div>";
+		echo "<div class='contenuTexte'>";
+		include($description);
+		echo "</div>";
+	}
+	else
+	{
+		include($description);
+	}
 }
+
+echo "</br><A HREF='benevolat.php'>Retour affichage initial</A>";
  ?>
 
 
-<div id="photos">
-<img src="">
-</div>
 
 <?php include('footer.php'); ?>
