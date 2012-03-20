@@ -2,7 +2,7 @@
 	Documentation&gt;Articles</h1>
 <br />
 <div class="titre">
-	<a href="#">L&#39;allaitement en trio !</a><br />
+	<span>L&#39;allaitement en trio !</span><br/>
 	<reference>Publi&eacute; le 8 novembre 2006 par Marie-Jos&eacute;e No&euml;l, monitrice LLL, L&eacute;vis</reference></div>
 <div class="desc">
 	<tgauche> L&rsquo;allaitement en trio !
@@ -25,7 +25,7 @@
 	</tgauche></div>
 <br />
 <div class="titre">
-	<a href="#">Les Relevailles : Un service essentiel pour toutes les m&egrave;res qui ont accouch&eacute;</a><br />
+	<span>Les Relevailles : Un service essentiel pour toutes les m&egrave;res qui ont accouch&eacute;</span><br />
 	<reference>Publi&eacute; le 31 ao&ucirc;t 2006 par Lucie Thibodeau, R&eacute;seau des centres de ressources p&eacute;rinatales</reference></div>
 <div class="desc">
 	<tgauche>
@@ -62,7 +62,7 @@
 	</tgauche></div>
 <br />
 <div class="titre">
-	<a href="#">Les troubles de l&#39;humeur du post-partum</a><br />
+	<span>Les troubles de l&#39;humeur du post-partum</span><br />
 	<reference>Publi&eacute; le 1 janvier 2005 par Ressources-Naissances</reference></div>
 <div class="desc">
 	<tgauche>
@@ -257,7 +257,7 @@
 	</tgauche></div>
 <br />
 <div class="titre">
-	<a href="#">Les inqui&eacute;tudes des nouvelles mamans</a><br />
+	<span>Les inqui&eacute;tudes des nouvelles mamans</span><br />
 	<reference>Publi&eacute; le 14 f&eacute;vrier 1995 par M&egrave;re-Contact, ancien nom pour Ressources-Naissances</reference></div>
 <div class="desc">
 	<tgauche>
@@ -280,7 +280,7 @@
 	</tgauche></div>
 <br />
 <div class="titre">
-	<a href="#">La fatigue apr&egrave;s un accouchement</a><br />
+	<span>La fatigue apr&egrave;s un accouchement</span><br />
 	<reference>Publi&eacute; le 1 f&eacute;vrier 1995 par M&egrave;re-Contact, ancien nom pour Ressources-Naissances</reference></div>
 <div class="desc">
 	<tgauche>

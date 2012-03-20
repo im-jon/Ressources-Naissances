@@ -25,7 +25,7 @@
 <ul>
 	<li>
 		<div class="titre">
-			<a href="#"><souligne><b> FAITES UN DON</b></souligne></a></div>
+			<span><souligne><b> FAITES UN DON</b></souligne></span></div>
 		<div class="desc">
 			<br />
 			Faire un don &agrave; l&rsquo;organisme, c&rsquo;est contribuer &agrave; soutenir notre mission et aider &agrave; financer les activit&eacute;s d&eacute;ploy&eacute;es aupr&egrave;s des familles et de leur nouveau-n&eacute;. De cette fa&ccedil;on, vous participez au d&eacute;veloppement harmonieux de l&rsquo;enfant et de l&rsquo;adulte qu&rsquo;il deviendra.<br />
@@ -33,14 +33,14 @@
 	</li>
 	<li>
 		<div class="titre">
-			<a href="#"><souligne><b> CAMPAGNE DE SOLLICITATION</b></souligne></a></div>
+			<span><souligne><b> CAMPAGNE DE SOLLICITATION</b></souligne></span></div>
 		<div class="desc">
 			<br />
 			Au cours de la derni&egrave;re ann&eacute;e seulement, Ressources-Naissances a pu aider plus de 700 familles durant la p&eacute;riode p&eacute;rinatale. Au mois de f&eacute;vrier, nous sollicitons notre client&egrave;le par courriel pour sensibiliser les parents &agrave; la cause de la p&eacute;rinatalit&eacute; et solliciter leur soutien financier.</div>
 	</li>
 	<li>
 		<div class="titre">
-			<a href="#"><souligne><b>ACTIVIT&Eacute; B&Eacute;N&Eacute;FICE ANNUELLE&nbsp;</b></souligne></a></div>
+			<span><souligne><b>ACTIVIT&Eacute; B&Eacute;N&Eacute;FICE ANNUELLE&nbsp;</b></souligne></span></div>
 		<div class="desc">
 			<br />
 			&Agrave; chaque printemps, Ressources-Naissances offre &agrave; la population un souper b&eacute;n&eacute;fice permettant d&rsquo;amasser des fonds pour accomplir sa mission aupr&egrave;s des familles de la ville de L&eacute;vis. &nbsp;<br />
@@ -55,7 +55,7 @@
 	</li>
 	<li>
 		<div class="titre">
-			<a href="#"><souligne><b>Partenaires du Souper b&eacute;n&eacute;fice 2012</b></souligne></a></div>
+			<span><souligne><b>Partenaires du Souper b&eacute;n&eacute;fice 2012</b></souligne></span></div>
 		<div class="desc">
 			<br />
 			Liste &agrave; venir&hellip;</div>

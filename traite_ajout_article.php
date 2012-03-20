@@ -17,7 +17,7 @@ else{
 if($hfichier = fopen("article.txt", "a")){
 
 	//ajout dans le fichier article.txt des div pour que le jquery fonctionne
-	$LigneTitre = '<div class="titre"><a href="#">'.$titre."</a></br>";
+	$LigneTitre = '<div class="titre"><span>'.$titre."</span></br>";
 	$LigneSource = "<reference>".$source."</reference></div>";
 	$LigneDesc = '<div class="desc"><tgauche>'.$desc."</tgauche></div></br>";
 	
