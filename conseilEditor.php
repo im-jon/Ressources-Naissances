@@ -8,7 +8,8 @@
 			<center>
 				<input type="hidden" name="max_file_size" value="1048576">
 				<input type="file" name="fichier"><br/><br/>
-				Nom de la personne à ajouté: <input type="text" name="nomPersonne"><br/><br/>
+				Nom : <input type="text" name="nomPersonne"><br/>
+				Prenom : <input type="text" name="prenomPersonne"><br/><br/>
 				<input type="submit" name="envoyer" value="Envoyer">
 				<input type="reset" name="annuler" value="Annuler"/>
 			</center>
