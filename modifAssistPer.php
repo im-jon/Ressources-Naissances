@@ -31,7 +31,7 @@ while($val = mysql_fetch_array($result))
 
 if($_REQUEST['numBut']==$x)
 {
-echo "<form action='modifServiceEnregistrePage.php?idRecup=$x' method='post'>";
+echo "<form action='modifAssistPerEnregistrePage.php?idRecup=$x' method='post'>";
 echo"<fieldset id=modifService>";
 echo "<div class='titreTexte'>";
 echo "<a href='#'>Titre du paragraphe :</a>";
@@ -48,13 +48,14 @@ $leFichier.=fgets($fp,4096); // Lecture du contenu de la ligne
 }
 fclose($fp);
 
-$oFCKeditor = new FCKeditor('FCKeditor'.$x); // nouvelle instance de FCKeditor
-$oFCKeditor->Width = '100%';
-$oFCKeditor->Height = '400';
-$oFCKeditor->BasePath = '/fckeditor/';
-$oFCKeditor->Value = $leFichier;
+
+include("ckeditor/ckeditor.php");
+
+$CKEditor = new CKEditor();
+$CKEditor->basePath = 'ckeditor/';
+$CKEditor->config['height'] = '400px';
 echo "<table border=1 width='85%' Height='400'><TR><TD>";
-$oFCKeditor->Create();
+$CKEditor->editor('ckeditor' . $x, $leFichier);
 echo "</TD></TR></table>";
 
 $leFichier=null;
@@ -67,7 +68,7 @@ echo "</br>";
 
 else
 {
-echo "<form action='modifServices?numBut=".$x."' method='post'>";
+echo "<form action='modifAssistPer.php?numBut=".$x."' method='post'>";
 
 echo "<div class='titreTexte'>";
 echo "<a href='#'>$nom</a></br>";
@@ -89,7 +90,7 @@ $x++;
 <?php
 } # } du while
 
-echo "</br><A HREF='modifServices.php'>Retour affichage initial</A>";
+echo "</br><A HREF='modifAssistPer.php'>Retour affichage initial</A>";
 ?>
 
 <?php include('footer.php') ?>
