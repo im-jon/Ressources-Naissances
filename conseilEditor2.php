@@ -36,12 +36,14 @@
 	{
 		echo "Upload du fichier ".$_FILES["fichier"]["name"]." en cours...<br/><br/>";			
 	}
+	$ok = 0;
 	//copie du fichier du dossier temporaire au bon endroit
 	if(@copy($_FILES["fichier"]["tmp_name"],$dir.$nomImage))
 	{
 		echo "Transmission réussis!!!!<br/>dans le dossier img/conseil administration/ <br/><br/>";
 		echo "Code d'erreur=".$_FILES["fichier"]["error"];
 		code();
+		$ok = 1;
 	}
 	else
 	{
@@ -135,22 +137,25 @@ if(isset($imgSrc)){ // Sinon il ne s'agit pas d'un type d'image supporté par no
 	} 
     }           
 }
+if($ok ==1)
+{
 	include("Actions/mysql.php");
 
- $requete = "insert into photo(chemin)
-             values('miniConseilAdministration/$nomImage');"; 
- $resultat = mysql_query($requete) or die(mysql_error());
+	 $requete = "insert into photo(chemin)
+		     values('miniConseilAdministration/$nomImage');"; 
+	 $resultat = mysql_query($requete) or die(mysql_error());
 
- $idPhoto = "select id from photo where chemin='miniConseilAdministration/$nomImage';";
- $res = mysql_query($idPhoto) or die(mysql_error());
- $ligne = mysql_fetch_array($res);
-	$id = $ligne['id'];
+	 $idPhoto = "select id from photo where chemin='miniConseilAdministration/$nomImage';";
+	 $res = mysql_query($idPhoto) or die(mysql_error());
+	 $ligne = mysql_fetch_array($res);
+		$id = $ligne['id'];
 
- $insertConseil = "insert into conseil_administration(nom, prenom, id_photo)
-                   values('$nom','$prenom',$id);";
- $resultat2 = mysql_query($insertConseil) or die(mysql_error());
+	 $insertConseil = "insert into conseil_administration(nom, prenom, id_photo)
+		           values('$nom','$prenom',$id);";
+	 $resultat2 = mysql_query($insertConseil) or die(mysql_error());
  
-  mysql_close();
+  	mysql_close();
+}
 ?>
 </table>
 
