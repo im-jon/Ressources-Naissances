@@ -21,8 +21,8 @@ if($hfichier = fopen("article.txt", "a")){
 	$LigneSource = "<reference>".$source."</reference></div>";
 	$LigneDesc = '<div class="desc"><tgauche>'.$desc."</tgauche></div></br>";
 	
-	if(fwrite($hfichier,$LigneTitre.$LigneSource.$LigneDesc)){
-		echo "Ajout d'un nouvel article réussi";}
+	if(fwrite($hfichier,$LigneTitre.$LigneSource.$LigneDesc))
+		echo "Ajout d'un nouvel article réussi";
 	else
 		echo "Erreur dans l'écriture du fichier article.txt";
 		

@@ -323,6 +323,3 @@
 	<p>
 		Pour en savoir plus sur notre service d&#39;assistance &agrave; domicile, qui peut faire toute la diff&eacute;rence pour aider &agrave; soulager la fatigue, t&eacute;l&eacute;phonez &agrave; M&egrave;re-Contact (aujourd&#39;hui Ressources-Naissances) au (418) 834-8085.</p>
 	</tgauche></div>
-<div class="titre">
-	&nbsp;</div>
-<br />
