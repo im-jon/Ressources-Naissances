@@ -10,7 +10,7 @@ if (!estAutorise(2)) {
 $idTypeAtelier = $_REQUEST['id_type'];
 $dateDebut = date('c', strtotime($_REQUEST['date_debut']));
 $dateFin = date('c', strtotime($_REQUEST['date_fin']));
-$animatrice = $_REQUEST['animatrice'];
+$animatrice = isset($_REQUEST['animatrice']) ? $_REQUEST['animatrice'] : '';
 
 include("mysql.php");
 
