@@ -42,7 +42,7 @@ $(function() {
 
 <h1>Modifier la page d'accueil</h1>
 
-<div class="titre"><a href="#">Ajouter une image pour le diaporama</a></div>
+<div class="titre"><span>Ajouter une image pour le diaporama</span></div>
 
 <div class="desc">
 	<h2>Ajout d'une image</h2>
@@ -55,13 +55,7 @@ $(function() {
 	</form>
 </div>
 
-<div class="titre"><a href="#">Changer la vidéo promotionel</a></div>
-
-<div class="desc">
-	
-</div>
-
-<div class="titre"><a href="#">Changer le texte pour les certificats-cadeau</a></div>
+<div class="titre"><span>Changer le texte pour les certificats-cadeau</span></div>
 
 <div class="desc">
 	<?php 
@@ -81,7 +75,7 @@ $(function() {
 	</form>
 </div>
 
-<div class="titre"><a href="#">Changer le texte de présentation</a></div>
+<div class="titre"><span>Changer le texte de présentation</span></div>
 	
 <div class="desc">
 	<?php 

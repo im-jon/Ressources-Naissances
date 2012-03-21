@@ -2,7 +2,7 @@
 	Documentation&gt;Articles</h1>
 <br />
 <div class="titre">
-	<span>L&#39;allaitement en trio !</span><br/>
+	<span>L&#39;allaitement en trio !</span><br />
 	<reference>Publi&eacute; le 8 novembre 2006 par Marie-Jos&eacute;e No&euml;l, monitrice LLL, L&eacute;vis</reference></div>
 <div class="desc">
 	<tgauche> L&rsquo;allaitement en trio !
@@ -323,3 +323,5 @@
 	<p>
 		Pour en savoir plus sur notre service d&#39;assistance &agrave; domicile, qui peut faire toute la diff&eacute;rence pour aider &agrave; soulager la fatigue, t&eacute;l&eacute;phonez &agrave; M&egrave;re-Contact (aujourd&#39;hui Ressources-Naissances) au (418) 834-8085.</p>
 	</tgauche></div>
+<p>
+	&nbsp;</p>
