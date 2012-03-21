@@ -14,7 +14,7 @@ if($hfichier = fopen("historique.txt", "a")){
 	if(fwrite($hfichier,$LigneTitre.$LigneSource.$LigneDesc))
 		echo "Ajout d'un nouvel historique réussi";
 	else
-		echo "Erreur dans l'écriture du fichier article.txt";
+		echo "Erreur dans l'écriture du fichier historique.txt";
 		
 	fclose($hfichier);
 }

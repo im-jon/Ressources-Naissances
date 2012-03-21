@@ -14,12 +14,12 @@ if($hfichier = fopen("lienUtile.txt", "a")){
 	if(fwrite($hfichier,$LigneTitre.$LigneSource.$LigneDesc))
 		echo "Ajout d'un nouveau lien réussi";
 	else
-		echo "Erreur dans l'écriture du fichier article.txt";
+		echo "Erreur dans l'écriture du fichier lienUtile.txt";
 		
 	fclose($hfichier);
 }
 else
-	echo "Erreur dans l'ouverture du fichier historique.txt";
+	echo "Erreur dans l'ouverture du fichier lienUtile.txt";
 
 
 include("footer.php");?>

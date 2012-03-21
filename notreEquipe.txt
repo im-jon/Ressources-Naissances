@@ -56,6 +56,4 @@
 		&nbsp;</div>
 	Beaudoin Marie-Claude: Agente relations publiques et communication<br />
 	Lydia Bellerose: Intervenante communautaire</div>
-<p>
-	<br />
-	&nbsp;</p>
+<br />

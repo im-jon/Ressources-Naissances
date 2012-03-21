@@ -12,7 +12,7 @@ if($erreur == 1)
 		</br>
 		<input type="text" name="titre" />
 		</br>
-		<label>Renseignement:</label>
+		<label>Renseignement:</label></br>
 		<textarea name="desc" row="4"  col="50"></textarea>
 		</br>
 		<input type="submit" id="btn" value="Ajouter un lien"/>
