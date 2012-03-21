@@ -28,6 +28,9 @@ if (!estAutorise(2)) {
 	<li class="lienPanneau"><a href="modifTemoignages.php">Modifier témoignages Services</a></li>
 	<li class="lienPanneau"><a href="Modifier_Accueil.php">Modifier la page d'accueil</a></li>
 	<li class="lienPanneau"><a href="conseilEditor.php">Ajout d'une personne au conseil d'administration</a></li>
+	<li class="lienPanneau"><a href="formHistorique.php">Ajout d'un nouvel historique</a></li>
+	<li class="lienPanneau"><a href="formLienUtile.php">Ajout d'un nouveau lien utile</a></li>
+	<li class="lienPanneau"><a href="formNotreEquipe.php">Ajout d'une personne à l'équipe</a></li>
 
 </ul>
 

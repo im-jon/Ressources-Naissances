@@ -38,7 +38,7 @@ $resultat = mysql_query($requete);
 	</div>
 
 	<div id="video-intro">
-		<iframe width="360" height="315" src="http://www.youtube.com/embed/YOxVjbGvUpI?wmode=transparent" frameborder="0" allowfullscreen ></iframe>
+		<iframe width="360" height="315" src="http://www.youtube.com/embed/_OBlgSz8sSM?wmode=transparent" frameborder="0" allowfullscreen ></iframe>
 	</div>
 
 </article>

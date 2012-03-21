@@ -1,619 +1,536 @@
 <ul>
-		<li><a href="lienUtile.php#allaitement">Allaitement</a></li>
-		<li><a href="lienUtile.php#familles">Familles et parents</a></li>
-		<li><a href="lienUtile.php#gardiennage">Gardiennage et répit</a></li>
-		<li><a href="lienUtile.php#ligneEcoute">Ligne d'écoute</a></li>
-		<li><a href="lienUtile.php#prenatal">Prénatal et postnatal</a></li>
-		<li><a href="lienUtile.php#ressourcesFemmes">Ressources pour femmes</a></li>
-		<li><a href="lienUtile.php#ressourcesHommes">Ressources pour hommes</a></li>
-		<li><a href="lienUtile.php#entraide">Services d'entraide et dépannage</a></li>
-		<li><a href="lienUtile.php#servicePublics">Services publics</a></li>
-		<li><a href="lienUtile.php#urgence">Urgence</a></li>
-	</ul>
-<div id="allaitement"><h2>Allaitement</h2>
-	<div class="titre"><span>Allaitement Québec</span></div>
+	<li>
+		<a href="lienUtile.php#allaitement">Allaitement</a></li>
+	<li>
+		<a href="lienUtile.php#familles">Familles et parents</a></li>
+	<li>
+		<a href="lienUtile.php#gardiennage">Gardiennage et r&eacute;pit</a></li>
+	<li>
+		<a href="lienUtile.php#ligneEcoute">Ligne d&#39;&eacute;coute</a></li>
+	<li>
+		<a href="lienUtile.php#prenatal">Pr&eacute;natal et postnatal</a></li>
+	<li>
+		<a href="lienUtile.php#ressourcesFemmes">Ressources pour femmes</a></li>
+	<li>
+		<a href="lienUtile.php#ressourcesHommes">Ressources pour hommes</a></li>
+	<li>
+		<a href="lienUtile.php#entraide">Services d&#39;entraide et d&eacute;pannage</a></li>
+	<li>
+		<a href="lienUtile.php#servicePublics">Services publics</a></li>
+	<li>
+		<a href="lienUtile.php#urgence">Urgence</a></li>
+</ul>
+<div id="allaitement">
+	<h2>
+		Allaitement</h2>
+	<div class="titre">
+		<span>Allaitement Qu&eacute;bec</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Allaitement Québec est un organisme d'entraide mère à mère qui a comme principal objectif<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d'offrir du soutien aux femmes enceintes qui allaitent.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-623-0971<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : allaitementquebec@ccapcable.com
-		</tgauche>
-	</div>
-	<div class="titre"><span>Entraide Naturo-Lait</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Allaitement Qu&eacute;bec est un organisme d&#39;entraide m&egrave;re &agrave; m&egrave;re qui a comme principal objectif<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d&#39;offrir du soutien aux femmes enceintes qui allaitent.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-623-0971<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : allaitementquebec@ccapcable.com </tgauche></div>
+	<div class="titre">
+		<span>Entraide Naturo-Lait</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Groupe d'information et de soutien à l'allaitement maternel.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;855, avenue Holland, bureau 201<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Québec (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G1S 3S5<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-663-2711<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : enl@oricom.ca
-		</tgauche>
-	</div>
-	<div class="titre"><span>Chantelait</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Groupe d&#39;information et de soutien &agrave; l&#39;allaitement maternel.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;855, avenue Holland, bureau 201<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qu&eacute;bec (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G1S 3S5<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-663-2711<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : enl@oricom.ca </tgauche></div>
+	<div class="titre">
+		<span>Chantelait</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Groupe d'entraide à l'allaitement maternel.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1320, rue St-Paul<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L'Ancienne-Lorette (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G2E 4Z4<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-877-5333<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : chantelait@globetrotter.net
-		</tgauche>
-	</div>
-	<div class="titre"><span>Mamie-Lait</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Groupe d&#39;entraide &agrave; l&#39;allaitement maternel.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1320, rue St-Paul<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&#39;Ancienne-Lorette (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G2E 4Z4<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-877-5333<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : chantelait@globetrotter.net </tgauche></div>
+	<div class="titre">
+		<span>Mamie-Lait</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un groupe d'entraide à l'allaitement maternel.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14, St-Amand<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Loretteville (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G2A 1K9<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-847-1957<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : mamie-lait@oricom.ca<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.mamielait.com/
-		</tgauche>
-	</div>
-	<div class="titre"><span>La ligue La Leche</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un groupe d&#39;entraide &agrave; l&#39;allaitement maternel.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14, St-Amand<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Loretteville (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G2A 1K9<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-847-1957<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : mamie-lait@oricom.ca<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.mamielait.com/ </tgauche></div>
+	<div class="titre">
+		<span>La ligue La Leche</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La ligue La Leche (se prononce "la létché" mot espagnol qui signifie le lait)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;est un organisme à but non lucratif et bénévole. Les services : Réunions<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d'information, service de bibliothèque, soutien téléphonique et matériel.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-838-1584<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1-866-ALLAITER (255-2483)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.allaitement.ca
-		</tgauche>
-	</div>
-	<div class="titre"><span>Le Re-lait</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La ligue La Leche (se prononce &quot;la l&eacute;tch&eacute;&quot; mot espagnol qui signifie le lait)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;est un organisme &agrave; but non lucratif et b&eacute;n&eacute;vole. Les services : R&eacute;unions<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d&#39;information, service de biblioth&egrave;que, soutien t&eacute;l&eacute;phonique et mat&eacute;riel.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-838-1584<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1-866-ALLAITER (255-2483)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.allaitement.ca </tgauche></div>
+	<div class="titre">
+		<span>Le Re-lait</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Groupe d'entraide en allaitement. Consulter leur site pour connaître les numéros de <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;téléphone des marraines.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Montmagny<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : lerelait@globetrotter.net<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.lerelait.com
-		</tgauche>
-	</div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Groupe d&#39;entraide en allaitement. Consulter leur site pour conna&icirc;tre les num&eacute;ros de<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t&eacute;l&eacute;phone des marraines.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Montmagny<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : lerelait@globetrotter.net<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.lerelait.com </tgauche></div>
 </div>
-<div id="familles"><h2>Familles et parents</h2>
-	<div class="titre"><span>Le Monarque</span></div>
+<div id="familles">
+	<h2>
+		Familles et parents</h2>
+	<div class="titre">
+		<span>Le Monarque</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unité mobile d'intervention<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-933-0690<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : unitemobile@hotmail.com<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : allaitementquebec@ccapcable.com
-		</tgauche>
-	</div>
-	<div class="titre"><span>Association des Parents de Jumeaux et plus de la région de Québec</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unit&eacute; mobile d&#39;intervention<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-933-0690<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : unitemobile@hotmail.com<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : allaitementquebec@ccapcable.com </tgauche></div>
+	<div class="titre">
+		<span>Association des Parents de Jumeaux et plus de la r&eacute;gion de Qu&eacute;bec</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.apjq.net/
-		</tgauche>
-	</div>
-	<div class="titre"><span>Association de parents d'enfants prématurés</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.apjq.net/ </tgauche></div>
+	<div class="titre">
+		<span>Association de parents d&#39;enfants pr&eacute;matur&eacute;s</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 514-523-3974
-		</tgauche>
-	</div>
-	<div class="titre"><span>Maison de la famille Rive-Sud</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 514-523-3974 </tgauche></div>
+	<div class="titre">
+		<span>Maison de la famille Rive-Sud</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La Maison de la Famille Rive-Sud est un organisme à but non lucratif qui offre une aide <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;psychosociale aux individus, couples et familles en fonction des étapes de développement <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;familial. <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5905, rue Saint-George<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lévis (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 4K9<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-835-5603<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mfrs@total.net<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://www.total.net/~mfrs/
-		</tgauche>
-	</div>
-	<div class="titre"><span>Entraide-parents</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La Maison de la Famille Rive-Sud est un organisme &agrave; but non lucratif qui offre une aide<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;psychosociale aux individus, couples et familles en fonction des &eacute;tapes de d&eacute;veloppement<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;familial.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5905, rue Saint-George<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&eacute;vis (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 4K9<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-835-5603<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mfrs@total.net<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://www.total.net/~mfrs/ </tgauche></div>
+	<div class="titre">
+		<span>Entraide-parents</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entraide-parents est un organisme communautaire d'entraide et de soutien aux parents. Son <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;action préventive-éducative vise à soutenir le parent dans son rôle et à favoriser l'entraide <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;entre les parents.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1860, 25e Rue<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Québec (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G1J 1L7<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-664-0050<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : info@entraideparents.com<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.entraideparents.com/
-		</tgauche>
-	</div>
-	<div class="titre"><span>Maison de la Famille Chutes-de-la-Chaudière</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entraide-parents est un organisme communautaire d&#39;entraide et de soutien aux parents. Son<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;action pr&eacute;ventive-&eacute;ducative vise &agrave; soutenir le parent dans son r&ocirc;le et &agrave; favoriser l&#39;entraide<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;entre les parents.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1860, 25e Rue<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qu&eacute;bec (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G1J 1L7<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-664-0050<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : info@entraideparents.com<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.entraideparents.com/ </tgauche></div>
+	<div class="titre">
+		<span>Maison de la Famille Chutes-de-la-Chaudi&egrave;re</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L'organisme famille du secteur Chutes-de-la-Chaudière à Lévis : Pour permettre aux familles <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de prendre la place qui leur revient dans la communauté! Pour faciliter le développement des <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enfants de 1 à 12 ans. Pour favoriser le lien d'attachement entre parent et enfant. Pour <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;accompagner le parent dans son rôle d'éducateur.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2225, boul. de la Rive-Sud<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;St-Romuald (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6K 1E4<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-839-1869<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : demonenfance@yahoo.ca
-		</tgauche>
-	</div>
-	<div class="titre"><span>La Joujouthèque de Lévis</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&#39;organisme famille du secteur Chutes-de-la-Chaudi&egrave;re &agrave; L&eacute;vis : Pour permettre aux familles<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de prendre la place qui leur revient dans la communaut&eacute;! Pour faciliter le d&eacute;veloppement des<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enfants de 1 &agrave; 12 ans. Pour favoriser le lien d&#39;attachement entre parent et enfant. Pour<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;accompagner le parent dans son r&ocirc;le d&#39;&eacute;ducateur.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2225, boul. de la Rive-Sud<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;St-Romuald (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6K 1E4<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-839-1869<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : demonenfance@yahoo.ca </tgauche></div>
+	<div class="titre">
+		<span>La Joujouth&egrave;que de L&eacute;vis</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La Joujouthèque, c'est comme une bibliothèque, mais avec des jeux et jouets. La <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Joujouthèque s'adresse autant aux enfants (0 à 8 ans) qu'à leurs parents et éducateurs. La <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Joujouthèque offre la possibilité à ses membres d'emprunter ou de louer une grande variété <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de jeux et de jouets en se prévalant d'un abonnement annuel pour environ le prix d'un seul <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jouet.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;36, avenue Plante<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lévis (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 6Z5<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-838-4944<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : info@joujouthequedelevis.com<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.joujouthequedelevis.com
-		</tgauche>
-	</div>
-	<div class="titre"><span>ACEF</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La Joujouth&egrave;que, c&#39;est comme une biblioth&egrave;que, mais avec des jeux et jouets. La<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Joujouth&egrave;que s&#39;adresse autant aux enfants (0 &agrave; 8 ans) qu&#39;&agrave; leurs parents et &eacute;ducateurs. La<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Joujouth&egrave;que offre la possibilit&eacute; &agrave; ses membres d&#39;emprunter ou de louer une grande vari&eacute;t&eacute;<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de jeux et de jouets en se pr&eacute;valant d&#39;un abonnement annuel pour environ le prix d&#39;un seul<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jouet.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;36, avenue Plante<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&eacute;vis (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 6Z5<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-838-4944<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : info@joujouthequedelevis.com<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.joujouthequedelevis.com </tgauche></div>
+	<div class="titre">
+		<span>ACEF</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L'ACEF (Association coopérative d'économie familiale), organisme communautaire sans but <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lucratif, dispense des services spécialisés dans les domaines du budget, de l'endettement et <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de la consommation. De plus, comme groupe d'intervention, l'ACEF vise le mieux-être collectif <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;par son action sociale. <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-835-6633 ou 1-877-835-6633<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : acef-rive-sud@videotron.net<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.consommateur.qc.ca/
-		</tgauche>
-	</div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&#39;ACEF (Association coop&eacute;rative d&#39;&eacute;conomie familiale), organisme communautaire sans but<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lucratif, dispense des services sp&eacute;cialis&eacute;s dans les domaines du budget, de l&#39;endettement et<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de la consommation. De plus, comme groupe d&#39;intervention, l&#39;ACEF vise le mieux-&ecirc;tre collectif<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;par son action sociale.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-835-6633 ou 1-877-835-6633<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : acef-rive-sud@videotron.net<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.consommateur.qc.ca/ </tgauche></div>
 </div>
-<div id="gardiennage"><h2>Gardiennage et répit</h2>
-	<div class="titre"><span>Coopérative de services Rive-Sud</span></div>
+<div id="gardiennage">
+	<h2>
+		Gardiennage et r&eacute;pit</h2>
+	<div class="titre">
+		<span>Coop&eacute;rative de services Rive-Sud</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La coopérative de Services Rive-Sud met à la disposition de ses membres, et de toute autre<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;personne, des services de qualité, fournis par des employés compétents et supervisés de <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;façon appropriée. <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;39, rue Guénette<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lévis (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 5M9<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-838-4019<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : general@coopsrs.attcanada.net
-		</tgauche>
-	</div>
-	<div class="titre"><span>Les Premiers Jours</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La coop&eacute;rative de Services Rive-Sud met &agrave; la disposition de ses membres, et de toute autre<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;personne, des services de qualit&eacute;, fournis par des employ&eacute;s comp&eacute;tents et supervis&eacute;s de<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fa&ccedil;on appropri&eacute;e.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;39, rue Gu&eacute;nette<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&eacute;vis (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 5M9<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-838-4019<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : general@coopsrs.attcanada.net </tgauche></div>
+	<div class="titre">
+		<span>Les Premiers Jours</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La maison Les Premiers Jours se veut une ressource d'aide parentale visant à répondre à la <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;demande incessante de support auprès des familles en période postnatale.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-872-2896 ou (418) 872-0829<br/>
-		</tgauche>
-	</div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La maison Les Premiers Jours se veut une ressource d&#39;aide parentale visant &agrave; r&eacute;pondre &agrave; la<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;demande incessante de support aupr&egrave;s des familles en p&eacute;riode postnatale.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-872-2896 ou (418) 872-0829</tgauche></div>
 </div>
-<div id="ligneEcoute"><h2>Ligne d'écoute</h2>
-	<div class="titre"><span>Tel-Écoute du Littoral</span></div>
+<div id="ligneEcoute">
+	<h2>
+		Ligne d&#39;&eacute;coute</h2>
+	<div class="titre">
+		<span>Tel-&Eacute;coute du Littoral</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Service d'écoute, de référence et d'information. Une oreille attentive, en toute confidentialité, <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pour aider à passer un moment difficile.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-838-4095
-		</tgauche>
-	</div>
-	<div class="titre"><span>Tel-Jeunes</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Service d&#39;&eacute;coute, de r&eacute;f&eacute;rence et d&#39;information. Une oreille attentive, en toute confidentialit&eacute;,<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pour aider &agrave; passer un moment difficile.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-838-4095 </tgauche></div>
+	<div class="titre">
+		<span>Tel-Jeunes</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel-jeunes est un centre d'intervention téléphonique et sur Internet.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 1-800-263-2266<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.teljeunes.com/
-		</tgauche>
-	</div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel-jeunes est un centre d&#39;intervention t&eacute;l&eacute;phonique et sur Internet.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 1-800-263-2266<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.teljeunes.com/ </tgauche></div>
 </div>
-<div id="prenatal"><h2>Prénatal et postnatal</h2>
-	<div class="titre"><span>SOS Grossesse</span></div>
+<div id="prenatal">
+	<h2>
+		Pr&eacute;natal et postnatal</h2>
+	<div class="titre">
+		<span>SOS Grossesse</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S.O.S. Grossesse est un organisme offrant un service d'écoute téléphonique, d'information et <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d'accueil à toute personne directement ou indirectement concernée par des situations <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;relatives à la grossesse, qu'elle soit planifiée ou non, à la contraception, à l'avortement et à la <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sexualité.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;855, avenue Holland, suite 200<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Québec (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G1S 3S5<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-682-6222 ou 1-877-662-9666<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://pages.globetrotter.net/sosgrossesse/
-		</tgauche>
-	</div>
-	<div class="titre"><span>La Chrysalide</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S.O.S. Grossesse est un organisme offrant un service d&#39;&eacute;coute t&eacute;l&eacute;phonique, d&#39;information et<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d&#39;accueil &agrave; toute personne directement ou indirectement concern&eacute;e par des situations<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;relatives &agrave; la grossesse, qu&#39;elle soit planifi&eacute;e ou non, &agrave; la contraception, &agrave; l&#39;avortement et &agrave; la<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sexualit&eacute;.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;855, avenue Holland, suite 200<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qu&eacute;bec (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G1S 3S5<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-682-6222 ou 1-877-662-9666<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://pages.globetrotter.net/sosgrossesse/ </tgauche></div>
+	<div class="titre">
+		<span>La Chrysalide</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Centre privé en périnatalité qui dote la région de Québec d'un service complémentaire au <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;réseau médical.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;917, Monseigneur Grandin, local 106<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sainte-Foy (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G1V 3X8<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-658-6893
-		</tgauche>
-	</div>
-	<div class="titre"><span>Groupe Les relevailles</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Centre priv&eacute; en p&eacute;rinatalit&eacute; qui dote la r&eacute;gion de Qu&eacute;bec d&#39;un service compl&eacute;mentaire au<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;r&eacute;seau m&eacute;dical.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;917, Monseigneur Grandin, local 106<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sainte-Foy (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G1V 3X8<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-658-6893 </tgauche></div>
+	<div class="titre">
+		<span>Groupe Les relevailles</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Organisme communautaire existant depuis 1982, visant à soutenir les parents de jeunes <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enfants de 0 à 5 ans, en offrant diverses activités ainsi que de l'aide à domicile.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1605, chemin Ste-Foy <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C.P. 2<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Québec (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G1S 2P1<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-688-3301<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : info@groupelesrelevailles.qc.ca<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.groupelesrelevailles.qc.ca
-		</tgauche>
-	</div>
-	<div class="titre"><span>Les accompagnantes</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Organisme communautaire existant depuis 1982, visant &agrave; soutenir les parents de jeunes<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enfants de 0 &agrave; 5 ans, en offrant diverses activit&eacute;s ainsi que de l&#39;aide &agrave; domicile.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1605, chemin Ste-Foy<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C.P. 2<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qu&eacute;bec (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G1S 2P1<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-688-3301<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : info@groupelesrelevailles.qc.ca<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.groupelesrelevailles.qc.ca </tgauche></div>
+	<div class="titre">
+		<span>Les accompagnantes</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le but des Accompagnantes est de faire de la naissance une expérience positive et <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enrichissante pour la femme, le couple et toute la famille. <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;855, avenue Holland, bureau 202<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Québec (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G1S 3S5<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-688-6039<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : caa@oricom.ca<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.oricom.ca/accompagnantes/
-		</tgauche>
-	</div>
-	<div class="titre"><span>La préparation affective à la naissance</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le but des Accompagnantes est de faire de la naissance une exp&eacute;rience positive et<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enrichissante pour la femme, le couple et toute la famille.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;855, avenue Holland, bureau 202<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qu&eacute;bec (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G1S 3S5<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-688-6039<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : caa@oricom.ca<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.oricom.ca/accompagnantes/ </tgauche></div>
+	<div class="titre">
+		<span>La pr&eacute;paration affective &agrave; la naissance</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La préparation affective à la naissance est une approche qui intègre différents concepts <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inspirés de l'haptonomie périnatale, du chant prénatal, de la psychologie du développement, <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de l'ostéopathie et des théories liées au travail du périnée.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 1-866-334-2323<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.naissanceaffective.com/
-		</tgauche>
-	</div>
-	<div class="titre"><span>Réseau des Centres de ressources périnatales</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La pr&eacute;paration affective &agrave; la naissance est une approche qui int&egrave;gre diff&eacute;rents concepts<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inspir&eacute;s de l&#39;haptonomie p&eacute;rinatale, du chant pr&eacute;natal, de la psychologie du d&eacute;veloppement,<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de l&#39;ost&eacute;opathie et des th&eacute;ories li&eacute;es au travail du p&eacute;rin&eacute;e.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 1-866-334-2323<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.naissanceaffective.com/ </tgauche></div>
+	<div class="titre">
+		<span>R&eacute;seau des Centres de ressources p&eacute;rinatales</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regroupement des centres de ressources périnatales du Québec <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6531, rue de Mirande<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Québec (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G1H 7A1<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-603-3762<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.reseaudescrp.org/
-		</tgauche>
-	</div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regroupement des centres de ressources p&eacute;rinatales du Qu&eacute;bec<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6531, rue de Mirande<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qu&eacute;bec (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G1H 7A1<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-603-3762<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.reseaudescrp.org/ </tgauche></div>
 </div>
-<div id="ressourcesFemmes"><h2>Ressources pour femmes</h2>
-	<div class="titre"><span>Jonction pour Elle</span></div>
+<div id="ressourcesFemmes">
+	<h2>
+		Ressources pour femmes</h2>
+	<div class="titre">
+		<span>Jonction pour Elle</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maison d'hébergement pour les femmes victimes de violence et leurs enfants. <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C.P 1257<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lévis (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 6R8<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-833-8002
-		</tgauche>
-	</div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maison d&#39;h&eacute;bergement pour les femmes victimes de violence et leurs enfants.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C.P 1257<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&eacute;vis (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 6R8<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-833-8002 </tgauche></div>
 </div>
-<div id="ressourcesHommes"><h2>Ressources pour hommes</h2>
-	<div class="titre"><span>Partage au masculin</span></div>
+<div id="ressourcesHommes">
+	<h2>
+		Ressources pour hommes</h2>
+	<div class="titre">
+		<span>Partage au masculin</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Partage au masculin est un organisme communautaire régional dont la mission est d'offrir <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;aux hommes des services adaptés à leurs besoins de croissance et aux difficultés qu'ils <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rencontrent. <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11925, 1re Avenue Est, local 102<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saint-Georges (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G5Y 2C9<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 1-866-466-6379<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : partam94@globetrotter.net
-		</tgauche>
-	</div>
-	<div class="titre"><span>Le Centre EX-EQUO</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Partage au masculin est un organisme communautaire r&eacute;gional dont la mission est d&#39;offrir<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;aux hommes des services adapt&eacute;s &agrave; leurs besoins de croissance et aux difficult&eacute;s qu&#39;ils<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rencontrent.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11925, 1re Avenue Est, local 102<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saint-Georges (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G5Y 2C9<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 1-866-466-6379<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : partam94@globetrotter.net </tgauche></div>
+	<div class="titre">
+		<span>Le Centre EX-EQUO</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pour les hommes de 18 ans et plus ayant des comportements violents envers leur conjointe <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;et qui désirent changer.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;St-Romuald, Sainte-Marie, St-Georges<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-380-2073<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : exequo@globetrotter.net<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.exequo.ca
-		</tgauche>
-	</div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pour les hommes de 18 ans et plus ayant des comportements violents envers leur conjointe<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;et qui d&eacute;sirent changer.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;St-Romuald, Sainte-Marie, St-Georges<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-380-2073<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : exequo@globetrotter.net<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.exequo.ca </tgauche></div>
 </div>
-<div id="entraide"><h2>Services d'entraide et dépannage</h2>
-	<div class="titre"><span>Service d'entraide de Saint-Henri</span></div>
+<div id="entraide">
+	<h2>
+		Services d&#39;entraide et d&eacute;pannage</h2>
+	<div class="titre">
+		<span>Service d&#39;entraide de Saint-Henri</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Local des Chevaliers de Colomb<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9, rue Laliberté<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;St-Henri (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G0R 3E0<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-882-0366
-		</tgauche>
-	</div>
-	<div class="titre"><span>Service d'entraide de Pintendre</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Local des Chevaliers de Colomb<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9, rue Lalibert&eacute;<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;St-Henri (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G0R 3E0<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-882-0366 </tgauche></div>
+	<div class="titre">
+		<span>Service d&#39;entraide de Pintendre</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;344-344, 10e Avenue<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pintendre (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6C 1G7<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-833-6731
-		</tgauche>
-	</div>
-	<div class="titre"><span>Service d'entraide de Breakeyville</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;344-344, 10e Avenue<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pintendre (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6C 1G7<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-833-6731 </tgauche></div>
+	<div class="titre">
+		<span>Service d&#39;entraide de Breakeyville</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12, rue Sainte-Hélène<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Breakeyville (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G0S 1E0<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-832-1671
-		</tgauche>
-	</div>
-	<div class="titre"><span>Service d'entraide de Saint-Étienne</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12, rue Sainte-H&eacute;l&egrave;ne<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Breakeyville (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G0S 1E0<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-832-1671 </tgauche></div>
+	<div class="titre">
+		<span>Service d&#39;entraide de Saint-&Eacute;tienne</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;647-A, rue Principale<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;St-Étienne (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6J 1H3<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-836-0468
-		</tgauche>
-	</div>
-	<div class="titre"><span>Service d'entraide de Saint-Romuald</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;647-A, rue Principale<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;St-&Eacute;tienne (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6J 1H3<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-836-0468 </tgauche></div>
+	<div class="titre">
+		<span>Service d&#39;entraide de Saint-Romuald</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;285, rue de l'Église<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;St-Romuald (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6W 3H6<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-839-5588
-		</tgauche>
-	</div>
-	<div class="titre"><span>Service d'entraide de Saint-Rédempteur</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;285, rue de l&#39;&Eacute;glise<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;St-Romuald (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6W 3H6<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-839-5588 </tgauche></div>
+	<div class="titre">
+		<span>Service d&#39;entraide de Saint-R&eacute;dempteur</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;École Dominique Savio<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;55, rue du Cap<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;St-Rédempteur (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6K 1N6<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-831-1451<br/>
-		</tgauche>
-	</div>
-	<div class="titre"><span>Service d'entraide de Saint-Jean-Chrysostome</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&Eacute;cole Dominique Savio<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;55, rue du Cap<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;St-R&eacute;dempteur (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6K 1N6<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-831-1451</tgauche></div>
+	<div class="titre">
+		<span>Service d&#39;entraide de Saint-Jean-Chrysostome</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1008, rue Saint-Paul<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;St-Jean-Chrysostome (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6Z 3H6<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-839-0749
-		</tgauche>
-	</div>
-	<div class="titre"><span>Service d'entraide de Charny</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1008, rue Saint-Paul<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;St-Jean-Chrysostome (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6Z 3H6<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-839-0749 </tgauche></div>
+	<div class="titre">
+		<span>Service d&#39;entraide de Charny</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2480, avenue du Viaduc<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Charny (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6X 2V2<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-832-0768
-		</tgauche>
-	</div>
-	<div class="titre"><span>Service d'entraide de Saint-Nicolas</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2480, avenue du Viaduc<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Charny (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6X 2V2<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-832-0768 </tgauche></div>
+	<div class="titre">
+		<span>Service d&#39;entraide de Saint-Nicolas</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1444, rue des Pionniers<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;St-Nicolas (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G7A 4L6<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-831-8160
-		</tgauche>
-	</div>
-	<div class="titre"><span>La cantine de l'Espoir</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1444, rue des Pionniers<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;St-Nicolas (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G7A 4L6<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-831-8160 </tgauche></div>
+	<div class="titre">
+		<span>La cantine de l&#39;Espoir</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cuisine collective<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comptoir Le Grenier<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;257, rue Saint-Joseph <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lévis (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 1E6<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-838-1450
-		</tgauche>
-	</div>
-	<div class="titre"><span>La chaudronnée des cuisines collectives</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cuisine collective<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comptoir Le Grenier<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;257, rue Saint-Joseph<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&eacute;vis (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 1E6<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-838-1450 </tgauche></div>
+	<div class="titre">
+		<span>La chaudronn&eacute;e des cuisines collectives</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-839-1869
-		</tgauche>
-	</div>
-	<div class="titre"><span>Comptoir des infortunés</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-839-1869 </tgauche></div>
+	<div class="titre">
+		<span>Comptoir des infortun&eacute;s</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comptoir vestimentaire<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;41, rue du Bel-Air<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lévis (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 6K9<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-837-8478
-		</tgauche>
-	</div>
-	<div class="titre"><span>Le Fouillis</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comptoir vestimentaire<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;41, rue du Bel-Air<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&eacute;vis (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 6K9<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-837-8478 </tgauche></div>
+	<div class="titre">
+		<span>Le Fouillis</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comptoir vestimentaire<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;140, rue Saint-Joseph<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lévis (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 1C3<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-835-1625
-		</tgauche>
-	</div>
-	<div class="titre"><span>Ouvroir, Notre-Dame de Lévis</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comptoir vestimentaire<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;140, rue Saint-Joseph<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&eacute;vis (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 1C3<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-835-1625 </tgauche></div>
+	<div class="titre">
+		<span>Ouvroir, Notre-Dame de L&eacute;vis</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comptoir vestimentaire ouvert le Mercredi 13h30 à 15h30<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Église Notre-Dame<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16, rue Notre-Dame<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lévis (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 5M1<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-837-5308
-		</tgauche>
-	</div>
-	<div class="titre"><span>Ouvroir, Christ-Roi</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comptoir vestimentaire ouvert le Mercredi 13h30 &agrave; 15h30<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&Eacute;glise Notre-Dame<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16, rue Notre-Dame<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&eacute;vis (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 5M1<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-837-5308 </tgauche></div>
+	<div class="titre">
+		<span>Ouvroir, Christ-Roi</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comptoir vestimentaire ouvert le Lundi 13h00 à 15h00 sauf le premier lundi de chaque mois<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Église Christ-Roi<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5515, rue St-Georges Ouest<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lévis (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 4M7<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-837-9418
-		</tgauche>
-	</div>
-	<div class="titre"><span>Société Saint-Vincent de Paul</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comptoir vestimentaire ouvert le Lundi 13h00 &agrave; 15h00 sauf le premier lundi de chaque mois<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&Eacute;glise Christ-Roi<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5515, rue St-Georges Ouest<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&eacute;vis (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 4M7<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-837-9418 </tgauche></div>
+	<div class="titre">
+		<span>Soci&eacute;t&eacute; Saint-Vincent de Paul</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2225, boul. Henri-Bourassa<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Québec (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G1J 3X1<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : info@ssvpq.org<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.ssvpq.org/
-		</tgauche>
-	</div>
-	<div class="titre"><span>Centre d'action bénévole Bellechasse-Lévis-Lotbinière</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2225, boul. Henri-Bourassa<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qu&eacute;bec (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G1J 3X1<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : info@ssvpq.org<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.ssvpq.org/ </tgauche></div>
+	<div class="titre">
+		<span>Centre d&#39;action b&eacute;n&eacute;vole Bellechasse-L&eacute;vis-Lotbini&egrave;re</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10, rue Giguère<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lévis (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 1N6<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-838-4094<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fax : 418-838-6053<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : centreactionbenevole-bll@benevoleenaction.com<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http:// www.benevoleenaction.com
-		</tgauche>
-	</div>
-	<div class="titre"><span>Centre d'action bénévole Bellechasse-Lévis-Lotbinière</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10, rue Gigu&egrave;re<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&eacute;vis (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 1N6<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-838-4094<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fax : 418-838-6053<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : centreactionbenevole-bll@benevoleenaction.com<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http:// www.benevoleenaction.com </tgauche></div>
+	<div class="titre">
+		<span>Centre d&#39;action b&eacute;n&eacute;vole Bellechasse-L&eacute;vis-Lotbini&egrave;re</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10, rue Giguère<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lévis (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 1N6<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-838-4094<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fax : 418-838-6053<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : centreactionbenevole-bll@benevoleenaction.com<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http:// www.benevoleenaction.com
-		</tgauche>
-	</div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10, rue Gigu&egrave;re<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&eacute;vis (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 1N6<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-838-4094<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fax : 418-838-6053<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : centreactionbenevole-bll@benevoleenaction.com<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http:// www.benevoleenaction.com </tgauche></div>
 </div>
-<div id="servicePublics"><h2>Services publics</h2>
-	<div class="titre"><span>Centre de planification familiale</span></div>
+<div id="servicePublics">
+	<h2>
+		Services publics</h2>
+	<div class="titre">
+		<span>Centre de planification familiale</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Centre hospitalier Hôtel-Dieu de Lévis<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;143, rue Wolfe, porte 1128, 1er étage<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lévis (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 3Z<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-835-7121 # 1228
-		</tgauche>
-	</div>
-	<div class="titre"><span>CSSS du Grand Littoral-CLSC secteur Chutes-de-la-Chaudière</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Centre hospitalier H&ocirc;tel-Dieu de L&eacute;vis<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;143, rue Wolfe, porte 1128, 1er &eacute;tage<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&eacute;vis (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 3Z<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-835-7121 # 1228 </tgauche></div>
+	<div class="titre">
+		<span>CSSS du Grand Littoral-CLSC secteur Chutes-de-la-Chaudi&egrave;re</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9330, boul. du Centre-hospitalier<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Charny (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6X 1L6<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-380-8991
-		</tgauche>
-	</div>
-	<div class="titre"><span>Hôtel Dieu de Lévis</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9330, boul. du Centre-hospitalier<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Charny (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6X 1L6<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-380-8991 </tgauche></div>
+	<div class="titre">
+		<span>H&ocirc;tel Dieu de L&eacute;vis</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unité Mère-Enfant<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;143, rue Wolfe<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lévis (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 3Z1<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-835-7121<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : info@hdl.qc.ca<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.hdl.qc.ca
-		</tgauche>
-	</div>
-	<div class="titre"><span>CSSS du Grand Littoral-CLSC secteur Desjardins</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unit&eacute; M&egrave;re-Enfant<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;143, rue Wolfe<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&eacute;vis (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 3Z1<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-835-7121<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : info@hdl.qc.ca<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.hdl.qc.ca </tgauche></div>
+	<div class="titre">
+		<span>CSSS du Grand Littoral-CLSC secteur Desjardins</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15, rue de l'Arsenal<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lévis (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 4P6<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-835-3400
-		</tgauche>
-	</div>
-	<div class="titre"><span>Maison de naissance Mimosa</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15, rue de l&#39;Arsenal<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&eacute;vis (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6V 4P6<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-835-3400 </tgauche></div>
+	<div class="titre">
+		<span>Maison de naissance Mimosa</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La Maison de naissance Mimosa est la seule Maison de naissance de la grande région de <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Québec. Elle dessert les régions 12 : Chaudière-Appalaches et 03 : Québec.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;182, rue de l'Église<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saint-Romuald (Québec)<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6W 3G9<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-839-0205<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : maisondenaissancemimosa@ssss.gouv.qc.ca<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.mimosa.qc.ca/
-		</tgauche>
-	</div>
-	<div class="titre"><span>Régime québécois d'assurance parentale</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La Maison de naissance Mimosa est la seule Maison de naissance de la grande r&eacute;gion de<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qu&eacute;bec. Elle dessert les r&eacute;gions 12 : Chaudi&egrave;re-Appalaches et 03 : Qu&eacute;bec.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;182, rue de l&#39;&Eacute;glise<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saint-Romuald (Qu&eacute;bec)<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G6W 3G9<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-839-0205<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail : maisondenaissancemimosa@ssss.gouv.qc.ca<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.mimosa.qc.ca/ </tgauche></div>
+	<div class="titre">
+		<span>R&eacute;gime qu&eacute;b&eacute;cois d&#39;assurance parentale</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le régime québécois d'assurance parentale (RQAP) accorde un remplacement de revenu aux <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;parents qui s'absentent du marché du travail lors de la naissance ou de l'adoption d'un enfant. <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Il a été conçu pour tenir compte des nouvelles réalités du marché du travail : importance du <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;temps consacré à la famille pour les mères et les pères, apport économique croissant des <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;femmes, dans un contexte de raréfaction de la main-d'oeuvre, reconnaissance de l'apport <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;économique des travailleurs autonomes.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.rqap.gouv.qc.ca
-		</tgauche>
-	</div>
-	<div class="titre"><span>Santé Canada</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le r&eacute;gime qu&eacute;b&eacute;cois d&#39;assurance parentale (RQAP) accorde un remplacement de revenu aux<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;parents qui s&#39;absentent du march&eacute; du travail lors de la naissance ou de l&#39;adoption d&#39;un enfant.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Il a &eacute;t&eacute; con&ccedil;u pour tenir compte des nouvelles r&eacute;alit&eacute;s du march&eacute; du travail : importance du<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;temps consacr&eacute; &agrave; la famille pour les m&egrave;res et les p&egrave;res, apport &eacute;conomique croissant des<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;femmes, dans un contexte de rar&eacute;faction de la main-d&#39;oeuvre, reconnaissance de l&#39;apport<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&eacute;conomique des travailleurs autonomes.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.rqap.gouv.qc.ca </tgauche></div>
+	<div class="titre">
+		<span>Sant&eacute; Canada</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.santecanada.gc.ca/
-		</tgauche>
-	</div>
-	<div class="titre"><span>Service d'information et de référence 211</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.santecanada.gc.ca/ </tgauche></div>
+	<div class="titre">
+		<span>Service d&#39;information et de r&eacute;f&eacute;rence 211</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le Service 211 est un service d'information et de référence qui dirige les personnes vers les <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ressources existant dans la communauté. Les préposés du Service 211 sont en mesure de <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;comprendre votre besoin et de trouver l'organisme ou le service qui y répondra le mieux. Vous <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n'avez qu'à composer le 2-1-1 ou consulter, en ligne, la base de données des ressources à <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;l'adresse ci-dessous. OUVERT 7 JOURS SUR 7: DU LUNDI AU VENDREDI DE 8 H À 21 H et <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LA FIN DE SEMAINE DE 8H à 18H.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Régions Chaudière-Appalaches et Capitale-Nationale<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 211<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.211quebecregions.ca
-		</tgauche>
-	</div>
-	<div class="titre"><span>SAAQ/ Vérification siège d'auto bébé et enfant</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le Service 211 est un service d&#39;information et de r&eacute;f&eacute;rence qui dirige les personnes vers les<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ressources existant dans la communaut&eacute;. Les pr&eacute;pos&eacute;s du Service 211 sont en mesure de<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;comprendre votre besoin et de trouver l&#39;organisme ou le service qui y r&eacute;pondra le mieux. Vous<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n&#39;avez qu&#39;&agrave; composer le 2-1-1 ou consulter, en ligne, la base de donn&eacute;es des ressources &agrave;<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;l&#39;adresse ci-dessous. OUVERT 7 JOURS SUR 7: DU LUNDI AU VENDREDI DE 8 H &Agrave; 21 H et<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LA FIN DE SEMAINE DE 8H &agrave; 18H.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R&eacute;gions Chaudi&egrave;re-Appalaches et Capitale-Nationale<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 211<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.211quebecregions.ca </tgauche></div>
+	<div class="titre">
+		<span>SAAQ/ V&eacute;rification si&egrave;ge d&#39;auto b&eacute;b&eacute; et enfant</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pour voir les capsules sur l'installation d'un siège d'auto pour bébés et enfants, nous vous <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;invitons à consulter le site Internet de la SAAQ . Si plus d'information vous est nécessaire et si <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vous désirez faire vérifier l'installation de vos sièges, consultez la liste des membres du <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;réseau du CAA-québec.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.saaq.gouv.qc.ca/prevention/sieges
-		</tgauche>
-	</div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pour voir les capsules sur l&#39;installation d&#39;un si&egrave;ge d&#39;auto pour b&eacute;b&eacute;s et enfants, nous vous<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;invitons &agrave; consulter le site Internet de la SAAQ . Si plus d&#39;information vous est n&eacute;cessaire et si<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vous d&eacute;sirez faire v&eacute;rifier l&#39;installation de vos si&egrave;ges, consultez la liste des membres du<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;r&eacute;seau du CAA-qu&eacute;bec.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site : http://www.saaq.gouv.qc.ca/prevention/sieges </tgauche></div>
 </div>
-<div id="urgence"><h2>Urgence</h2>
-	<div class="titre"><span>Urgence Détresse</span></div>
+<div id="urgence">
+	<h2>
+		Urgence</h2>
+	<div class="titre">
+		<span>Urgence D&eacute;tresse</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Urgence Détresse est un service d'intervention en cas de crise, pour les situations d'urgences <br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sociales, psychosociales ou psychiatriques.<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-834-5080
-		</tgauche>
-	</div>
-	<div class="titre" id="Info-Santé"><span>Info-Santé</span></div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Urgence D&eacute;tresse est un service d&#39;intervention en cas de crise, pour les situations d&#39;urgences<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sociales, psychosociales ou psychiatriques.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-834-5080 </tgauche></div>
+	<div class="titre" id="Info-Santé">
+		<span>Info-Sant&eacute;</span></div>
 	<div class="desc">
-		<tgauche>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Info-Santé<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7/7 jours, 24/24 heures<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tél. : 418-834-5080
-		</tgauche>
-	</div>
+		<tgauche> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Info-Sant&eacute;<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7/7 jours, 24/24 heures<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&eacute;l. : 418-834-5080</tgauche></div>
 </div>
-

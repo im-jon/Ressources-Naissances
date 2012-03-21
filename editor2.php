@@ -16,7 +16,7 @@ if (!isset($_REQUEST['nomfichier']) || !isset($_REQUEST['CKEditor'])) {
 <?php include("header.php"); ?>
 
 <div id="titre">
-<h2>Editez vos pages</h2>
+<h1>Editez vos pages</h1>
 </div>
 <center>
 	<?php
