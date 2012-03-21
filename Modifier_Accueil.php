@@ -55,12 +55,6 @@ $(function() {
 	</form>
 </div>
 
-<div class="titre"><a href="#">Changer la vidéo promotionel</a></div>
-
-<div class="desc">
-	
-</div>
-
 <div class="titre"><a href="#">Changer le texte pour les certificats-cadeau</a></div>
 
 <div class="desc">
