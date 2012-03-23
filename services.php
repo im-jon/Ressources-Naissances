@@ -26,7 +26,7 @@ echo "</div>";
 }
 
 echo "</br><A HREF='services.php'>Retour affichage initial</A>";
- 
+echo "<h2>Témoignages</h2>";
 include "temoignages.html";			
 
 ?>			
